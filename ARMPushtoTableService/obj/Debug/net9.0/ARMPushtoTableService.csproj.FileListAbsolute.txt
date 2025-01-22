@@ -1,0 +1,5 @@
+C:\FinalCodeSet\ARMPushtoTableService\obj\Debug\net9.0\ARMPushtoTableService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMPushtoTableService\obj\Debug\net9.0\ARMPushtoTableService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMPushtoTableService\obj\Debug\net9.0\ARMPushtoTableService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMPushtoTableService\obj\Debug\net9.0\ARMPushtoTableService.AssemblyInfo.cs
+C:\FinalCodeSet\ARMPushtoTableService\obj\Debug\net9.0\ARMPushtoTableService.csproj.CoreCompileInputs.cache

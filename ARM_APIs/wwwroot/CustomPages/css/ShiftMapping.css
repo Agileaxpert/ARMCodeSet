@@ -1,0 +1,167 @@
+
+
+.shift-option {
+	position: absolute;
+	top: -40px;
+	display: none;
+	z-index: 999;
+	/* left: 0; */ 	left: -148px !important;
+	border-radius: 0 !important;
+	 width: auto !important; 
+	width: max-content !important;
+	padding: 10px 0 5px 0 !important;
+	border: 1px solid #dededf !important;
+}
+
+.shift-copy:hover .shift-option {
+    display: block !important;
+}
+
+#fldTable thead th { min-width: 200px !important; background: #f5f6f8 !important; }
+.select2.select2-container.select2-container--bootstrap5 {
+	width: 80% !important;
+}
+.shift-copy.selection-disabled {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+tbody .input-group-sm {
+	position: relative;
+}
+
+.input-group-text.shift-copy {
+	position: absolute;
+	top: 8px;
+	right: 3px;
+}
+.shift-copy .material-icons {
+	color: #006cff;
+}
+
+.shift-copy.selection-disabled .material-icons {
+	color: #9c9c9c;
+}
+.input-group-text.shift-copy .shift-option .material-icons {
+	margin: 0 10px 0 10px;
+	font-size: 18px !important;
+}
+.input-group-text.shift-copy .shift-option .menu-link {
+	border-right: 1px dashed #e8e8e9;
+	border-radius: 0 !important;
+	text-align: center !important;
+	padding: 0 !important;
+}
+/* ::-webkit-scrollbar {
+	width: 2px;
+  } */
+  table tr td:nth-child(2) .select2.select2-container.select2-container--bootstrap5 {
+	width: 100% !important;
+}
+#fldTable thead th.th-checkbox {
+	min-width: 50px !important;
+	position: relative;
+	/* top: -9px; */
+}
+.td-checkbox {
+	position: relative;
+	top: 7px;
+}
+#fldTable thead th div {
+	text-align: left !important;
+}
+#fldTable thead th.th-checkbox div {
+	text-align: center !important;
+}
+
+.shift-option .menu-item.px-3 {
+	display: inline-block;
+	/* flex-flow: nowrap; */
+	/* display: inline list-item !important; */
+	/* width: 50px !important; */
+	/* float: left; */
+	padding: 0 !important;
+	text-align: center !important;
+}
+
+.shift-holiday::before {
+	background: #ae34d0;
+	content: "Holiday";
+	position: absolute;
+	/* width: 8px; */
+	/* height: 8px; */
+	z-index: 9;
+	border-radius: 7px 0 0;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 8px;
+	padding: 2px 9px;
+	top: 1px;
+	left: 5px;
+}
+
+.shift-leave::before {
+	background: #369d21;
+	content: "Leave";
+	position: absolute;
+	/* width: 8px; */
+	/* height: 8px; */
+	z-index: 9;
+	border-radius: 7px 0 0;
+	border-radius: 50px;
+	color: #fff;
+	font-size: 8px;
+	padding: 2px 9px;
+	top: 1px;
+	left: 5px;
+}
+/* 
+.shift-leave::before {
+	background: #369d21;
+	content: "";
+	position: absolute;
+	width: 10px;
+	height: 10px;
+	z-index: 9;
+	
+	border-radius: 50px;
+} */
+.modal-fullscreen .modal-header {
+	border-radius: 0;
+	padding: 8px 15px;
+}
+.modal-fullscreen .modal-footer {
+	border-radius: 0;
+	padding: 5px 15px !important;
+}
+#fldTable.table {
+	margin-top: 5px !important;
+	margin-bottom: 0 !important;
+}
+#fldTable thead th br {
+	display: none;
+}
+.btn.btn-light.modal-cancel {
+	padding: 5px 15px !important;
+	border-radius: 7px !important;
+}
+.btn.btn-primary.modal-ok {
+	padding: 5px 15px !important;
+}
+.modal-fullscreen .modal-footer {
+	border-radius: 0;
+	padding: 5px 15px !important;
+}
+#divTable .pb-5 {
+	padding: 0 !important;
+}
+.modal-fullscreen {
+	width: 98vw !important;
+	max-width: none;
+	height: 97% !important;
+	margin: 0.75rem auto !important;
+}
+
+td.input-group-sm:last-child .shift-copy .shift-option {
+	left: -148px !important;
+}

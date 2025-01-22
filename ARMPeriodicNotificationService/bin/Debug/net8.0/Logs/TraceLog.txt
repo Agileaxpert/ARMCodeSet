@@ -1,0 +1,360 @@
+2025-01-16 13:42:00
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 13:42:00
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 13:42:00
+Database Connected Successfully
+----------------------------------------
+2025-01-16 13:43:34
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 13:43:34
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 13:43:34
+Database Connected Successfully
+----------------------------------------
+2025-01-16 16:30:49
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 16:30:49
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 16:30:49
+Database Connected Successfully
+----------------------------------------
+2025-01-16 16:39:11
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 16:39:11
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 16:39:11
+Database Connected Successfully
+----------------------------------------
+2025-01-16 16:39:53
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 16:39:53
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 16:39:53
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:04:23
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 17:04:23
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:04:23
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:05:03
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:05:03
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:05:03
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:06:40
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:06:40
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:06:40
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:08:36
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:08:36
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:10:44
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:10:44
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:10:44
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:15:40
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:15:41
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:15:41
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:16:35
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:16:35
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:18:56
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:18:56
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:20:43
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:20:43
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:30:41
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:30:41
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:30:41
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:33:03
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:33:03
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:33:03
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:36:09
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:36:09
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:36:09
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:40:15
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:40:15
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:40:15
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:45:00
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:45:00
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:45:00
+Database Connected Successfully
+----------------------------------------
+2025-01-16 19:47:06
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 19:47:06
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 19:47:06
+Database Connected Successfully
+----------------------------------------
+2025-01-16 20:06:24
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-16 20:06:24
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 20:06:24
+Database Connected Successfully
+----------------------------------------
+2025-01-17 09:53:52
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 09:53:52
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 09:53:52
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:00:23
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:00:23
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:02:16
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:02:16
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:02:16
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:06:57
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:06:57
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:19:34
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:19:35
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:20:24
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:20:24
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:22:03
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:22:03
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:22:03
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:37:06
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:37:06
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:37:06
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:37:46
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:37:46
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:39:38
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:39:38
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:39:38
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:41:15
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:41:15
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:42:54
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:42:54
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:42:54
+Database Connected Successfully
+----------------------------------------
+2025-01-17 10:49:26
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 10:49:26
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 10:49:26
+Database Connected Successfully
+----------------------------------------
+2025-01-17 16:07:35
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:07:35
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:12:09
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:12:09
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:12:09
+Database Connected Successfully
+----------------------------------------
+2025-01-17 16:20:01
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:20:01
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:20:01
+Database Connected Successfully
+----------------------------------------
+2025-01-17 16:24:56
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:24:56
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:24:56
+Database Connected Successfully
+----------------------------------------
+2025-01-17 16:29:07
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:29:07
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:29:07
+Database Connected Successfully
+----------------------------------------
+2025-01-17 16:32:59
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:32:59
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:32:59
+Database Connected Successfully
+----------------------------------------
+2025-01-17 16:35:53
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:35:53
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:40:45
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:40:45
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 16:46:06
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 16:46:06
+Database Connected Successfully
+----------------------------------------
+2025-01-17 17:06:44
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 17:06:44
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-17 17:06:44
+Database Connected Successfully
+----------------------------------------
+2025-01-17 17:30:32
+SQL: select TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,active,name,axperiodnotifyid from  AXPERIODNOTIFY a where a.name = @name
+----------------------------------------
+2025-01-17 17:30:32
+Database Connected Successfully
+----------------------------------------

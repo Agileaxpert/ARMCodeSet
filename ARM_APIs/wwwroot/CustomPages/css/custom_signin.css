@@ -1,0 +1,59 @@
+
+#main_body.login {
+	background: rgba(0, 0, 0, 0) url("../../CustomPages/Buzilly-images/login-bg1.jpg") no-repeat fixed center center / cover !important;
+	border-top: 4px solid #ffbd21;
+	/* border-left: 37px solid #ececec; */
+}
+.login-main.card.login-inner.w-lg-500px {
+	width: 400px !important;
+	position: absolute;
+	right: 7%;
+	top: 10%;
+}
+
+.login-main.card.login-inner.w-lg-500px {
+	width: 400px !important;
+}
+#divPanelSignin .w-lg-500px {
+	width: 400px !important;
+}
+#btnSubmit {
+	background: #006cff;
+	border-radius: 8px;
+}
+#lblForgot {
+	color: #006cff;
+}
+.login::after {
+	background: url("./../../CustomPages/Buzilly-images/login-bee.png") no-repeat center bottom/ contain;
+	position: absolute;
+	width: 140px;
+	height: 240px;
+	bottom: 0;
+	right: 44%;
+	content: "";
+	bottom: 0 !important;
+}
+#panelSignin {
+	border: 1px solid #ededed;
+	border-radius: 10px;
+	box-shadow: 0 32px 48px -2px rgba(0, 0, 0, 0.2);
+}
+::-webkit-scrollbar {
+	width: 2px;
+  }
+
+@media (max-width: 767.98px) {
+.login-main.card.login-inner.w-lg-500px {
+	position: inherit !important;
+}
+#panelSignin {
+	border: 0;
+	border-radius: 10px;
+	box-shadow: none;
+}
+
+.login::after {	bottom: -40px !important;}
+#main_body.login{ background: none; }
+
+}

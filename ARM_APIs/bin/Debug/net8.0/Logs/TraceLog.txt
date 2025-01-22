@@ -1,0 +1,1769 @@
+2024-12-26 10:39:19
+SQL: select * from axpflds where tstruct = @formname
+----------------------------------------
+2024-12-26 10:45:02
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 10:45:02
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 10:45:03
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:10:27
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:10:27
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:10:27
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:10:29
+SQL: 
+            SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
+            FROM INFORMATION_SCHEMA.COLUMNS
+            WHERE TABLE_NAME = @formname
+----------------------------------------
+2024-12-26 11:10:29
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:10:29
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:12:42
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:12:43
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:20:14
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:20:14
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:20:14
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:21:11
+SQL: 
+            SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
+            FROM INFORMATION_SCHEMA.COLUMNS
+            WHERE TABLE_NAME = @formname
+----------------------------------------
+2024-12-26 11:21:11
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:21:11
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:23:02
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:23:02
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:23:02
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:23:22
+SQL: 
+            SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
+            FROM INFORMATION_SCHEMA.COLUMNS
+            WHERE TABLE_NAME = @formname
+----------------------------------------
+2024-12-26 11:23:22
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:23:22
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:24:36
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:24:36
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:24:36
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:30:29
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:30:29
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:30:29
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:30:31
+SQL: 
+            SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
+            FROM INFORMATION_SCHEMA.COLUMNS
+            WHERE TABLE_NAME = @axpflds
+----------------------------------------
+2024-12-26 11:30:31
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:30:31
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:51:51
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:51:51
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:51:51
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:54:06
+SQL: SELECT COLUMN_NAME, DATA_TYPE,FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @axpflds
+----------------------------------------
+2024-12-26 11:54:06
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:54:06
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:56:09
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:56:09
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:57:09
+SQL: SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @axpflds
+----------------------------------------
+2024-12-26 11:57:09
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 11:57:09
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:59:04
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 11:59:04
+Database Connected Successfully
+----------------------------------------
+2024-12-26 11:59:12
+SQL: SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = axpflds
+----------------------------------------
+2024-12-26 11:59:12
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:09:47
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:09:47
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:09:47
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:09:52
+SQL: 
+            SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
+            FROM INFORMATION_SCHEMA.COLUMNS
+            WHERE TABLE_NAME = 'axpflds'
+----------------------------------------
+2024-12-26 12:09:52
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:10:37
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:10:37
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:10:37
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:11:11
+SQL: 
+            SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE
+            FROM INFORMATION_SCHEMA.COLUMNS
+            WHERE TABLE_NAME = 'axpflds'
+----------------------------------------
+2024-12-26 12:11:12
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:11:12
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:19:15
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:19:15
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:19:15
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:19:30
+SQL: SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @tablename
+----------------------------------------
+2024-12-26 12:19:30
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:19:30
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:24:07
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:24:07
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:24:48
+SQL: SELECT COLUMN_NAME, DATA_TYPE, CHARACTER_MAXIMUM_LENGTH, IS_NULLABLE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = @tablename
+----------------------------------------
+2024-12-26 12:24:48
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:24:48
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:29:11
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:29:11
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:30:48
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:30:48
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:33:43
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:33:43
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:36:23
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:36:23
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:36:23
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:41:22
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:41:22
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:41:22
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:46:09
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:46:09
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:46:09
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:51:51
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:51:51
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:57:20
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:57:20
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 12:57:20
+Database Connected Successfully
+----------------------------------------
+2024-12-26 12:59:16
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 12:59:16
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:10:43
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:10:43
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 13:10:43
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:14:13
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:14:13
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:23:48
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:23:48
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 13:23:48
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:24:18
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:24:18
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 13:24:18
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:28:14
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:28:14
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:28:49
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:28:49
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 13:28:49
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:49:48
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:49:48
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 13:49:48
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:50:28
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:50:28
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 13:50:28
+Database Connected Successfully
+----------------------------------------
+2024-12-26 13:57:28
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 13:57:28
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 13:57:28
+Database Connected Successfully
+----------------------------------------
+2024-12-26 14:07:56
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 14:07:56
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 14:07:56
+Database Connected Successfully
+----------------------------------------
+2024-12-26 14:14:21
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 14:14:21
+Database Connected Successfully
+----------------------------------------
+2024-12-26 14:19:51
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 14:19:51
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 14:19:51
+Database Connected Successfully
+----------------------------------------
+2024-12-26 14:27:14
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 14:27:14
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 14:27:14
+Database Connected Successfully
+----------------------------------------
+2024-12-26 14:30:52
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 14:30:52
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 14:30:52
+Database Connected Successfully
+----------------------------------------
+2024-12-26 15:13:58
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 15:13:59
+Database Connected Successfully
+----------------------------------------
+2024-12-26 15:14:40
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 15:14:40
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 15:28:51
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 15:28:51
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 15:28:51
+Database Connected Successfully
+----------------------------------------
+2024-12-26 15:41:16
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 15:41:16
+Database Connected Successfully
+----------------------------------------
+2024-12-26 15:53:39
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 15:53:39
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 15:53:39
+Database Connected Successfully
+----------------------------------------
+2024-12-26 16:12:37
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 16:12:37
+Database Connected Successfully
+----------------------------------------
+2024-12-26 16:17:34
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 16:17:34
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 16:17:34
+Database Connected Successfully
+----------------------------------------
+2024-12-26 16:21:17
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 16:21:17
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 16:21:17
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:01:04
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:01:04
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 17:01:04
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:22:08
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:22:08
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:39:04
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:39:04
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 17:39:04
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:43:34
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:43:34
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:46:02
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:46:02
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 17:46:02
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:47:05
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:47:05
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 17:47:05
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:57:29
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:57:29
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:58:05
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:58:05
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 17:58:05
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:58:12
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:58:12
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 17:58:12
+Database Connected Successfully
+----------------------------------------
+2024-12-26 17:59:25
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 17:59:25
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:05:41
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:05:41
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:05:41
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:27:40
+SQL: 
+            SELECT column_name, data_type, is_nullable, character_maximum_length
+            FROM information_schema.columns
+            WHERE table_name = 'axpflds'
+              AND formname = @formname
+----------------------------------------
+2024-12-26 18:27:40
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:27:40
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:34:12
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:34:12
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:35:54
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:35:54
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:36:09
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:36:10
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:36:10
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:39:10
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:39:10
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:39:10
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:39:10
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:39:10
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:39:10
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:40:02
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:40:02
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:40:02
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:40:03
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:40:03
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:40:03
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:40:27
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:40:27
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:40:27
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:40:27
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:40:31
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:40:31
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:40:31
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:40:31
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:40:31
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:40:31
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:41:57
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:41:57
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:42:06
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:42:06
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:42:06
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:43:00
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:43:00
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:43:06
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:43:06
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:43:06
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:44:35
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-26 18:44:35
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-26 18:44:35
+Database Connected Successfully
+----------------------------------------
+2024-12-26 18:45:17
+SQL: SELECT column_name, data_type FROM information_schema.columns WHERE table_name = 'axpflds'
+----------------------------------------
+2024-12-26 18:45:17
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-26 18:45:18
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:10:15
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:10:15
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:12:18
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:12:18
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:18:06
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:18:06
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:19:51
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:19:51
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:22:34
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:22:34
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:24:22
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:24:22
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 11:24:22
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:26:13
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:26:13
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:31:01
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:31:01
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:32:55
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:32:55
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:35:40
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:35:40
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 11:35:40
+Database Connected Successfully
+----------------------------------------
+2024-12-27 11:41:34
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 11:41:34
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 11:41:34
+Database Connected Successfully
+----------------------------------------
+2024-12-27 12:16:07
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 12:16:08
+Database Connected Successfully
+----------------------------------------
+2024-12-27 12:31:36
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 12:31:36
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 12:31:36
+Database Connected Successfully
+----------------------------------------
+2024-12-27 12:41:43
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 12:41:44
+Database Connected Successfully
+----------------------------------------
+2024-12-27 12:48:40
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 12:48:40
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 12:48:40
+Database Connected Successfully
+----------------------------------------
+2024-12-27 12:51:38
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 12:51:38
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 12:51:38
+Database Connected Successfully
+----------------------------------------
+2024-12-27 12:54:49
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 12:54:49
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 12:54:50
+Database Connected Successfully
+----------------------------------------
+2024-12-27 13:16:53
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 13:16:53
+Database Connected Successfully
+----------------------------------------
+2024-12-27 13:31:22
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 13:31:22
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 13:31:22
+Database Connected Successfully
+----------------------------------------
+2024-12-27 14:58:20
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 14:58:20
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 14:58:20
+Database Connected Successfully
+----------------------------------------
+2024-12-27 15:06:24
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 15:06:24
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 15:06:24
+Database Connected Successfully
+----------------------------------------
+2024-12-27 16:23:55
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 16:23:55
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 16:23:55
+Database Connected Successfully
+----------------------------------------
+2024-12-27 17:15:05
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 17:15:05
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 17:15:05
+Database Connected Successfully
+----------------------------------------
+2024-12-27 17:17:58
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 17:17:58
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 17:17:58
+Database Connected Successfully
+----------------------------------------
+2024-12-27 17:24:32
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 17:24:32
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 17:24:32
+Database Connected Successfully
+----------------------------------------
+2024-12-27 17:29:32
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 17:29:32
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 17:29:32
+Database Connected Successfully
+----------------------------------------
+2024-12-27 17:52:24
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 17:52:24
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 17:56:35
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 17:56:35
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 17:56:35
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:02:24
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 18:02:24
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 18:02:24
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:11:37
+SQL: 
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (1, 'United States', 'US');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (2, 'Canada', 'CA');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (3, 'United Kingdom', 'GB');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (4, 'Germany', 'DE');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (5, 'France', 'FR');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (6, 'India', 'IN');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (7, 'Australia', 'AU');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (8, 'Brazil', 'BR');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (9, 'Japan', 'JP');
+INSERT INTO demo009 (coutrid, product_name, product_code) VALUES (10, 'South Africa', 'ZA');
+----------------------------------------
+2024-12-27 18:11:37
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:11:37
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:11:56
+SQL: 
+CREATE TABLE country123 (
+    name VARCHAR(255),
+    code CHAR(2)
+);
+----------------------------------------
+2024-12-27 18:11:56
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:11:56
+SQL: 
+INSERT INTO country123 (name, code) VALUES ('United States', 'US');
+INSERT INTO country123 (name, code) VALUES ('Canada', 'CA');
+INSERT INTO country123 (name, code) VALUES ('United Kingdom', 'GB');
+INSERT INTO country123 (name, code) VALUES ('Germany', 'DE');
+INSERT INTO country123 (name, code) VALUES ('France', 'FR');
+INSERT INTO country123 (name, code) VALUES ('India', 'IN');
+INSERT INTO country123 (name, code) VALUES ('Australia', 'AU');
+INSERT INTO country123 (name, code) VALUES ('Brazil', 'BR');
+INSERT INTO country123 (name, code) VALUES ('Japan', 'JP');
+INSERT INTO country123 (name, code) VALUES ('South Africa', 'ZA');
+----------------------------------------
+2024-12-27 18:11:56
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:11:56
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:12:02
+SQL: 
+CREATE TABLE country123 (
+    name VARCHAR(255),
+    code CHAR(2)
+);
+----------------------------------------
+2024-12-27 18:12:02
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:12:02
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:12:02
+SQL: 
+INSERT INTO country123 (name, code) VALUES ('United States', 'US');
+INSERT INTO country123 (name, code) VALUES ('Canada', 'CA');
+INSERT INTO country123 (name, code) VALUES ('United Kingdom', 'GB');
+INSERT INTO country123 (name, code) VALUES ('Germany', 'DE');
+INSERT INTO country123 (name, code) VALUES ('France', 'FR');
+INSERT INTO country123 (name, code) VALUES ('India', 'IN');
+INSERT INTO country123 (name, code) VALUES ('Australia', 'AU');
+INSERT INTO country123 (name, code) VALUES ('Brazil', 'BR');
+INSERT INTO country123 (name, code) VALUES ('Japan', 'JP');
+INSERT INTO country123 (name, code) VALUES ('South Africa', 'ZA');
+----------------------------------------
+2024-12-27 18:12:02
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:12:02
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:13:23
+SQL: 
+CREATE TABLE dery (
+    name VARCHAR(255),
+    code VARCHAR(10)
+);
+----------------------------------------
+2024-12-27 18:13:23
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:13:23
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:13:23
+SQL: 
+INSERT INTO dery (name, code) VALUES ('United States', 'US');
+INSERT INTO dery (name, code) VALUES ('Canada', 'CA');
+INSERT INTO dery (name, code) VALUES ('United Kingdom', 'GB');
+INSERT INTO dery (name, code) VALUES ('Germany', 'DE');
+INSERT INTO dery (name, code) VALUES ('France', 'FR');
+INSERT INTO dery (name, code) VALUES ('India', 'IN');
+INSERT INTO dery (name, code) VALUES ('Australia', 'AU');
+INSERT INTO dery (name, code) VALUES ('Brazil', 'BR');
+INSERT INTO dery (name, code) VALUES ('Japan', 'JP');
+INSERT INTO dery (name, code) VALUES ('South Africa', 'ZA');
+----------------------------------------
+2024-12-27 18:13:23
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:13:23
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:18:02
+SQL: 
+CREATE TABLE preeti (
+    id SERIAL PRIMARY KEY,
+    country_name VARCHAR(255) NOT NULL
+);
+----------------------------------------
+2024-12-27 18:18:02
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:18:02
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:18:16
+SQL: 
+INSERT INTO preeti (country_name) VALUES ('United States');
+INSERT INTO preeti (country_name) VALUES ('Canada');
+INSERT INTO preeti (country_name) VALUES ('United Kingdom');
+INSERT INTO preeti (country_name) VALUES ('Germany');
+INSERT INTO preeti (country_name) VALUES ('France');
+INSERT INTO preeti (country_name) VALUES ('Australia');
+INSERT INTO preeti (country_name) VALUES ('India');
+INSERT INTO preeti (country_name) VALUES ('China');
+INSERT INTO preeti (country_name) VALUES ('Brazil');
+INSERT INTO preeti (country_name) VALUES ('Japan');
+----------------------------------------
+2024-12-27 18:18:16
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:18:16
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:27:04
+SQL: 
+CREATE TABLE nhjg (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    capital VARCHAR(255) NOT NULL,
+    region VARCHAR(255) NOT NULL
+);
+----------------------------------------
+2024-12-27 18:27:04
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:27:07
+SQL: 
+INSERT INTO nhjg (name, capital, region) VALUES ('United States', 'Washington, D.C.', 'Americas');
+INSERT INTO nhjg (name, capital, region) VALUES ('Canada', 'Ottawa', 'Americas');
+INSERT INTO nhjg (name, capital, region) VALUES ('United Kingdom', 'London', 'Europe');
+INSERT INTO nhjg (name, capital, region) VALUES ('Australia', 'Canberra', 'Oceania');
+INSERT INTO nhjg (name, capital, region) VALUES ('Germany', 'Berlin', 'Europe');
+INSERT INTO nhjg (name, capital, region) VALUES ('Japan', 'Tokyo', 'Asia');
+INSERT INTO nhjg (name, capital, region) VALUES ('India', 'New Delhi', 'Asia');
+INSERT INTO nhjg (name, capital, region) VALUES ('Brazil', 'Brasília', 'Americas');
+INSERT INTO nhjg (name, capital, region) VALUES ('South Africa', 'Pretoria', 'Africa');
+INSERT INTO nhjg (name, capital, region) VALUES ('China', 'Beijing', 'Asia');
+----------------------------------------
+2024-12-27 18:27:07
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:27:07
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:28:00
+SQL: 
+INSERT INTO preeti (id, country_name) VALUES (1, 'United States');
+INSERT INTO preeti (id, country_name) VALUES (2, 'Canada');
+INSERT INTO preeti (id, country_name) VALUES (3, 'United Kingdom');
+INSERT INTO preeti (id, country_name) VALUES (4, 'Australia');
+INSERT INTO preeti (id, country_name) VALUES (5, 'Germany');
+INSERT INTO preeti (id, country_name) VALUES (6, 'Japan');
+INSERT INTO preeti (id, country_name) VALUES (7, 'India');
+INSERT INTO preeti (id, country_name) VALUES (8, 'Brazil');
+INSERT INTO preeti (id, country_name) VALUES (9, 'South Africa');
+INSERT INTO preeti (id, country_name) VALUES (10, 'China');
+----------------------------------------
+2024-12-27 18:27:57
+SQL: 
+INSERT INTO preeti (id, country_name) VALUES (1, 'United States');
+INSERT INTO preeti (id, country_name) VALUES (2, 'Canada');
+INSERT INTO preeti (id, country_name) VALUES (3, 'United Kingdom');
+INSERT INTO preeti (id, country_name) VALUES (4, 'Australia');
+INSERT INTO preeti (id, country_name) VALUES (5, 'Germany');
+INSERT INTO preeti (id, country_name) VALUES (6, 'Japan');
+INSERT INTO preeti (id, country_name) VALUES (7, 'India');
+INSERT INTO preeti (id, country_name) VALUES (8, 'Brazil');
+INSERT INTO preeti (id, country_name) VALUES (9, 'South Africa');
+INSERT INTO preeti (id, country_name) VALUES (10, 'China');
+----------------------------------------
+2024-12-27 18:28:00
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:28:00
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:28:00
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:30:02
+SQL: 
+INSERT INTO preeti (id, country_name) VALUES (1, 'United States');
+INSERT INTO preeti (id, country_name) VALUES (2, 'Canada');
+INSERT INTO preeti (id, country_name) VALUES (3, 'United Kingdom');
+INSERT INTO preeti (id, country_name) VALUES (4, 'Australia');
+INSERT INTO preeti (id, country_name) VALUES (5, 'Germany');
+INSERT INTO preeti (id, country_name) VALUES (6, 'Japan');
+INSERT INTO preeti (id, country_name) VALUES (7, 'India');
+INSERT INTO preeti (id, country_name) VALUES (8, 'Brazil');
+INSERT INTO preeti (id, country_name) VALUES (9, 'South Africa');
+INSERT INTO preeti (id, country_name) VALUES (10, 'China');
+----------------------------------------
+2024-12-27 18:30:02
+Connection String: Host=172.16.0.135; Database=demoagileconnect; Username=demoagileconnect; Password=log
+----------------------------------------
+2024-12-27 18:30:02
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:32:27
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 18:32:27
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 18:32:27
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:32:54
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 18:32:54
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 18:32:54
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:33:40
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 18:33:40
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 18:33:40
+Database Connected Successfully
+----------------------------------------
+2024-12-27 18:34:36
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-27 18:34:36
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-27 18:34:36
+Database Connected Successfully
+----------------------------------------
+2024-12-30 10:31:21
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-30 10:31:21
+Database Connected Successfully
+----------------------------------------
+2024-12-30 10:31:30
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-30 10:31:30
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 10:31:30
+Database Connected Successfully
+----------------------------------------
+2024-12-30 10:37:27
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-30 10:37:27
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 10:37:27
+Database Connected Successfully
+----------------------------------------
+2024-12-30 13:01:05
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-30 13:01:05
+Database Connected Successfully
+----------------------------------------
+2024-12-30 13:03:22
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-30 13:03:22
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 13:03:22
+Database Connected Successfully
+----------------------------------------
+2024-12-30 13:09:55
+SQL: select * from axpflds a where a.tstruct = @formname
+----------------------------------------
+2024-12-30 13:09:55
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 13:09:55
+Database Connected Successfully
+----------------------------------------
+2024-12-30 15:20:32
+SQL: select * from axpdef_publishapi where publickey = @publickey
+----------------------------------------
+2024-12-30 15:20:32
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 15:20:32
+Database Connected Successfully
+----------------------------------------
+2024-12-30 15:21:20
+SQL: select * from axpdef_publishapi where publickey = @publickey
+----------------------------------------
+2024-12-30 15:21:20
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 15:22:29
+SQL: select * from axpdef_publishapi where publickey = @publickey
+----------------------------------------
+2024-12-30 15:22:29
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 15:22:30
+Database Connected Successfully
+----------------------------------------
+2024-12-30 15:22:53
+SQL: select * from axpdef_publishapi where publickey = @publickey
+----------------------------------------
+2024-12-30 15:22:53
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 15:22:53
+Database Connected Successfully
+----------------------------------------
+2024-12-30 15:25:50
+SQL: select * from axpdef_publishapi where publickey = @publickey
+----------------------------------------
+2024-12-30 15:25:50
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 15:26:14
+SQL: select * from axpdef_publishapi where publickey = @publickey
+----------------------------------------
+2024-12-30 15:26:14
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2024-12-30 15:26:14
+Database Connected Successfully
+----------------------------------------
+2025-01-07 10:41:20
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-07 10:41:20
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-07 10:41:20
+Database Connected Successfully
+----------------------------------------
+2025-01-07 10:41:20
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-07 10:41:20
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-07 10:41:20
+Database Connected Successfully
+----------------------------------------
+2025-01-07 10:42:57
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-07 10:42:57
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-07 10:42:57
+Database Connected Successfully
+----------------------------------------
+2025-01-07 10:42:57
+SQL: select axhomeconfigid cardid,caption,pgname,displayicon,stransid,datasource,colorcode,groupfolder,grppageid,carddesc,cardhide,html_editor_card,paneltypecnd,paneltype,moreoption from axhomeconfig where cardhide!='T' order by disporder asc
+----------------------------------------
+2025-01-07 10:42:57
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-07 10:42:57
+Database Connected Successfully
+----------------------------------------
+2025-01-07 10:44:45
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-07 10:44:45
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-07 10:44:45
+Database Connected Successfully
+----------------------------------------
+2025-01-07 10:44:45
+SQL: select axhomeconfigid cardid,caption,pgname,displayicon,stransid,datasource,colorcode,groupfolder,grppageid,carddesc,cardhide,html_editor_card,paneltypecnd,paneltype,moreoption from axhomeconfig where cardhide!='T' order by disporder asc
+----------------------------------------
+2025-01-07 10:44:45
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-07 10:44:45
+Database Connected Successfully
+----------------------------------------
+2025-01-08 15:31:27
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 15:31:27
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 15:31:27
+Database Connected Successfully
+----------------------------------------
+2025-01-08 15:31:27
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 15:31:27
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 15:31:27
+Database Connected Successfully
+----------------------------------------
+2025-01-08 15:48:33
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 15:48:33
+Database Connected Successfully
+----------------------------------------
+2025-01-08 15:48:33
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 15:48:33
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 15:52:54
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 15:52:54
+Database Connected Successfully
+----------------------------------------
+2025-01-08 15:52:54
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 15:52:54
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 15:54:02
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 15:54:02
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 15:54:02
+Database Connected Successfully
+----------------------------------------
+2025-01-08 16:24:22
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 16:24:22
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 16:24:22
+Database Connected Successfully
+----------------------------------------
+2025-01-08 16:24:23
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 16:24:23
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 16:24:23
+Database Connected Successfully
+----------------------------------------
+2025-01-08 16:25:32
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 16:25:33
+Database Connected Successfully
+----------------------------------------
+2025-01-08 16:56:41
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 16:56:41
+Database Connected Successfully
+----------------------------------------
+2025-01-08 16:56:43
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 16:56:43
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 16:57:57
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 16:57:57
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 16:57:57
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:05:44
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 17:05:44
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:05:44
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 17:05:45
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:08:57
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 17:08:57
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 17:08:57
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:09:06
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 17:09:06
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 17:09:06
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:26:44
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 17:26:44
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:26:44
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 17:26:44
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:28:51
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 17:28:51
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 17:28:51
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:44:15
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 17:44:16
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:44:18
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 17:44:18
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 17:44:18
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:58:09
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 17:58:10
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:58:10
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 17:58:10
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:58:21
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 17:58:21
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 17:58:21
+Database Connected Successfully
+----------------------------------------
+2025-01-08 17:58:21
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 17:58:21
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 17:58:21
+Database Connected Successfully
+----------------------------------------
+2025-01-08 18:08:58
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 18:08:58
+Database Connected Successfully
+----------------------------------------
+2025-01-08 18:08:59
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 18:08:59
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 18:08:59
+Database Connected Successfully
+----------------------------------------
+2025-01-08 18:10:45
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 18:10:45
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 18:10:45
+Database Connected Successfully
+----------------------------------------
+2025-01-08 18:27:07
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 18:27:07
+Database Connected Successfully
+----------------------------------------
+2025-01-08 18:27:08
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 18:27:08
+Database Connected Successfully
+----------------------------------------
+2025-01-08 18:28:57
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 18:28:57
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 21:39:43
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 21:39:43
+Database Connected Successfully
+----------------------------------------
+2025-01-08 21:39:44
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 21:39:44
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 21:40:58
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 21:40:58
+Database Connected Successfully
+----------------------------------------
+2025-01-08 21:52:35
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 21:52:36
+Database Connected Successfully
+----------------------------------------
+2025-01-08 21:52:37
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 21:52:37
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 21:52:37
+Database Connected Successfully
+----------------------------------------
+2025-01-08 21:53:21
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 21:53:21
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 21:53:23
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 21:53:23
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 21:53:23
+Database Connected Successfully
+----------------------------------------
+2025-01-08 21:53:31
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 21:53:31
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 21:53:31
+Database Connected Successfully
+----------------------------------------
+2025-01-08 21:53:31
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 21:53:31
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 21:53:31
+Database Connected Successfully
+----------------------------------------
+2025-01-08 21:55:07
+SQL: SELECT name, caption, type, visible, img, parent, levelno, pagetype, intview, icon FROM axpages WHERE blobno = 1 AND LOWER(COALESCE(webenable, 't')) = 't' AND LOWER(COALESCE(pagetype, 's')) <> 'stem' ORDER BY ordno, levelno
+----------------------------------------
+2025-01-08 21:55:07
+Database Connected Successfully
+----------------------------------------
+2025-01-08 22:15:44
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 22:15:44
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 22:15:44
+Database Connected Successfully
+----------------------------------------
+2025-01-08 22:15:45
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 22:15:45
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 22:15:45
+Database Connected Successfully
+----------------------------------------
+2025-01-08 22:37:13
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-08 22:37:13
+Database Connected Successfully
+----------------------------------------
+2025-01-08 22:37:14
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-08 22:37:14
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-08 22:37:14
+Database Connected Successfully
+----------------------------------------
+2025-01-10 16:48:14
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-10 16:48:14
+Database Connected Successfully
+----------------------------------------
+2025-01-10 16:48:15
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-10 16:48:15
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-10 17:11:22
+SQL: select * from vw_pegv2_completed_tasks  where lower(username) = @username order by edatetime desc LIMIT @pagesize OFFSET @offset
+----------------------------------------
+2025-01-10 17:11:22
+Database Connected Successfully
+----------------------------------------
+2025-01-10 17:13:02
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-10 17:13:02
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-10 17:13:02
+Database Connected Successfully
+----------------------------------------
+2025-01-10 17:13:02
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-10 17:13:02
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-10 17:13:02
+Database Connected Successfully
+----------------------------------------
+2025-01-10 17:13:46
+SQL: select * from vw_pegv2_activetasks where lower(touser) = @username order by edatetime desc LIMIT @pagesize OFFSET @offset
+----------------------------------------
+2025-01-10 17:13:46
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-10 17:13:46
+Database Connected Successfully
+----------------------------------------
+2025-01-10 17:14:52
+SQL: select * from vw_pegv2_activetasks where lower(touser) = @username order by edatetime desc LIMIT @pagesize OFFSET @offset
+----------------------------------------
+2025-01-10 17:14:52
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-10 17:15:47
+SQL: select * from vw_pegv2_completed_tasks  where lower(username) = @username order by edatetime desc LIMIT @pagesize OFFSET @offset
+----------------------------------------
+2025-01-10 17:15:47
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-10 17:15:47
+Database Connected Successfully
+----------------------------------------
+2025-01-21 11:22:44
+SQL: select username,password,active,isfirsttime from axusers where lower(username) = @username and password = @password and active = 'T'
+----------------------------------------
+2025-01-21 11:22:45
+Database Connected Successfully
+----------------------------------------
+2025-01-21 11:22:45
+SQL: select distinct groupname as USERROLES from axusergroups where groupname in (Select distinct usergroup from AXUSERLEVELGROUPS WHERE lower(USERNAME) = @username) order by groupname
+----------------------------------------
+2025-01-21 11:22:45
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-21 11:22:45
+Database Connected Successfully
+----------------------------------------
+2025-01-21 11:24:35
+SQL: select * from vw_pegv2_completed_tasks  where lower(username) = @username order by edatetime desc LIMIT @pagesize OFFSET @offset
+----------------------------------------
+2025-01-21 11:24:35
+Connection String: Server=192.168.2.40;Database=payazzureuat;Username=payazzureuat1;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-21 11:24:35
+Database Connected Successfully
+----------------------------------------

@@ -1,0 +1,132 @@
+2025-01-16 17:48:38
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:38
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:48:40
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:40
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:48:40
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:48:42
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:42
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:48:42
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:48:44
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:44
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:48:44
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:48:53
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:53
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:48:53
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:48:53
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:53
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:48:56
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:56
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:48:57
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:48:57
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:49:05
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:49:05
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:49:07
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:49:07
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:49:07
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:49:09
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:49:09
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 17:49:09
+Database Connected Successfully
+----------------------------------------
+2025-01-16 17:56:05
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 17:56:05
+Database Connected Successfully
+----------------------------------------
+2025-01-16 18:08:11
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 18:08:11
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 18:08:11
+Database Connected Successfully
+----------------------------------------
+2025-01-16 18:25:03
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 18:25:03
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 18:25:03
+Database Connected Successfully
+----------------------------------------
+2025-01-16 18:32:27
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 18:32:27
+Database Connected Successfully
+----------------------------------------
+2025-01-16 18:51:27
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 18:51:27
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 18:51:27
+Database Connected Successfully
+----------------------------------------
+2025-01-16 18:52:17
+SQL: select  rediskeyname, rediskeyval,jobid, TO_CHAR(modifiedon, 'yyyyMMddHHmmss') AS modifiedon,isactive  from  AXPDEF_JOBS a where lower(a.jname) = @jobname
+----------------------------------------
+2025-01-16 18:52:17
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=axpost114;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-16 18:52:17
+Database Connected Successfully
+----------------------------------------

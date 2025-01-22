@@ -1,0 +1,5 @@
+C:\FinalCodeSet\ARMAPIService\obj\Debug\net9.0\ARMAPIService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMAPIService\obj\Debug\net9.0\ARMAPIService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMAPIService\obj\Debug\net9.0\ARMAPIService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMAPIService\obj\Debug\net9.0\ARMAPIService.AssemblyInfo.cs
+C:\FinalCodeSet\ARMAPIService\obj\Debug\net9.0\ARMAPIService.csproj.CoreCompileInputs.cache

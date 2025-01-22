@@ -1,0 +1,5 @@
+C:\FinalCodeSet\ARMAxpertJobs\obj\Debug\net9.0\ARMAxpertJobs.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMAxpertJobs\obj\Debug\net9.0\ARMAxpertJobs.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMAxpertJobs\obj\Debug\net9.0\ARMAxpertJobs.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMAxpertJobs\obj\Debug\net9.0\ARMAxpertJobs.AssemblyInfo.cs
+C:\FinalCodeSet\ARMAxpertJobs\obj\Debug\net9.0\ARMAxpertJobs.csproj.CoreCompileInputs.cache

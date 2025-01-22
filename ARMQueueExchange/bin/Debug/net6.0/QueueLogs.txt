@@ -1,0 +1,589 @@
+ Traces of Consumer Message are  12-01-2024 07:45:16{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Daily", //jobschedule000F1
+		"sendtime" : "07:46 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 07:45:54{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Daily", //jobschedule000F1
+		"sendtime" : "07:47 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 07:46:22{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Daily", //jobschedule000F1
+		"sendtime" : "07:47 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+Producer is Sending  Message   12-01-2024 07:46:31{"QueueJson":{"start_date":"01/01/2024","period":"Daily","sendtime":"07:47 AM","sendon":"11","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112080000","jobrediskeyval":"dbcon=qapost113|owner=admin|jobdate=20240112|scriptname=jobtest2","modifiedon":"dbcon=qapost113|owner=admin|jobdate=20240112|scriptname=jobtest2"}}
+ Traces of Consumer Message are  12-01-2024 07:47:06{"QueueJson":{"start_date":"01/01/2024","period":"Daily","sendtime":"07:47 AM","sendon":"11","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112080000","jobrediskeyval":"dbcon=qapost113|owner=admin|jobdate=20240112|scriptname=jobtest2","modifiedon":"dbcon=qapost113|owner=admin|jobdate=20240112|scriptname=jobtest2"}}
+ Traces of Consumer Message are  12-01-2024 07:48:36{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Daily", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+Producer is Sending  Message   12-01-2024 07:48:43{"QueueJson":{"start_date":"01/01/2024","period":"Daily","sendtime":"07:49 AM","sendon":"11","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112080000","jobrediskeyval":"dbcon=qapost113|owner=admin|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 07:49:04{"QueueJson":{"start_date":"01/01/2024","period":"Daily","sendtime":"07:49 AM","sendon":"11","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112080000","jobrediskeyval":"dbcon=qapost113|owner=admin|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+Producer is Sending  Message   12-01-2024 07:49:11{"QueueData":{"start_date":"01/01/2024","period":"Daily","sendtime":"07:49 AM","sendon":"11","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112080000","jobrediskeyval":"dbcon=qapost113|owner=admin|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 08:00:30{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:01:12{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:01:22{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:03:28{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:03:49{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:03:59{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:06:10{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "07:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:06:33{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "08:49 AM", //axptm_starttime000F1
+		"sendon" : "11", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:07:07{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "01/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "08:19 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:07:21{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "12/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "08:19 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:07:26{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "13/01/2024", //jobstartfrom000F1
+		"period" : "Custom", //jobschedule000F1
+		"sendtime" : "08:19 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:16:51{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "13/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:19 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:17:33{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "13/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:19 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:17:43{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "09/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:19 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:20:23{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "09/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "12", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:20:29{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "09/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "13", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:20:33{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "09/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:20:40{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:20:47{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "31", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:21:03{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "31", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:21:11{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:22:15{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:22:32{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:24:12{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:25:10{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:26:12{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:26:21{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "monthly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "5", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:28:17{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "5", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:28:31{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:31:59{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "20", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:32:05{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/01/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:32:09{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/03/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "10", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:32:17{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "10/04/2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "05", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:34:39{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "05-04-2024", //jobstartfrom000F1
+		"period" : "quarterly", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "05", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:35:04{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "05-04-2024", //jobstartfrom000F1
+		"period" : "every month", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "05", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 08:35:11{
+	"queuename" : "ARMQueueExchangeQueue",
+	"queuejson" : 
+	{
+		"start_date" : "05-01-2024", //jobstartfrom000F1
+		"period" : "every month", //jobschedule000F1
+		"sendtime" : "08:21 AM", //axptm_starttime000F1
+		"sendon" : "05", //weekday000F1 , jday000F1 , noofmins000F1
+		"project" : "qapost113", //appname000F1
+		"jobname" : "jobtest2", //jname000F1
+		"username" : "mohan" //mainusername
+	}
+}
+ Traces of Consumer Message are  12-01-2024 13:20:51{"queuedata":"ARMQueueExchangeQueueData","queuejson":{"start_date":"12/01/2024","period":"Every day","sendtime":"08:00","sendon":"","project":"qapost113","jobname":"jobtest2","username":"mohan"},"queuename":"ARMQueueExchangeQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+Producer is Sending  Message   12-01-2024 13:20:58{"QueueJson":{"start_date":"12/01/2024","period":"Every day","sendtime":"08:00","sendon":"","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112080000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:23:26{"queuedata":"ARMQueueExchangeQueueData","queuejson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan"},"queuename":"ARMQueueExchangeQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+Producer is Sending  Message   12-01-2024 13:23:31{"QueueJson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:23:31{"QueueJson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+Producer is Sending  Message   12-01-2024 13:23:37{"QueueData":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:23:37{"QueueData":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:24:01{"queuedata":"ARMQueueExchangeQueueData","queuejson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan"},"queuename":"ARMQueueExchangeQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+Producer is Sending  Message   12-01-2024 13:24:57{"QueueJson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:24:57{"QueueJson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+Producer is Sending  Message   12-01-2024 13:25:03{"QueueData":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:25:03{"QueueData":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"15:00","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:25:11{"queuedata":"ARMQueueExchangeQueueData","queuejson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"Friday","project":"qapost113","jobname":"jobtest2","username":"mohan"},"queuename":"ARMQueueExchangeQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+Producer is Sending  Message   12-01-2024 13:25:14{"QueueJson":{"start_date":"12/01/2024","period":"Every week","sendtime":"15:00","sendon":"Friday","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112150000","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:25:38{"queuedata":"ARMQueueExchangeQueueData","queuejson":{"start_date":"12/01/2024","period":"Every week","sendtime":"13:27","sendon":"Friday","project":"qapost113","jobname":"jobtest2","username":"mohan"},"queuename":"ARMQueueExchangeQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+Producer is Sending  Message   12-01-2024 13:25:40{"QueueJson":{"start_date":"12/01/2024","period":"Every week","sendtime":"13:27","sendon":"Friday","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112132700","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  12-01-2024 13:27:02{"QueueJson":{"start_date":"12/01/2024","period":"Every week","sendtime":"13:27","sendon":"Friday","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112132700","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+Producer is Sending  Message   12-01-2024 13:27:04{"QueueData":{"start_date":"12/01/2024","period":"Every week","sendtime":"13:27","sendon":"Friday","project":"qapost113","jobname":"jobtest2","username":"mohan","jobrediskey":"newaxs1000002_qapost113_20240112132700","jobrediskeyval":"dbcon=qapost113|owner=mohan|jobdate=20240112|scriptname=jobtest2","modifiedon":"12-01-2024 00:00:00"}}
+ Traces of Consumer Message are  16-01-2024 18:08:53{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:08:24{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:39:53{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:43:44{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:46:05{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:50:50{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:53:43{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:54:34{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:54:39{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:56:07{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 08:58:16{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 09:00:01{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 09:28:07{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 09:29:08{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 09:30:28{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 09:32:39{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000002\",\"description\":\"Test2\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1480990000012\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 10:37:02{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000003\",\"description\":\"Test3\",\"target\":\"hcmchd\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  17-01-2024 10:38:43{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"qtes1\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"docid\":\"QT00000003\",\"description\":\"Test33\",\"target\":\"hcmchd\"}},\"mode\":\"edit\",\"recordid\":\"1486880000001\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 09:31:10{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00134\",\"parent_query_id\":\"QUE00134\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Arrears\",\"query_detail_code\":\"ARREARS\",\"query_desc\":\"Test2\",\"active_query\":\"T\",\"query_subject\":\"Test2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:44:59{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"navaneeth\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"navaneeth\",\"query_no\":\"QUE00135\",\"parent_query_id\":\"QUE00135\",\"query_date\":\"18/01/2024\",\"category_desc\":\"REIMBURSEMENT\",\"category_code\":\"CLAIMS\",\"query_title\":\"Reimbursement \",\"query_code\":\"CLAIMS\",\"query_details\":\"Reimbursement Eligibility\",\"query_detail_code\":\"REMELG\",\"query_desc\":\"test2\",\"active_query\":\"T\",\"query_subject\":\"test\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:45:17{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"ASG-0008\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"ASG-0008\",\"query_no\":\"QUE00136\",\"parent_query_id\":\"QUE00136\",\"query_date\":\"18/01/2024\",\"category_desc\":\"HRMS\",\"category_code\":\"HRMS\",\"query_title\":\"Employee Info Details\",\"query_code\":\"EMPINFO\",\"query_details\":\"Employee Nomination\",\"query_detail_code\":\"EMPNOM\",\"query_desc\":\"Nomination\",\"active_query\":\"T\",\"query_subject\":\"Nomination\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:45:48{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"ASG-0008\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"ASG-0008\",\"query_no\":\"QUE00137\",\"parent_query_id\":\"QUE00137\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Payslip Released\",\"active_query\":\"T\",\"query_subject\":\"Payslip\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:45:53{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"ASG-0008\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"ASG-0008\",\"query_no\":\"QUE00138\",\"parent_query_id\":\"QUE00138\",\"query_date\":\"18/01/2024\",\"category_desc\":\"REIMBURSEMENT\",\"category_code\":\"CLAIMS\",\"query_title\":\"Reimbursement \",\"query_code\":\"CLAIMS\",\"query_details\":\"Reimbursement pages timelines\",\"query_detail_code\":\"REMTML\",\"query_desc\":\"Timelines\",\"active_query\":\"T\",\"query_subject\":\"Timelines\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:45:58{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"ASI-0712\",\"name\":\"updqu\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_code\":\"QUESS\",\"query_txn_id\":\"QUE-UPD-00006\",\"query_detail_code\":\"EMPNOM\",\"client_name\":\"Quess Corp Limited\",\"query_date\":\"18/01/2024\",\"query_title\":\"Employee Info Details\",\"category_desc\":\"HRMS\",\"category_code\":\"HRMS\",\"query_no\":\"QUE00136\",\"query_code\":\"EMPINFO\",\"query_detail\":\"Employee Nomination\",\"query_subject\":\"Nomination\",\"query_description\":\"Nomination\",\"update_query\":\"Nomination Details is available\",\"assignto_user\":\"ASI-0712\",\"query_status\":\"Reply/Response\",\"status_group\":\"Replied\",\"statusgroup_number\":\"1\",\"max_holddays\":\"0\",\"query_initiator\":\"ASI-0712\",\"temp_statusgrpnum\":\"1\",\"query_prefix\":\"QUE-UPD-\",\"temp_statusgroup\":\"Replied\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:48:10{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"ASI-0712\",\"name\":\"updqu\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_code\":\"QUESS\",\"query_txn_id\":\"QUE-UPD-00007\",\"query_detail_code\":\"EMPNOM\",\"client_name\":\"Quess Corp Limited\",\"query_date\":\"18/01/2024\",\"query_title\":\"Employee Info Details\",\"category_desc\":\"HRMS\",\"category_code\":\"HRMS\",\"query_no\":\"QUE00139\",\"query_code\":\"EMPINFO\",\"query_detail\":\"Employee Nomination\",\"query_subject\":\"Nomination\",\"query_description\":\"Nomination\",\"update_query\":\"Details available in profile\",\"assignto_user\":\"ASI-0712\",\"query_status\":\"Reply/Response\",\"status_group\":\"Replied\",\"statusgroup_number\":\"1\",\"max_holddays\":\"0\",\"query_initiator\":\"ASI-0712\",\"temp_statusgrpnum\":\"1\",\"query_prefix\":\"QUE-UPD-\",\"temp_statusgroup\":\"Replied\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:51:32{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"venkatesh\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"venkatesh\",\"query_no\":\"QUE00140\",\"parent_query_id\":\"QUE00140\",\"query_date\":\"18/01/2024\",\"category_desc\":\"HRMS\",\"category_code\":\"HRMS\",\"query_title\":\"Employee Info Details\",\"query_code\":\"EMPINFO\",\"query_details\":\"Employee Nomination\",\"query_detail_code\":\"EMPNOM\",\"query_desc\":\"emp2\",\"active_query\":\"T\",\"query_subject\":\"empll\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:52:08{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:53:52{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:54:36{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:55:50{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 12:56:46{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 13:02:38{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 13:03:03{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 13:03:06{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  18-01-2024 13:03:24{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmdev\",\"username\":\"mohan\",\"name\":\"rsque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"client_queri_prefix\":\"QUE\",\"query_initiator\":\"mohan\",\"query_no\":\"QUE00141\",\"parent_query_id\":\"QUE00141\",\"query_date\":\"18/01/2024\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"query_title\":\"Salary\",\"query_code\":\"SALA\",\"query_details\":\"Pay Slip\",\"query_detail_code\":\"PAYSLIP\",\"query_desc\":\"Salary 2\",\"active_query\":\"T\",\"query_subject\":\"Salary 2\",\"enable_title_yesno\":\"NO\",\"query_title_attach\":\"N\",\"attachment_file\":\"F\",\"allocated_user\":\"navaneeth,ASI-0711,ASI-0713\",\"query_status\":\"Pending\",\"overall_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"query_validation\":\"0\",\"result_set\":\"T\"}},\"mode\":\"edit\",\"recordid\":\"1532330000021\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToHelpDesk","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  29-01-2024 13:10:20{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"supportuser02\",\"name\":\"trque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"query_txn_id\":\"QUE-TRN-00021\",\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"temp_categorydesc\":\"REIMBURSEMENT\",\"query_date\":\"29/01/2024\",\"query_initiator\":\"supportuser02\",\"temp_category_code\":\"CLAIMS\",\"query_no\":\"QUE0000000051\",\"temp_querycode\":\"CLAIMS\",\"temp_querytitle\":\"Reimbursement\",\"temp_querydetail\":\"Reimbursement pages timelines\",\"query_description\":\"Payout\",\"query_subject\":\"Payout\",\"temp_detailcode\":\"REMTML\",\"assignto_user\":\"supportuser02\",\"prequery_status\":\"Pending\",\"query_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"temp_category_title_detail\":\"CLAIMS CLAIMS REMTML\",\"parent_query_id\":\"QUE0000000051\"}},\"mode\":\"new\",\"recordid\":\"0\",\"dc2\":{\"row1\":{\"category_desc\":\"HRMS\",\"query_title\":\"Employee Info Details\",\"query_detail\":\"Employee Nomination\",\"update_query\":\"t\",\"category_code\":\"HRMS\",\"query_code\":\"EMPINFO\",\"query_detail_code\":\"EMPNOM\",\"category_title_detail\":\"HRMS EMPINFO EMPNOM\",\"updateflag\":\"TRN\"}},\"dc1\":{\"row1\":{\"query_prefix\":\"QUE-TRN-\"}},\"dc2\":{\"row1\":{}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  29-01-2024 13:28:30{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"supportuser03\",\"name\":\"trque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"query_txn_id\":\"QUE-TRN-00022\",\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"temp_categorydesc\":\"HRMS\",\"query_date\":\"29/01/2024\",\"query_initiator\":\"supportuser03\",\"temp_category_code\":\"HRMS\",\"query_no\":\"QUE0000000051\",\"temp_querycode\":\"EMPINFO\",\"temp_querytitle\":\"Employee Info Details\",\"temp_querydetail\":\"Employee Nomination\",\"query_description\":\"Payout\",\"query_subject\":\"Payout\",\"temp_detailcode\":\"EMPNOM\",\"assignto_user\":\"supportuser03\",\"prequery_status\":\"Pending\",\"query_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"temp_category_title_detail\":\"HRMS EMPINFO EMPNOM\",\"parent_query_id\":\"QUE0000000051\"}},\"mode\":\"new\",\"recordid\":\"0\",\"dc2\":{\"row1\":{\"category_desc\":\"Payroll\",\"query_title\":\"Compensation Plan\",\"query_detail\":\"Compensation Plan\",\"update_query\":\"test cp\",\"category_code\":\"PAYROLL\",\"query_code\":\"CMPPL\",\"query_detail_code\":\"COMPPL\",\"category_title_detail\":\"PAYROLL CMPPL COMPPL\",\"updateflag\":\"TRN\"}},\"dc1\":{\"row1\":{\"query_prefix\":\"QUE-TRN-\"}},\"dc2\":{\"row1\":{}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  29-01-2024 13:50:38{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"supportuser01\",\"name\":\"trque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"query_txn_id\":\"QUE-TRN-00023\",\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"temp_categorydesc\":\"Payroll\",\"query_date\":\"29/01/2024\",\"query_initiator\":\"supportuser01\",\"temp_category_code\":\"PAYROLL\",\"query_no\":\"QUE0000000051\",\"temp_querycode\":\"CMPPL\",\"temp_querytitle\":\"Compensation Plan\",\"temp_querydetail\":\"Compensation Plan\",\"query_description\":\"Payout\",\"query_subject\":\"Payout\",\"temp_detailcode\":\"COMPPL\",\"assignto_user\":\"supportuser01\",\"prequery_status\":\"Pending\",\"query_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"temp_category_title_detail\":\"PAYROLL CMPPL COMPPL\",\"parent_query_id\":\"QUE0000000051\"}},\"mode\":\"new\",\"recordid\":\"0\",\"dc2\":{\"row1\":{\"category_desc\":\"Payroll\",\"query_title\":\"Salary\",\"query_detail\":\"Arrears\",\"update_query\":\"fsdfsf\",\"category_code\":\"PAYROLL\",\"query_code\":\"SALA\",\"query_detail_code\":\"ARREARS\",\"category_title_detail\":\"PAYROLL SALA ARREARS\",\"updateflag\":\"TRN\"}},\"dc1\":{\"row1\":{\"query_prefix\":\"QUE-TRN-\"}},\"dc2\":{\"row1\":{}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  29-01-2024 14:48:19{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"supportuser03\",\"name\":\"trque\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"query_txn_id\":\"QUE-TRN-00024\",\"client_name\":\"Quess Corp Limited\",\"client_code\":\"QUESS\",\"temp_categorydesc\":\"HRMS\",\"query_date\":\"29/01/2024\",\"query_initiator\":\"supportuser03\",\"temp_category_code\":\"HRMS\",\"query_no\":\"QUE0000000052\",\"temp_querycode\":\"EMPINFO\",\"temp_querytitle\":\"Employee Info Details\",\"temp_querydetail\":\"Employee Nomination\",\"query_description\":\"need info of family nomination\",\"query_subject\":\"Family Details for Nomination\",\"temp_detailcode\":\"EMPNOM\",\"assignto_user\":\"supportuser03\",\"prequery_status\":\"Pending\",\"query_status\":\"Pending\",\"status_group\":\"Pending\",\"statusgroup_number\":\"0\",\"temp_category_title_detail\":\"HRMS EMPINFO EMPNOM\",\"parent_query_id\":\"QUE0000000052\"}},\"mode\":\"new\",\"recordid\":\"0\",\"dc2\":{\"row1\":{\"category_desc\":\"Payroll\",\"query_title\":\"Compensation Plan\",\"query_detail\":\"Compensation Plan\",\"update_query\":\"details are in payslip\",\"category_code\":\"PAYROLL\",\"query_code\":\"CMPPL\",\"query_detail_code\":\"COMPPL\",\"category_title_detail\":\"PAYROLL CMPPL COMPPL\",\"updateflag\":\"TRN\"}},\"dc1\":{\"row1\":{\"query_prefix\":\"QUE-TRN-\"}},\"dc2\":{\"row1\":{}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  29-01-2024 14:55:28{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"headops\",\"name\":\"updqu\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Quess Corp Limited\",\"query_no\":\"QUE0000000052\",\"query_txn_id\":\"QUE-UPD-00030\",\"category_desc\":\"Payroll\",\"query_date\":\"29/01/2024\",\"parent_query_id\":\"QUE0000000052\",\"category_code\":\"PAYROLL\",\"query_subject\":\"Family Details for Nomination\",\"query_code\":\"CMPPL\",\"query_title\":\"Compensation Plan\",\"query_description\":\"need info of family nomination\",\"client_code\":\"QUESS\",\"query_detail_code\":\"COMPPL\",\"query_detail\":\"Compensation Plan\",\"update_query\":\"Family Details for Nomination\",\"assignto_user\":\"headops\",\"query_status\":\"Reply/Response\",\"status_group\":\"Replied\",\"statusgroup_number\":\"1\",\"max_holddays\":\"0\",\"query_initiator\":\"headops\",\"temp_statusgroup\":\"Replied\",\"query_prefix\":\"QUE-UPD-\",\"temp_statusgrpnum\":\"1\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  05-02-2024 10:09:59{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"anup\",\"trace\":\"\",\"name\":\"qucat\",\"keyfield\":\"\",\"primaryfield\":\"\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Agile Labs Pvt Ltd\",\"client_code\":\"AGL\",\"active\":\"T\"}},\"mode\":\"edit\",\"keyvalue\":\"\",\"recordid\":\"1323110000011\",\"dc2\":{\"row1\":{\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"applicable_employees\":\"Active Employees\",\"module\":\"Pay Roll\",\"client_category_code\":\"AGLPAYROLL\",\"category_active\":\"YES\"},\"row2\":{\"category_desc\":\"HRMS\",\"category_code\":\"HRMS\",\"applicable_employees\":\"Active Employees\",\"module\":\"HRMS\",\"client_category_code\":\"AGLHRMS\",\"category_active\":\"YES\"},\"row3\":{\"category_desc\":\"REIMBURSEMENT\",\"category_code\":\"CLAIMS\",\"applicable_employees\":\"Active Employees\",\"module\":\"REIMBURSEMENT\",\"client_category_code\":\"AGLCLAIMS\",\"category_active\":\"YES\"},\"row4\":{\"category_desc\":\"STAT/PF\",\"category_code\":\"STAT/PF\",\"applicable_employees\":\"Active Employees\",\"module\":\"STAT/PF\",\"client_category_code\":\"AGLSTAT/PF\",\"category_active\":\"YES\"}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  05-02-2024 10:10:54{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"anup\",\"trace\":\"\",\"name\":\"qucat\",\"keyfield\":\"\",\"primaryfield\":\"\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Agile Labs Pvt Ltd\",\"client_code\":\"AGL\",\"active\":\"T\"}},\"mode\":\"edit\",\"keyvalue\":\"\",\"recordid\":\"1323110000011\",\"dc2\":{\"row1\":{\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"applicable_employees\":\"Active Employees\",\"module\":\"Pay Roll\",\"client_category_code\":\"AGLPAYROLL\",\"category_active\":\"YES\"},\"row2\":{\"category_desc\":\"HRMS\",\"category_code\":\"HRMS\",\"applicable_employees\":\"Active Employees\",\"module\":\"HRMS\",\"client_category_code\":\"AGLHRMS\",\"category_active\":\"YES\"},\"row3\":{\"category_desc\":\"REIMBURSEMENT\",\"category_code\":\"CLAIMS\",\"applicable_employees\":\"Active Employees\",\"module\":\"REIMBURSEMENT\",\"client_category_code\":\"AGLCLAIMS\",\"category_active\":\"YES\"},\"row4\":{\"category_desc\":\"STAT/PF\",\"category_code\":\"STAT/PF\",\"applicable_employees\":\"Active Employees\",\"module\":\"STAT/PF\",\"client_category_code\":\"AGLSTAT/PF\",\"category_active\":\"YES\"}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  05-02-2024 10:11:04{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"anup\",\"trace\":\"\",\"name\":\"qucat\",\"keyfield\":\"\",\"primaryfield\":\"\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Agile Labs Pvt Ltd\",\"client_code\":\"AGL\",\"active\":\"T\"}},\"mode\":\"edit\",\"keyvalue\":\"\",\"recordid\":\"1323110000011\",\"dc2\":{\"row1\":{\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"applicable_employees\":\"Active Employees\",\"module\":\"Pay Roll\",\"client_category_code\":\"AGLPAYROLL\",\"category_active\":\"YES\"},\"row2\":{\"category_desc\":\"HRMS\",\"category_code\":\"HRMS\",\"applicable_employees\":\"Active Employees\",\"module\":\"HRMS\",\"client_category_code\":\"AGLHRMS\",\"category_active\":\"YES\"},\"row3\":{\"category_desc\":\"REIMBURSEMENT\",\"category_code\":\"CLAIMS\",\"applicable_employees\":\"Active Employees\",\"module\":\"REIMBURSEMENT\",\"client_category_code\":\"AGLCLAIMS\",\"category_active\":\"YES\"},\"row4\":{\"category_desc\":\"STAT/PF\",\"category_code\":\"STAT/PF\",\"applicable_employees\":\"Active Employees\",\"module\":\"STAT/PF\",\"client_category_code\":\"AGLSTAT/PF\",\"category_active\":\"YES\"}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  05-02-2024 10:12:35{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"jaisurya\",\"trace\":\"\",\"name\":\"axusr\",\"keyfield\":\"\",\"primaryfield\":\"\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"ppassword\":\"22723bbd4217a0abf6d3e68073c7603d\",\"pusername\":\"rajesh\",\"usertype\":\"ADMIN\",\"pwd\":\"agile\",\"mobile\":\"\",\"email\":\"2fo@gmail.com\",\"dhomepage\":\"Active Lists\",\"build\":\"F\",\"groupno\":\"0\",\"nickname\":\"rajesh\",\"debug\":\"F\",\"manage\":\"F\",\"workflow\":\"F\",\"send\":\"F\",\"webskin\":\"\",\"importstruct\":\"F\",\"isfirsttime\":\"F\",\"pageaccess\":\"\",\"reportingto\":\"\",\"homepage\":\"htmlPages.aspx?load=1667890087584\",\"logintry\":\"0\",\"otpauth\":\"F\",\"language\":\"\",\"pwdexpdays\":\"0\",\"appparams\":\"\",\"exportstruct\":\"F\",\"axpertmanager\":\"\",\"appmanager\":\"\",\"accesscode\":\"\",\"language_access\":\"\",\"active\":\"T\",\"entity_code\":\"\",\"allusergroup\":\"testjan\",\"actflag\":\"T\",\"pwdauth\":\"T\",\"poweruser\":\"F\",\"tools\":\"F\",\"entity_name\":\"\",\"global_displaytext\":\"\",\"tflag\":\"T\",\"axuser\":\"jaisurya\",\"viewfilter\":\"\",\"typecalc\":\"F\"}},\"mode\":\"edit\",\"keyvalue\":\"\",\"recordid\":\"1247440000001\",\"dc2\":{\"row1\":{\"validrow2\":\"T\",\"axusername\":\"rajesh\",\"axusergroup\":\"testjan\",\"enddate\":\"\",\"startdate\":\"16/01/2023\"}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  05-02-2024 10:14:25{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"anup\",\"trace\":\"\",\"name\":\"qtitl\",\"keyfield\":\"\",\"primaryfield\":\"\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Agile Labs Pvt Ltd\",\"client_code\":\"AGL\",\"category_desc\":\"Payroll\",\"category_code\":\"PAYROLL\",\"active\":\"T\",\"enable_attachment\":\"\",\"file_size\":\"\",\"client_category_code\":\"AGLPAYROLL\",\"file_format\":\"\"}},\"mode\":\"new\",\"keyvalue\":\"\",\"recordid\":\"0\",\"dc2\":{\"row1\":{\"query_title_desc\":\"Compensation Plan\",\"query_title_code\":\"CMPPL\",\"attachment\":\"YES\",\"title_active\":\"YES\"},\"row2\":{\"query_title_desc\":\"Salary\",\"query_title_code\":\"SALA\",\"attachment\":\"YES\",\"title_active\":\"YES\"}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}
+ Traces of Consumer Message are  05-02-2024 10:15:36{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"hcmchd\",\"username\":\"anup\",\"trace\":\"\",\"name\":\"qtitl\",\"keyfield\":\"\",\"primaryfield\":\"\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"client_name\":\"Agile Labs Pvt Ltd\",\"client_code\":\"AGL\",\"category_desc\":\"REIMBURSEMENT\",\"category_code\":\"CLAIMS\",\"active\":\"T\",\"enable_attachment\":\"\",\"file_size\":\"\",\"client_category_code\":\"AGLCLAIMS\",\"file_format\":\"\"}},\"mode\":\"new\",\"keyvalue\":\"\",\"recordid\":\"0\",\"dc2\":{\"row1\":{\"query_title_desc\":\"Reimbursement\",\"query_title_code\":\"CLAIMS\",\"attachment\":\"YES\",\"title_active\":\"YES\"}}}}}},\"trace\":\"\"}","queuejson":null,"queuename":"DataToClient","signalrclient":null,"timespandelay":0,"trace":null}

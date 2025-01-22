@@ -1,0 +1,5 @@
+C:\FinalCodeSet\DataSyncronizationService\obj\Debug\net9.0\DataSyncronizationService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\DataSyncronizationService\obj\Debug\net9.0\DataSyncronizationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\DataSyncronizationService\obj\Debug\net9.0\DataSyncronizationService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\DataSyncronizationService\obj\Debug\net9.0\DataSyncronizationService.AssemblyInfo.cs
+C:\FinalCodeSet\DataSyncronizationService\obj\Debug\net9.0\DataSyncronizationService.csproj.CoreCompileInputs.cache

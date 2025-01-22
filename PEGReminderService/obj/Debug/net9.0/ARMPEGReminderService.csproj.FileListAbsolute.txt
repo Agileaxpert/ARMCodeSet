@@ -1,0 +1,5 @@
+C:\FinalCodeSet\PEGReminderService\obj\Debug\net9.0\ARMPEGReminderService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\PEGReminderService\obj\Debug\net9.0\ARMPEGReminderService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\PEGReminderService\obj\Debug\net9.0\ARMPEGReminderService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\PEGReminderService\obj\Debug\net9.0\ARMPEGReminderService.AssemblyInfo.cs
+C:\FinalCodeSet\PEGReminderService\obj\Debug\net9.0\ARMPEGReminderService.csproj.CoreCompileInputs.cache

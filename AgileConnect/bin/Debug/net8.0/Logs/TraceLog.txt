@@ -1,0 +1,48 @@
+2025-01-06 11:52:37
+SQL: select distinct groupname as USERROLES  from axusergroups
+----------------------------------------
+2025-01-06 11:52:37
+Database Connected Successfully
+----------------------------------------
+2025-01-06 12:39:22
+SQL: select distinct groupname as USERROLES  from axusergroups
+----------------------------------------
+2025-01-06 12:39:22
+Connection String: Server=192.168.2.40;Database=axpertdb;Username=training113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-06 12:39:22
+Database Connected Successfully
+----------------------------------------
+2025-01-06 15:15:26
+SQL: select distinct groupname as USERROLES  from axusergroups
+----------------------------------------
+2025-01-06 15:15:26
+Database Connected Successfully
+----------------------------------------
+2025-01-06 15:16:14
+SQL: select distinct groupname as USERROLES  from axusergroups
+----------------------------------------
+2025-01-06 15:16:14
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=shilpa113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-06 15:16:14
+Database Connected Successfully
+----------------------------------------
+2025-01-06 15:25:02
+SQL: select distinct groupname as USERROLES  from axusergroups
+----------------------------------------
+2025-01-06 15:25:02
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=shilpa113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-06 15:25:02
+Database Connected Successfully
+----------------------------------------
+2025-01-06 15:28:07
+SQL: select distinct groupname as USERROLES  from axusergroups
+----------------------------------------
+2025-01-06 15:28:07
+Connection String: Server=172.16.0.135;Database=axpertdb;Username=shilpa113;Pwd=log;Pooling=false;
+----------------------------------------
+2025-01-06 15:28:07
+Database Connected Successfully
+----------------------------------------

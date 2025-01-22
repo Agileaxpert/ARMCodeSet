@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+
+    <p><label for="configText">Input String:</label></p>
+    <textarea id="configText" rows="10" cols="100"></textarea>
+    <br>
+    <input type="button" onclick="parseInput();" value="Parse Input">
+
+    <div id="configHtmlContainer">
+
+    </div>
+
+    <script type="text/javascript">
+        function parseInput() {
+            let configStr = document.getElementById('configText').value;
+            document.getElementById("configHtmlContainer").innerHTML = "";
+            parseConfigStr(configStr);
+        }
+
+        function parseConfigStr(configStr) {
+            configStr = replaceCharsInConfig(configStr);
+
+            let linesStr = configStr.split(/\r?\n|\r|\n/g); //To split multi-line string into array of strings.
+            let finalConfigText = '';
+            linesStr.forEach(function (lineStr) {
+                let words = lineStr.split(" ");
+
+                let isVar = false;
+                let inDataSet = false;
+                let varText = '';
+                let configText = '';
+                let dsVarText = '';
+
+                words.forEach(function (word, wordIdx) {
+                    if (word == "{") { //start of a var
+                        isVar = true;
+                        varText = '';
+                    }
+                    else if (word == "}") { //end of a var
+                        isVar = false;
+                        if (inDataSet) {
+                            dsVarText += GetHTML(varText);
+                        }
+                        else {
+                            configText += GetHTML(varText);
+                        }
+                    }
+                    else if (word == "[") { //start of a dataset command
+                        inDataSet = true;
+                        dsVarText = "";
+                    }
+                    else if (word == "]") { //end of dataset command
+                        inDataSet = false
+                        configText += GetDSHTML(dsVarText);
+                    }
+                    else {
+                        if (isVar) {
+                            varText += " " + word;
+                        }
+                        else if (inDataSet) {
+                            dsVarText += " " + word;
+                        }
+                        else {
+                            configText += " " + word;
+                        }
+                    }
+                });
+                document.getElementById("configHtmlContainer").insertAdjacentHTML("beforeend", "<div>" + configText + "</div>");
+            });
+
+            return finalConfigText;
+        }
+
+        function replaceCharsInConfig(configStr) {
+            configStr = configStr.replace(/{/g, ' {  ');
+            configStr = configStr.replace(/}/g, ' }');
+            configStr = configStr.replace(/\[/g, ' [ ');
+            configStr = configStr.replace(/]/g, ' ] ');
+            return configStr;
+        }
+
+        function GetDSHTML(dsVarText) {
+            //Bind data to string
+
+            return dsVarText;
+        }
+
+        function GetHTML(varText) {
+            //Construct HTML
+
+            return `<input type="number">`;
+        }
+
+    </script>
+</body>
+</html>

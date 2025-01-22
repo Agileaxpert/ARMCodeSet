@@ -1,0 +1,7 @@
+C:\FinalCodeSet\ARMCommon\obj\Debug\net9.0\ARMCommon.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMCommon\obj\Debug\net9.0\ARMCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMCommon\obj\Debug\net9.0\ARMCommon.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMCommon\obj\Debug\net9.0\ARMCommon.AssemblyInfo.cs
+C:\FinalCodeSet\ARMCommon\obj\Debug\net9.0\ARMCommon.csproj.CoreCompileInputs.cache
+C:\FinalCodeSet\ARMCommon\obj\Debug\net9.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cs
+C:\FinalCodeSet\ARMCommon\obj\Debug\net9.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cache

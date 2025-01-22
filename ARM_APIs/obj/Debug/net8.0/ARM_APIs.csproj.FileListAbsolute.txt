@@ -1,0 +1,290 @@
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARMCommon.deps.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARMCommon.runtimeconfig.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARMCommon.exe
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\appsettings.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\appsettings.Production.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\service_key.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARM_APIs.staticwebassets.runtime.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x86\leptonica-1.85.0.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x86\tesseract54.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x64\leptonica-1.85.0.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x64\tesseract54.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x86\leptonica-1.82.0.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x86\tesseract50.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x64\leptonica-1.82.0.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\x64\tesseract50.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARM_APIs.exe
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARM_APIs.deps.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARM_APIs.runtimeconfig.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARM_APIs.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARM_APIs.pdb
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\CsvHelper.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Dapper.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Enums.NET.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ExcelDataReader.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ExcelDataReader.DataSet.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\FirebaseAdmin.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Google.Api.Gax.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Google.Apis.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Hangfire.Core.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Humanizer.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\MailKit.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\MimeKit.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Npgsql.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\NPOI.OOXML.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\NPOI.OpenXml4Net.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\NPOI.OpenXmlFormats.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\NPOI.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\OpenAI.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.DirectoryServices.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Management.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Tesseract.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\TesseractOCR.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\Twilio.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARMCommon.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\bin\Debug\net8.0\ARMCommon.pdb
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.csproj.AssemblyReference.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.AssemblyInfoInputs.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.AssemblyInfo.cs
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.csproj.CoreCompileInputs.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.sourcelink.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.ARM_APIs.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.build.ARM_APIs.props
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ARM_APIs.props
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ARM_APIs.props
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\scopedcss\bundle\ARM_APIs.styles.css
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.csproj.Up2Date
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\refint\ARM_APIs.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.pdb
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ARM_APIs.genruntimeconfig.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARM_APIs\obj\Debug\net8.0\ref\ARM_APIs.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARMCommon.deps.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARMCommon.runtimeconfig.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARMCommon.exe
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\appsettings.Development.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\appsettings.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\appsettings.Production.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\service_key.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARM_APIs.staticwebassets.runtime.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x86\leptonica-1.85.0.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x86\tesseract54.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x64\leptonica-1.85.0.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x64\tesseract54.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x86\leptonica-1.82.0.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x86\tesseract50.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x64\leptonica-1.82.0.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\x64\tesseract50.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARM_APIs.exe
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARM_APIs.deps.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARM_APIs.runtimeconfig.json
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARM_APIs.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARM_APIs.pdb
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\AutoMapper.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\CsvHelper.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Dapper.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Enums.NET.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ExcelDataReader.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ExcelDataReader.DataSet.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\FirebaseAdmin.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Google.Api.Gax.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Google.Api.Gax.Rest.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Google.Apis.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Google.Apis.Auth.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Google.Apis.Core.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Hangfire.Core.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Humanizer.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\MailKit.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\MathNet.Numerics.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Web.Http.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.AspNetCore.Mvc.Versioning.ApiExplorer.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\MimeKit.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\MsgPack.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\NETCore.MailKit.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Newtonsoft.Json.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Npgsql.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\NPOI.OOXML.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\NPOI.OpenXml4Net.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\NPOI.OpenXmlFormats.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\NPOI.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\OpenAI.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Oracle.ManagedDataAccess.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\BouncyCastle.Crypto.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\RabbitMQ.Client.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ICSharpCode.SharpZipLib.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\SixLabors.ImageSharp.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.ClientModel.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.CodeDom.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Diagnostics.PerformanceCounter.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.DirectoryServices.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.DirectoryServices.Protocols.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Management.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Memory.Data.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Net.WebSockets.WebSocketProtocol.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Tesseract.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\TesseractOCR.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\Twilio.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ca\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\de\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\es\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\fa\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\fr\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\nb\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\nl\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\pt-BR\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\pt-PT\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\pt\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\sv\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\tr-TR\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\zh-TW\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\zh\Hangfire.Core.resources.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Management.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARMCommon.dll
+C:\FinalCodeSet\ARM_APIs\bin\Debug\net8.0\ARMCommon.pdb
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.AssemblyInfo.cs
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.csproj.CoreCompileInputs.cache
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.MvcApplicationPartsAssemblyInfo.cs
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.MvcApplicationPartsAssemblyInfo.cache
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\staticwebassets.build.json
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\staticwebassets.development.json
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.ARM_APIs.Microsoft.AspNetCore.StaticWebAssets.props
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.build.ARM_APIs.props
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.ARM_APIs.props
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.ARM_APIs.props
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\staticwebassets.pack.json
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\scopedcss\bundle\ARM_APIs.styles.css
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.csproj.Up2Date
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.dll
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\refint\ARM_APIs.dll
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.pdb
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ARM_APIs.genruntimeconfig.cache
+C:\FinalCodeSet\ARM_APIs\obj\Debug\net8.0\ref\ARM_APIs.dll

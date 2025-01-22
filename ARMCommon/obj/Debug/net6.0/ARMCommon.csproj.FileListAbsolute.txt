@@ -1,0 +1,239 @@
+D:\Releases4\appsettings.Development.json
+D:\Releases4\appsettings.json
+D:\Releases4\ARMCommon.exe
+D:\Releases4\ARMCommon.deps.json
+D:\Releases4\ARMCommon.runtimeconfig.json
+D:\Releases4\ARMCommon.dll
+D:\Releases4\ARMCommon.pdb
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.AssemblyReference.cache
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.GeneratedMSBuildEditorConfig.editorconfig
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.AssemblyInfoInputs.cache
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.AssemblyInfo.cs
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.CoreCompileInputs.cache
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cs
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cache
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\appsettings.Development.json
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\appsettings.json
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.exe
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.deps.json
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.runtimeconfig.json
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.pdb
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Humanizer.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\MailKit.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Web.Http.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\MimeKit.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\NETCore.MailKit.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Npgsql.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\RabbitMQ.Client.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\StackExchange.Redis.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.DirectoryServices.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.ARMCommon.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.build.ARMCommon.props
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ARMCommon.props
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ARMCommon.props
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets.build.json
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets.development.json
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\scopedcss\bundle\ARMCommon.styles.css
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.CopyComplete
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\refint\ARMCommon.dll
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.pdb
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.genruntimeconfig.cache
+D:\Codeset\GITTemp\03-06-2023\ARMCommon\obj\Debug\net6.0\ref\ARMCommon.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\appsettings.json
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.exe
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.deps.json
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.runtimeconfig.json
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\ARMCommon.pdb
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Humanizer.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\MailKit.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\MimeKit.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\NETCore.MailKit.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Npgsql.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.DirectoryServices.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.AssemblyReference.cache
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.AssemblyInfoInputs.cache
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.AssemblyInfo.cs
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.CoreCompileInputs.cache
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.ARMCommon.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.build.ARMCommon.props
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ARMCommon.props
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ARMCommon.props
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\scopedcss\bundle\ARMCommon.styles.css
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.CopyComplete
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\refint\ARMCommon.dll
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.pdb
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ARMCommon.genruntimeconfig.cache
+C:\Users\preeti.b\Desktop\03-06-2023\ARMCommon\obj\Debug\net6.0\ref\ARMCommon.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\appsettings.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\ARMCommon.exe
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\ARMCommon.deps.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\ARMCommon.runtimeconfig.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\ARMCommon.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\ARMCommon.pdb
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Humanizer.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\MailKit.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Net.Http.Formatting.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Web.Http.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\MimeKit.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\NETCore.MailKit.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Npgsql.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Oracle.ManagedDataAccess.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\StackExchange.Redis.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.DirectoryServices.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.AssemblyReference.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.AssemblyInfoInputs.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.AssemblyInfo.cs
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.CoreCompileInputs.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.sourcelink.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.ARMCommon.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.build.ARMCommon.props
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ARMCommon.props
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ARMCommon.props
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\scopedcss\bundle\ARMCommon.styles.css
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.csproj.Up2Date
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\refint\ARMCommon.dll
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.pdb
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ARMCommon.genruntimeconfig.cache
+C:\Users\preeti.b\Desktop\ARM API's\ARMCommon\obj\Debug\net6.0\ref\ARMCommon.dll

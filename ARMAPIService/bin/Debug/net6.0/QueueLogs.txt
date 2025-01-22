@@ -1,0 +1,702 @@
+ Traces of Consumer Message are  29-01-2024 16:16:44{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 16:41:55{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:22:46{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:24:01{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:35:34{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:12{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:16{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:16{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:16{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:17{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:30{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:30{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:30{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:31{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:31{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:32{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:32{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:32{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:32{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:32{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:34{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:34{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:35{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:36{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:36{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:37{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:37{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:38{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:38{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:38{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:38{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json",
+        "method": "GET",
+        "parameterstring": {
+            "created_at_min": "2024-01-17T00:00:11-04:00"
+        },
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        }
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:43{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:47{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:48{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:48{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:48{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:49{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 17:52:49{
+    "queuename": "ShopifyOutboundQueue",
+    "queuedata": "",
+    "queuejson": {
+        "project": "qapost113",
+        "url": "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json",
+        "method": "POst",
+        "headerstring": {
+            "X-Shopify-Access-Token": "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"
+        },
+       "requeststring": {
+    "product": {
+        "title": "test product",
+        "body_html": "<strong>Good snowboard!</strong>",
+        "vendor": "Burton",
+        "product_type": "Snowboard",
+        "status": "active",
+        "published": true,
+        "images": [
+            {
+                "attachment": "R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"
+            }
+        ]
+    }
+}
+    }
+}
+ Traces of Consumer Message are  29-01-2024 18:05:54{"queuedata":"Shopify","queuejson":{"project":{"ValueKind":3},"url":{"ValueKind":3},"method":{"ValueKind":3},"parameterstring":{"ValueKind":1},"headerstring":{"ValueKind":1}},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  29-01-2024 18:09:08{"queuedata":"Shopify","queuejson":{"project":"qapost113","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json","method":"GET","parameterstring":{"created_at_min":"2024-01-17T00:00:11-04:00"},"headerstring":{"X-Shopify-Access-Token":"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"}},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  29-01-2024 18:09:55{"queuedata":"Shopify","queuejson":{"project":"qapost113","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/products.json","method":"POst","headerstring":{"X-Shopify-Access-Token":"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"},"requeststring":{"product":{"title":"test product","body_html":"\u003Cstrong\u003EGood snowboard!\u003C/strong\u003E","vendor":"Burton","product_type":"Snowboard","status":"active","published":true,"images":[{"attachment":"R0lGODlhAQABAIAAAAAAAAAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==\n"}]}}},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  29-01-2024 18:37:48{"queuedata":"Shopify","queuejson":{"project":"qapost113","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/orders/{{orderid}}.json","method":"GET","headerstring":{"X-Shopify-Access-Token":"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"},"urlparams":{"orderid":"5673282470172"}},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  30-01-2024 18:46:35{"queuedata":"Shopify","queuejson":{"project":"qapost113","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json","method":"GET","parameterstring":{"created_at_min":"2024-01-17T00:00:11-04:00"},"headerstring":{"X-Shopify-Access-Token":"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"},"apidesc":"getorders"},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  30-01-2024 18:47:07{"queuedata":"Shopify","queuejson":{"project":"hcmdev","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json","method":"GET","parameterstring":{"created_at_min":"2024-01-17T00:00:11-04:00"},"headerstring":{"X-Shopify-Access-Token":"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"},"apidesc":"getorders"},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  30-01-2024 18:48:45{"queuedata":"Shopify","queuejson":{"project":"hcmdev","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json","method":"GET","parameterstring":{"created_at_min":"2024-01-17T00:00:11-04:00"},"headerstring":{"X-Shopify-Access-Token":"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"},"apidesc":"getorders"},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  30-01-2024 18:57:25{"queuedata":"Shopify","queuejson":{"project":"hcmdev","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json","method":"GET","parameterstring":{"created_at_min":"2024-01-17T00:00:11-04:00"},"headerstring":{"X-Shopify-Access-Token":"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"},"apidesc":"getorders"},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  30-01-2024 19:16:55{"queuedata":"Shopify","queuejson":{"project":"hcmdev","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/orders.json","method":"GET","parameterstring":{"created_at_min":"2024-01-17T00:00:11-04:00"},"headerstring":{"X-Shopify-Access-Token":"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"},"apidesc":"getorders"},"queuename":"ShopifyOutboundQueue","signalrclient":"","timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  31-01-2024 11:48:36{ "queuejson" : {"project":"agiledemo","url":"https://b843cb-2.myshopify.com/admin/api/2024-01/products.json","method":"Post","headerstring":{"X-Shopify-Access-Token":"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"},"requeststring":{"product":{"title":"Oneplus 12","product_type":"ELECTRONICS"}},"apidesc":"Post_Product_Shopify"}}
+ Traces of Consumer Message are  31-01-2024 12:56:06{"queuename" : "Shopify_Outbound", "queuedata" : "shopify", "queuejson" : {"project" : "hcmdev", "url" : "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json", "method" : "Post", "headerstring" : {"X-Shopify-Access-Token": "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"}, "requeststring" : {"product" : {"title" : "Apple Iphone 14 Max", "product_type" : "ELECTRONICS"}}, "apidesc" : "Post_Product_Shopify"}}
+ Traces of Consumer Message are  31-01-2024 13:01:12{"queuename" : "Shopify_Outbound", "queuedata" : "shopify", "queuejson" : {"project" : "hcmdev", "url" : "https://b843cb-2.myshopify.com/admin/api/2024-01/products.json", "method" : "Post", "headerstring" : {"X-Shopify-Access-Token": "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"}, "requeststring" : {"product" : {"title" : "Apple Iphone 14 Max", "product_type" : "ELECTRONICS"}}, "apidesc" : "Post_Product_Shopify"}}
+ Traces of Consumer Message are  06-02-2024 14:25:30{"queuedata":"{\u0022url\u0022:\u0022http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022payload\u0022:{\u0022submitdata\u0022:{\u0022project\u0022:\u0022agiledemo\u0022,\u0022username\u0022:\u0022admin\u0022,\u0022name\u0022:\u0022itemm\u0022,\u0022dataarray\u0022:{\u0022data\u0022:{\u0022dc1\u0022:{\u0022row1\u0022:{\u0022itemdesc\u0022:\u0022Pen Drive\u0022,\u0022itemcategory\u0022:\u0022ELECTRONICS\u0022}},\u0022mode\u0022:\u0022new\u0022,\u0022recordid\u0022:\u00220\u0022}}}},\u0022trace\u0022:\u0022\u0022}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 14:27:54{"queuedata":"{\u0022url\u0022:\u0022http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022payload\u0022:{\u0022submitdata\u0022:{\u0022project\u0022:\u0022agiledemo\u0022,\u0022username\u0022:\u0022admin\u0022,\u0022name\u0022:\u0022itemm\u0022,\u0022dataarray\u0022:{\u0022data\u0022:{\u0022dc1\u0022:{\u0022row1\u0022:{\u0022itemdesc\u0022:\u0022Pen Drive\u0022,\u0022itemcategory\u0022:\u0022ELECTRONICS\u0022}},\u0022mode\u0022:\u0022edit\u0022,\u0022recordid\u0022:\u00221618550000002\u0022}}}},\u0022trace\u0022:\u0022\u0022}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 14:29:48{"queuename":"items_to_shopify","queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","timespandelay":"0"}
+ Traces of Consumer Message are  06-02-2024 14:30:00{"queuename":"items_to_shopify","queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","timespandelay":"0"}
+ Traces of Consumer Message are  06-02-2024 14:30:17{"queuename":"items_to_shopify","queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","timespandelay":"0"}
+ Traces of Consumer Message are  06-02-2024 14:32:55{"queuedata":"{\u0022url\u0022:\u0022http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022payload\u0022:{\u0022submitdata\u0022:{\u0022project\u0022:\u0022agiledemo\u0022,\u0022username\u0022:\u0022admin\u0022,\u0022name\u0022:\u0022itemm\u0022,\u0022dataarray\u0022:{\u0022data\u0022:{\u0022dc1\u0022:{\u0022row1\u0022:{\u0022itemdesc\u0022:\u0022Pen Drive\u0022,\u0022itemcategory\u0022:\u0022ELECTRONICS\u0022}},\u0022mode\u0022:\u0022edit\u0022,\u0022recordid\u0022:\u00221618550000002\u0022}}}},\u0022trace\u0022:\u0022\u0022}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 14:39:16{"queuedata":"{\u0022url\u0022:\u0022http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022payload\u0022:{\u0022submitdata\u0022:{\u0022project\u0022:\u0022agiledemo\u0022,\u0022username\u0022:\u0022admin\u0022,\u0022name\u0022:\u0022itemm\u0022,\u0022dataarray\u0022:{\u0022data\u0022:{\u0022dc1\u0022:{\u0022row1\u0022:{\u0022itemdesc\u0022:\u0022Pen Drive\u0022,\u0022itemcategory\u0022:\u0022ELECTRONICS\u0022}},\u0022mode\u0022:\u0022edit\u0022,\u0022recordid\u0022:\u00221618550000002\u0022}}}},\u0022trace\u0022:\u0022\u0022}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 14:47:42{"queuedata":"{\u0022url\u0022:\u0022http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022payload\u0022:{\u0022submitdata\u0022:{\u0022project\u0022:\u0022agiledemo\u0022,\u0022username\u0022:\u0022admin\u0022,\u0022name\u0022:\u0022itemm\u0022,\u0022dataarray\u0022:{\u0022data\u0022:{\u0022dc1\u0022:{\u0022row1\u0022:{\u0022itemdesc\u0022:\u0022Pen Drive\u0022,\u0022itemcategory\u0022:\u0022ELECTRONICS\u0022}},\u0022mode\u0022:\u0022edit\u0022,\u0022recordid\u0022:\u00221618550000002\u0022}}}},\u0022trace\u0022:\u0022\u0022}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 14:52:11{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 14:54:49{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 15:05:07{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 15:07:26{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 15:11:19{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Pen Drive\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1618550000002\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 15:33:38{"queuedata":"{\u0022url\u0022:\u0022http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\u0022,\u0022method\u0022:\u0022POST\u0022,\u0022payload\u0022:{\u0022submitdata\u0022:{\u0022project\u0022:\u0022agiledemo\u0022,\u0022username\u0022:\u0022admin\u0022,\u0022name\u0022:\u0022itemm\u0022,\u0022dataarray\u0022:{\u0022data\u0022:{\u0022dc1\u0022:{\u0022row1\u0022:{\u0022itemdesc\u0022:\u0022Books-D\u0022,\u0022itemcategory\u0022:\u0022E-Books\u0022}},\u0022mode\u0022:\u0022edit\u0022,\u0022recordid\u0022:\u00221619550000007\u0022}}}},\u0022trace\u0022:\u0022\u0022}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  06-02-2024 15:38:29{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Books-E\",\"itemcategory\":\"E-Books\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:43{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Atomic Habits\",\"itemcategory\":\"E-Books\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:48{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Redmi Note 12\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1626770000046\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:48{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Samsung s23\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:48{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Samsung s23\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1640440000009\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:49{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Redmi Note 12\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"edit\",\"recordid\":\"1626770000046\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:50{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Atomic Habits\",\"itemcategory\":\"E-Books\"}},\"mode\":\"edit\",\"recordid\":\"1633880000018\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:51{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Redmi Pad 6\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  07-02-2024 08:49:52{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"Lenovo LOQ 15\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}
+ Traces of Consumer Message are  13-02-2024 16:11:18{"queuedata":"{\"url\":\"http://localhost/axpertthinclient/ASBScriptRest.dll/datasnap/rest/TASBScriptRest/scriptsapi\",\"method\":\"POST\",\"payload\":{\"submitdata\":{\"project\":\"agiledemo\",\"username\":\"admin\",\"name\":\"itemm\",\"dataarray\":{\"data\":{\"dc1\":{\"row1\":{\"itemdesc\":\"iPhone 15\",\"itemcategory\":\"ELECTRONICS\"}},\"mode\":\"new\",\"recordid\":\"0\"}}}},\"trace\":\"\"}","queuejson":null,"queuename":"items_to_shopify","signalrclient":"","apidesc":null,"timespandelay":0,"trace":false,"responsequeuename":null}

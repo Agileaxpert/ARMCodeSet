@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "ARMSaveDataService": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:60024;http://localhost:60025"
+    }
+  }
+}

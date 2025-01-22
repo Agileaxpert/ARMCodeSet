@@ -1,0 +1,2 @@
+C:\FinalCodeSet\ARMCommon\obj\Debug\net6.0\staticwebassets.build.json
+C:\FinalCodeSet\ARMCommon\obj\Debug\net6.0\staticwebassets.build.json

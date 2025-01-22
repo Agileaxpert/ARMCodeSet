@@ -1,0 +1,111 @@
+body {
+    font-size: 1em;
+    padding: 10px;
+  }
+  div.demo-card-wide {
+    width: 90%;
+  }
+
+  div#tree {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid 1px solid rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  }
+  div#tree1 {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid 1px solid rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+  }
+ 
+	table.fancytree-container {
+		table-layout: fixed;
+		outline: 0;  /* No focus frame */
+	}
+  .fancytree-plain span.fancytree-title {
+    font-size:12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .span.fancytree-checkbox, span.fancytree-custom-icon, span.fancytree-expander, span.fancytree-icon, span.fancytree-radio {
+    margin-top:5px;
+  }
+  .fancytree-plain span.fancytree-active span.fancytree-title, .fancytree-plain span.fancytree-selected span.fancytree-title {
+    border-color:lightskyblue;
+    /*border-left: 6px solid blue;*/
+   
+  }
+  .title {
+    margin-top:-25px;
+    margin-left:40px;
+  } 
+  .title1 {
+    margin-top:1px;
+    margin-left:20px;
+  }
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Style the counter cards */
+/* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: left;
+  background-color: #fff;
+} */
+
+#status {
+  border: 1px inset gray;
+  background-color: #eee;
+}
+#version {
+  color: #555;
+  font-size: 70%;
+}
+#expand {
+  margin-left:48%;
+}
+#collapse {
+  margin-left:93%;
+  display:none;
+}
+
+#expandall {
+  margin-left:93%;
+}
+
+#collapseall {
+  margin-left:93%;
+  display:none;
+}
+.icone {
+  margin-left:-3%;
+}
+.icone1 {
+  margin-left:-70%;
+}
+.ui-icon, .ui-widget-content .ui-icon {
+  background-image: url('');
+}
+#collaped {
+  border:1px solid lightgray;
+  text-align:center;
+  border-top: 6px solid blue;
+  background-color: white;
+}
+#iconcss {
+font-size:48px;
+background-color: lightblue;
+border-radius: 50%;
+display:block;
+width:60px;
+height:60px;
+}
+

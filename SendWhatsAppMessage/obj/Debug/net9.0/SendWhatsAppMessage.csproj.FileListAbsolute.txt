@@ -1,0 +1,5 @@
+C:\FinalCodeSet\SendWhatsAppMessage\obj\Debug\net9.0\SendWhatsAppMessage.csproj.AssemblyReference.cache
+C:\FinalCodeSet\SendWhatsAppMessage\obj\Debug\net9.0\SendWhatsAppMessage.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\SendWhatsAppMessage\obj\Debug\net9.0\SendWhatsAppMessage.AssemblyInfoInputs.cache
+C:\FinalCodeSet\SendWhatsAppMessage\obj\Debug\net9.0\SendWhatsAppMessage.AssemblyInfo.cs
+C:\FinalCodeSet\SendWhatsAppMessage\obj\Debug\net9.0\SendWhatsAppMessage.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\FinalCodeSet\consumerProgram\obj\Debug\net9.0\BankIntegration.csproj.AssemblyReference.cache
+C:\FinalCodeSet\consumerProgram\obj\Debug\net9.0\BankIntegration.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\consumerProgram\obj\Debug\net9.0\BankIntegration.AssemblyInfoInputs.cache
+C:\FinalCodeSet\consumerProgram\obj\Debug\net9.0\BankIntegration.AssemblyInfo.cs
+C:\FinalCodeSet\consumerProgram\obj\Debug\net9.0\BankIntegration.csproj.CoreCompileInputs.cache

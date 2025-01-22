@@ -1,0 +1,1477 @@
+[
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMAuthenticateUserController",
+    "Method": "ARMAuthenticateUser",
+    "RelativePath": "api/ARMAuthenticateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "users",
+        "Type": "ARMCommon.Model.ARMAuthenticateUser",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARMServiceLogController",
+    "Method": "ARMServiceList",
+    "RelativePath": "api/v1",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMAxpertController",
+    "Method": "MD5Hash",
+    "RelativePath": "api/v1",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMCheckServiceController",
+    "Method": "ProcessLogsAndSendEmails",
+    "RelativePath": "api/v1",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMCheckServiceController",
+    "Method": "CheckServiceLogsAndSendEmails",
+    "RelativePath": "api/v1",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMNotificationController",
+    "Method": "Post",
+    "RelativePath": "api/v1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMNotify",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.AxpertAIController",
+    "Method": "AIChat",
+    "RelativePath": "api/v1/AIChat",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "ARM_APIs.Controllers.AxpertAIController\u002BARMAI",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.AxpertAIController",
+    "Method": "AIChatImport",
+    "RelativePath": "api/v1/AIChatImport",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "ARM_APIs.Controllers.AxpertAIController\u002BARMAI",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.AxpertAIController",
+    "Method": "AIChatImportToForm",
+    "RelativePath": "api/v1/AIChatImportToForm",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "ARM_APIs.Controllers.AxpertAIController\u002BARMAI",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMAddUser",
+    "RelativePath": "api/v1/ARMAddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.ARMUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMAddUserSSO",
+    "RelativePath": "api/v1/ARMAddUserSSO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.ARMLoginSSO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMAppStatus",
+    "RelativePath": "api/v1/ARMAppStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMBiometricSignIn",
+    "RelativePath": "api/v1/ARMBiometricSignIn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.UserDevice",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMChangePassword",
+    "RelativePath": "api/v1/ARMChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginuser",
+        "Type": "ARMCommon.Model.UpdatePassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMCheckServiceController",
+    "Method": "ARMcheckService",
+    "RelativePath": "api/v1/ARMcheckService",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMConnectFromAxpert",
+    "RelativePath": "api/v1/ARMConnectFromAxpert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "axpert",
+        "Type": "ARMCommon.Model.ARMAxpertConnect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMAxpertController",
+    "Method": "ARMConnectToARM",
+    "RelativePath": "api/v1/ARMConnectToARM",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "axpert",
+        "Type": "ARMCommon.Model.ARMAxpertConnect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMAxpertController",
+    "Method": "ARMConnectToAxpert",
+    "RelativePath": "api/v1/ARMConnectToAxpert",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "axpert",
+        "Type": "ARMCommon.Model.ARMAxpertConnect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMUtilsController",
+    "Method": "ARMConvertFile",
+    "RelativePath": "api/v1/ARMConvertFile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ARMCommon.Model.ConversionRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARMServiceLogController",
+    "Method": "ARMCreateLog",
+    "RelativePath": "api/v1/ARMCreateLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "log",
+        "Type": "ARMCommon.Model.ARMServiceLogs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMNotificationController",
+    "Method": "ARMDisableMobileNotificationForUser",
+    "RelativePath": "api/v1/ARMDisableMobileNotificationForUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ARMSessionId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMDoBulkAction",
+    "RelativePath": "api/v1/ARMDoBulkAction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskAction",
+        "Type": "ARM_APIs.Model.ARMTaskAction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMDoTaskAction",
+    "RelativePath": "api/v1/ARMDoTaskAction",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskAction",
+        "Type": "ARM_APIs.Model.ARMTaskAction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMExecuteAPIController",
+    "Method": "ARMExecuteAPI",
+    "RelativePath": "api/v1/ARMExecuteAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputAPI",
+        "Type": "ARMCommon.Model.ARMPublishedAPI",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMExecuteAPIController",
+    "Method": "ARMExecutePublishedAPI",
+    "RelativePath": "api/v1/ARMExecutePublishedAPI",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputAPI",
+        "Type": "ARMCommon.Model.ARMPublishedAPI",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMForgotPassword",
+    "RelativePath": "api/v1/ARMForgotPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "forgetPassword",
+        "Type": "ARMCommon.Model.ARMForgetPassword",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetActiveTasks",
+    "RelativePath": "api/v1/ARMGetActiveTasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "axpert",
+        "Type": "ARMCommon.Model.ARMAxpertConnect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMSigninDetailsController",
+    "Method": "ARMGetAppModificationTime",
+    "RelativePath": "api/v1/ARMGetAppModificationTime",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMGetUserGroup",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetAxProcess",
+    "RelativePath": "api/v1/ARMGetAxProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetAxProcessDefinition",
+    "RelativePath": "api/v1/ARMGetAxProcessDefinition",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetAxProcessDetail",
+    "RelativePath": "api/v1/ARMGetAxProcessDetail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetAxProcessList",
+    "RelativePath": "api/v1/ARMGetAxProcessList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetBulkActiveTasks",
+    "RelativePath": "api/v1/ARMGetBulkActiveTasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "ARM_APIs.Model.ARMTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetBulkApprovalCount",
+    "RelativePath": "api/v1/ARMGetBulkApprovalCount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "task",
+        "Type": "ARM_APIs.Model.ARMTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMCardController",
+    "Method": "ARMGetCardsData",
+    "RelativePath": "api/v1/ARMGetCardsData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMCardController",
+    "Method": "ARMGetCardsDataByIds",
+    "RelativePath": "api/v1/ARMGetCardsDataByIds",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetCompletedTasks",
+    "RelativePath": "api/v1/ARMGetCompletedTasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetCompletedTasksCount",
+    "RelativePath": "api/v1/ARMGetCompletedTasksCount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMGetDataController",
+    "Method": "ARMGetDataRequest",
+    "RelativePath": "api/v1/ARMGetDataRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "ARMCommon.Model.ARMGetDataRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMGetDataController",
+    "Method": "ARMGetDataResponse",
+    "RelativePath": "api/v1/ARMGetDataResponse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "ARMCommon.Model.ARMGetDataRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetDataSourcesData",
+    "RelativePath": "api/v1/ARMGetDataSourcesData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetDataSourcesParams",
+    "RelativePath": "api/v1/ARMGetDataSourcesParams",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "axpert",
+        "Type": "ARMCommon.Model.ARMAxpertConnect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetEditableTask",
+    "RelativePath": "api/v1/ARMGetEditableTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMExecuteAPIController",
+    "Method": "ARMGetEncryptedSecret",
+    "RelativePath": "api/v1/ARMGetEncryptedSecret",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "inputAPI",
+        "Type": "ARMCommon.Model.ARMPublishedAPI",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetFilteredActiveTasks",
+    "RelativePath": "api/v1/ARMGetFilteredActiveTasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetFilteredCompletedTasks",
+    "RelativePath": "api/v1/ARMGetFilteredCompletedTasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMGeoFencingController",
+    "Method": "ARMGetGeoFencingData",
+    "RelativePath": "api/v1/ARMGetGeoFencingData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMGetMenuController",
+    "Method": "ARMGetHomePageCards",
+    "RelativePath": "api/v1/ARMGetHomePageCards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetKeyValue",
+    "RelativePath": "api/v1/ARMGetKeyValue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processTask",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMGetMenuController",
+    "Method": "ARMGetMenu",
+    "RelativePath": "api/v1/ARMGetMenu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetNextTaskInProcess",
+    "RelativePath": "api/v1/ARMGetNextTaskInProcess",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetOptionalTask",
+    "RelativePath": "api/v1/ARMGetOptionalTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetPendingActiveTasks",
+    "RelativePath": "api/v1/ARMGetPendingActiveTasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetPendingActiveTasksCount",
+    "RelativePath": "api/v1/ARMGetPendingActiveTasksCount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMCardController",
+    "Method": "ARMGetProcessCardsData",
+    "RelativePath": "api/v1/ARMGetProcessCardsData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetProcessFlow",
+    "RelativePath": "api/v1/ARMGetProcessFlow",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetProcessKeyValues",
+    "RelativePath": "api/v1/ARMGetProcessKeyValues",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processTask",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetProcessTask",
+    "RelativePath": "api/v1/ARMGetProcessTask",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processTask",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetProcessUserType",
+    "RelativePath": "api/v1/ARMGetProcessUserType",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetSendToUsers",
+    "RelativePath": "api/v1/ARMGetSendToUsers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMGetTimelineData",
+    "RelativePath": "api/v1/ARMGetTimelineData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMUserController",
+    "Method": "ARMGetUserProfile",
+    "RelativePath": "api/v1/ARMGetUserProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.ARMGetUserProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMNotificationController",
+    "Method": "ARMMobileNotification",
+    "RelativePath": "api/v1/ARMMobileNotification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "notification",
+        "Type": "ARMCommon.Model.MobileNotification",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMPEGGetTaskDetails",
+    "RelativePath": "api/v1/ARMPEGGetTaskDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "processFlow",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMTstructController",
+    "Method": "ARMPrepareTstructSqls",
+    "RelativePath": "api/v1/ARMPrepareTstructSqls",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "axpert",
+        "Type": "ARMCommon.Model.ARMAxpertConnect",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMGeoFencingController",
+    "Method": "ARMPushGeoFencingData",
+    "RelativePath": "api/v1/ARMPushGeoFencingData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "geofencing",
+        "Type": "ARMCommon.Model.ARMGeoFencingModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMQueueController",
+    "Method": "ARMPushToQueue",
+    "RelativePath": "api/v1/ARMPushToQueue",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queueData",
+        "Type": "ARM_APIs.Model.ARMQueueData",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMQueueController",
+    "Method": "ARMQueueSubmit",
+    "RelativePath": "api/v1/ARMQueueSubmit",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "queueData",
+        "Type": "ARMCommon.Model.ARMInboundQueue",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMTwilioController",
+    "Method": "SendWhatsappMessage",
+    "RelativePath": "api/v1/ARMSendWhatsappMessage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "whatsapp",
+        "Type": "ARM_APIs.Controllers.ARMTwilioController\u002BWhatsappMessage",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMSignin",
+    "RelativePath": "api/v1/ARMSignin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginuser",
+        "Type": "ARMCommon.Model.ARMLoginUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMSigninDetailsController",
+    "Method": "ARMSigninDetails",
+    "RelativePath": "api/v1/ARMSigninDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMGetUserGroup",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMSigninSSO",
+    "RelativePath": "api/v1/ARMSigninSSO",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.ARMLoginSSO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMSignOut",
+    "RelativePath": "api/v1/ARMSignOut",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sessionid",
+        "Type": "ARMCommon.Model.ARMSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMPEGController",
+    "Method": "ARMSkipOptionalTasks",
+    "RelativePath": "api/v1/ARMSkipOptionalTasks",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taskAction",
+        "Type": "ARM_APIs.Model.ARMTaskAction",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMTest",
+    "RelativePath": "api/v1/ARMTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMGeoFencingController",
+    "Method": "ARMUpdateLocation",
+    "RelativePath": "api/v1/ARMUpdateLocation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "location",
+        "Type": "ARMCommon.Model.ARMUpdateLocationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMUserController",
+    "Method": "ARMUpdateUserProfile",
+    "RelativePath": "api/v1/ARMUpdateUserProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.ARMUpdateUserProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMUserGroupsController",
+    "Method": "ARMUserGroups",
+    "RelativePath": "api/v1/ARMUserGroups",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aRMGetUserGroup",
+        "Type": "ARMCommon.Model.ARMGetUserGroup",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMLoginController",
+    "Method": "ARMValidateAddUser",
+    "RelativePath": "api/v1/ARMValidateAddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.ARMValidateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMUserController",
+    "Method": "ARMValidateUserProfile",
+    "RelativePath": "api/v1/ARMValidateUserProfile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "ARMCommon.Model.ARMUpdateUserProfile",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.AxpertAIController",
+    "Method": "GetColumnsAndGenerateInsertQuery",
+    "RelativePath": "api/v1/GetColumnsAndGenerateInsertQuery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "tableName",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FcmTokenController",
+    "Method": "GetFCMAccessToken",
+    "RelativePath": "api/v1/GetFCMAccessToken",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileController",
+    "Method": "GetFileByFileName",
+    "RelativePath": "api/v1/GetFileByFileName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ARMCommon.Model.GetFilerequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileController",
+    "Method": "GetFileByRecordId",
+    "RelativePath": "api/v1/GetFileByRecordId",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ARMCommon.Model.FileRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FileController",
+    "Method": "GetMultipleFilesByFileName",
+    "RelativePath": "api/v1/GetMultipleFilesByFileName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ARMCommon.Model.MultiFiles",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FcmTokenController",
+    "Method": "SendFCMNotification",
+    "RelativePath": "api/v1/SendFCMNotification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "fcmRequest",
+        "Type": "FCMRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMNotificationController",
+    "Method": "SendSignalR",
+    "RelativePath": "api/v1/SendSignalR",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ARMCommon.Model.SendSignalRRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.ARMStatusV2Controller",
+    "Method": "ARMAppStatusV2",
+    "RelativePath": "api/v2/ARMAppStatusV2",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "ARMCommon.Model.ARMResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.GetMenuControllerV2",
+    "Method": "ARMGetHomePageCards",
+    "RelativePath": "api/v2/ARMGetHomePageCards",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "process",
+        "Type": "ARM_APIs.Model.ARMProcessFlowTask",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.GetMenuControllerV2",
+    "Method": "ARMGetMenu",
+    "RelativePath": "api/v2/ARMGetMenu",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ARMCommon.Model.ARMSession",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ARM_APIs.Controllers.AxpertAIController",
+    "Method": "GetHtml",
+    "RelativePath": "GetHtml",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "api-version",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

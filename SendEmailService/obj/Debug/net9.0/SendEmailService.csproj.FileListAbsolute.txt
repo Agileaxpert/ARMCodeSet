@@ -1,0 +1,5 @@
+C:\FinalCodeSet\SendEmailService\obj\Debug\net9.0\SendEmailService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\SendEmailService\obj\Debug\net9.0\SendEmailService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\SendEmailService\obj\Debug\net9.0\SendEmailService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\SendEmailService\obj\Debug\net9.0\SendEmailService.AssemblyInfo.cs
+C:\FinalCodeSet\SendEmailService\obj\Debug\net9.0\SendEmailService.csproj.CoreCompileInputs.cache

@@ -1,0 +1,5 @@
+C:\FinalCodeSet\ARMPeriodicNotificationService\obj\Debug\net9.0\ARMPeriodicNotificationService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMPeriodicNotificationService\obj\Debug\net9.0\ARMPeriodicNotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMPeriodicNotificationService\obj\Debug\net9.0\ARMPeriodicNotificationService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMPeriodicNotificationService\obj\Debug\net9.0\ARMPeriodicNotificationService.AssemblyInfo.cs
+C:\FinalCodeSet\ARMPeriodicNotificationService\obj\Debug\net9.0\ARMPeriodicNotificationService.csproj.CoreCompileInputs.cache

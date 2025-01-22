@@ -1,0 +1,5 @@
+C:\FinalCodeSet\ARMCachedSaveService\obj\Debug\net9.0\ARMCachedSaveService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMCachedSaveService\obj\Debug\net9.0\ARMCachedSaveService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMCachedSaveService\obj\Debug\net9.0\ARMCachedSaveService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMCachedSaveService\obj\Debug\net9.0\ARMCachedSaveService.AssemblyInfo.cs
+C:\FinalCodeSet\ARMCachedSaveService\obj\Debug\net9.0\ARMCachedSaveService.csproj.CoreCompileInputs.cache

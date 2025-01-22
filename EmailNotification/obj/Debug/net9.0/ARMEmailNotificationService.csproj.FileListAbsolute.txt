@@ -1,0 +1,5 @@
+C:\FinalCodeSet\EmailNotification\obj\Debug\net9.0\ARMEmailNotificationService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\EmailNotification\obj\Debug\net9.0\ARMEmailNotificationService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\EmailNotification\obj\Debug\net9.0\ARMEmailNotificationService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\EmailNotification\obj\Debug\net9.0\ARMEmailNotificationService.AssemblyInfo.cs
+C:\FinalCodeSet\EmailNotification\obj\Debug\net9.0\ARMEmailNotificationService.csproj.CoreCompileInputs.cache

@@ -1,0 +1,139 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+
+
+    <p><label for="configText">Input String:</label></p>
+    <textarea id="configText" rows="10" cols="100"></textarea>
+    <br>
+    <input type="button" onclick="parseInput();" value="Parse Input">
+
+    <div id="configHtmlContainer">
+
+    </div>
+
+    <script type="text/javascript">
+
+        var configParamsDataObj = {
+            "MaxLeaveConfig": {
+                "clMax": 10,
+                "slMax": 20,
+                "mlMax": 30,
+                "variations": "attribute~gender",
+                "gender": {
+                    "female": {
+                        "clMax": 11,
+                        "slMax": 22,
+                        "mlMax": 180
+                    },
+                    "male": {
+                        "clMax": 8,
+                        "slMax": 9,
+                        "mlMax": 7
+                    }
+                }
+            },
+            "TMaxLeaveConfig": {
+                "clMax": 10,
+                "slMax": 20,
+                "mlMax": 30
+            },
+            "EmployeeMaxLeaveConfig": {
+                "maxleaves": 11,
+                "maxinrequest": 11,
+                "CL": {
+                    "IsApplicable": "T",
+                    "maxleaves": 10,
+                    "maxinrequest": 5,
+                    "variations": "attribute~grade",
+                    "grade": {
+                        "Grade1": {
+                            "IsApplicable": "T",
+                            "maxleaves": 180,
+                            "maxinrequest": 180
+                        }
+                    }
+                },
+                "SL": {
+                    "IsApplicable": "T",
+                    "maxleaves": 11,
+                    "maxinrequest": 2
+                },
+                "ML": {
+                    "IsApplicable": "F",
+                    "maxleaves": 0,
+                    "maxinrequest": 0,
+                    "variations": "attribute~gender",
+                    "gender": {
+                        "female": {
+                            "IsApplicable": "T",
+                            "maxleaves": 180,
+                            "maxinrequest": 180
+                        }
+                    }
+                },
+            }
+        };
+
+        function parseInput() {
+            let configStr = document.getElementById('configText').value;
+
+            alert(eval(configStr));
+        }
+
+        function GetAxValue(rule, variable, code) {
+            debugger;
+            if ($("#data1000F1").length) {
+                let configParamsDataObj = $("#data1000F1").val();
+                configParamsDataObj = configParamsDataObj.replace(/(?:\r\n|\r|\n)/g, '')
+                configParamsDataObj = JSON.parse(configParamsDataObj);
+                let axVars = configParamsDataObj.vars;
+
+                if (typeof configParamsDataObj[rule] == "undefined") {
+                    return "Rule not available";
+                }
+
+                var ruleData;
+                if (typeof code != "undefined" && typeof configParamsDataObj[rule][code] != "undefined") {
+                    ruleData = configParamsDataObj[rule][code];
+                }
+                else {
+                    ruleData = configParamsDataObj[rule];
+                }
+
+                var result;
+                if (typeof ruleData["variations"] != "undefined") {
+                    debugger;
+                    let variationDetails = ruleData["variations"];
+                    let vType = variationDetails.split("~")[0];
+                    let vName = variationDetails.split("~")[1];                   
+
+
+                    let variation = axVars?.[vName];
+                    if (typeof variation != "undefined") {
+                        if (typeof ruleData[vName][variation] != "undefined") {
+                            result = ruleData[vName][variation][variable];
+                        }
+                    }                    
+                }
+
+                if (typeof result == "undefined") {
+                    result = ruleData[variable];
+                }
+
+                if (typeof result == "undefined") {
+                    result = configParamsDataObj[rule][variable];
+                }
+
+                if (typeof result != "undefined") {
+                    return result;
+                }
+            }
+
+            return "";
+
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,279 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AgileConnect
+build_property.RootNamespace = AgileConnect
+build_property.ProjectDir = C:\FinalCodeSet\AgileConnect\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\FinalCodeSet\AgileConnect
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMApps/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNQXBwc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMApps/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNQXBwc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMApps/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNQXBwc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/APIDefinitionsList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcQVBJRGVmaW5pdGlvbnNMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/CreateAPIDefinitions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcQ3JlYXRlQVBJRGVmaW5pdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/CreateSQLDataSource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcQ3JlYXRlU1FMRGF0YVNvdXJjZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/DeleteAPIDefinitions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcRGVsZXRlQVBJRGVmaW5pdGlvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/EditAPIDefinitions.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcRWRpdEFQSURlZmluaXRpb25zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/EditSQLDataSource.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcRWRpdFNRTERhdGFTb3VyY2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcTGlzdEJ5QXBwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMDataSources/SQLDataSourceList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNRGF0YVNvdXJjZXNcU1FMRGF0YVNvdXJjZUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMHtml/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSHRtbFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMHtml/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSHRtbFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMHtml/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSHRtbFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMHtml/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSHRtbFxMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMHtml/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSHRtbFxMaXN0QnlBcHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMInstance/Configure.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSW5zdGFuY2VcQ29uZmlndXJlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMInstance/dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSW5zdGFuY2VcZGFzaGJvYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMInstance/service.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNSW5zdGFuY2Vcc2VydmljZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMNotification/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNTm90aWZpY2F0aW9uXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMNotification/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNTm90aWZpY2F0aW9uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMNotification/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNTm90aWZpY2F0aW9uXExpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMNotification/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNTm90aWZpY2F0aW9uXExpc3RCeUFwcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMSignIn/ResetCredential.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNU2lnbkluXFJlc2V0Q3JlZGVudGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMSignIn/SignIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNU2lnbkluXFNpZ25Jbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUserGroups/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlckdyb3Vwc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUserGroups/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlckdyb3Vwc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUserGroups/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlckdyb3Vwc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUserGroups/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlckdyb3Vwc1xMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUserGroups/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlckdyb3Vwc1xMaXN0QnlBcHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUsers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUsers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUsers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUsers/List.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlcnNcTGlzdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUsers/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlcnNcTGlzdEJ5QXBwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/ARMUsers/_Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQVJNVXNlcnNcX1JlZ2lzdHJhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModulePage/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVQYWdlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModulePage/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVQYWdlXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModulePage/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVQYWdlXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModulePage/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVQYWdlXExpc3RCeUFwcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModule/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModule/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModule/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxModule/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhNb2R1bGVcTGlzdEJ5QXBwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxSubModule/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhTdWJNb2R1bGVcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxSubModule/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhTdWJNb2R1bGVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxSubModule/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhTdWJNb2R1bGVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/AxSubModule/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXhTdWJNb2R1bGVcTGlzdEJ5QXBwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/InlineForm/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5saW5lRm9ybVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/InlineForm/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5saW5lRm9ybVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/InlineForm/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5saW5lRm9ybVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/InlineForm/ListByApp.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW5saW5lRm9ybVxMaXN0QnlBcHAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/Logs/logs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nc1xsb2dzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/Shared/_CookieConsentPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Db29raWVDb25zZW50UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/SignalR/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2lnbmFsUlxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/FinalCodeSet/AgileConnect/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

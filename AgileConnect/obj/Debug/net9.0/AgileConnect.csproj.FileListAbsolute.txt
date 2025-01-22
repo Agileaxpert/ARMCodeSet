@@ -1,0 +1,8 @@
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.csproj.AssemblyReference.cache
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.AssemblyInfoInputs.cache
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.AssemblyInfo.cs
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.csproj.CoreCompileInputs.cache
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.MvcApplicationPartsAssemblyInfo.cache
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.RazorAssemblyInfo.cache
+C:\FinalCodeSet\AgileConnect\obj\Debug\net9.0\AgileConnect.RazorAssemblyInfo.cs

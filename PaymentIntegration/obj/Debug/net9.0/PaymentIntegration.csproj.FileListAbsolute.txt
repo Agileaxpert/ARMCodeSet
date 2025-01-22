@@ -1,0 +1,5 @@
+C:\FinalCodeSet\PaymentIntegration\obj\Debug\net9.0\PaymentIntegration.csproj.AssemblyReference.cache
+C:\FinalCodeSet\PaymentIntegration\obj\Debug\net9.0\PaymentIntegration.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\PaymentIntegration\obj\Debug\net9.0\PaymentIntegration.AssemblyInfoInputs.cache
+C:\FinalCodeSet\PaymentIntegration\obj\Debug\net9.0\PaymentIntegration.AssemblyInfo.cs
+C:\FinalCodeSet\PaymentIntegration\obj\Debug\net9.0\PaymentIntegration.csproj.CoreCompileInputs.cache

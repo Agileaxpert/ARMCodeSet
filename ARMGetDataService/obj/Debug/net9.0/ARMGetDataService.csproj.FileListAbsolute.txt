@@ -1,0 +1,5 @@
+C:\FinalCodeSet\ARMGetDataService\obj\Debug\net9.0\ARMGetDataService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMGetDataService\obj\Debug\net9.0\ARMGetDataService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMGetDataService\obj\Debug\net9.0\ARMGetDataService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMGetDataService\obj\Debug\net9.0\ARMGetDataService.AssemblyInfo.cs
+C:\FinalCodeSet\ARMGetDataService\obj\Debug\net9.0\ARMGetDataService.csproj.CoreCompileInputs.cache

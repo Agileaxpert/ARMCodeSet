@@ -1,0 +1,5 @@
+C:\FinalCodeSet\ARMPegInitService\obj\Debug\net9.0\ARMPegInitService.csproj.AssemblyReference.cache
+C:\FinalCodeSet\ARMPegInitService\obj\Debug\net9.0\ARMPegInitService.GeneratedMSBuildEditorConfig.editorconfig
+C:\FinalCodeSet\ARMPegInitService\obj\Debug\net9.0\ARMPegInitService.AssemblyInfoInputs.cache
+C:\FinalCodeSet\ARMPegInitService\obj\Debug\net9.0\ARMPegInitService.AssemblyInfo.cs
+C:\FinalCodeSet\ARMPegInitService\obj\Debug\net9.0\ARMPegInitService.csproj.CoreCompileInputs.cache

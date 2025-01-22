@@ -1,0 +1,424 @@
+﻿@model ARMCommon.Model.Logs
+
+@{
+    ViewData["Title"] = "ARM Logs";
+}
+
+<!-- Rest of your view content -->
+
+<div class="form-group col-md-6">
+    <label asp-for="appname" class="control-label"> App Name</label>
+
+    <div class="col-md-8">
+        <input asp-for="appname" readonly="readonly" id="txtkey" class="form-control" />
+    </div>
+</div>
+<!-- Add a hidden field to store the list of API names -->
+<input type="hidden" id="apiNamesHiddenField" value="@ViewBag.ApiNames" />
+<input type="hidden" id="serviceNamesHiddenField" value="@ViewBag.serviceNames" />
+<div class="form-group col-md-6">
+    <label asp-for="API" class="control-label"> API</label>
+    <div class="col-md-8">
+        <select id="ddlApi" class="form-control select-multiple" multiple>
+            <option value="All">All</option>
+        </select>
+        <span asp-validation-for="API" class="text-danger"></span>
+    </div>
+</div>
+
+<div class="form-group col-md-6">
+    <label asp-for="Service" class="control-label">Service</label>
+    <div class="col-md-8">
+        <select id="ddlOptions" class="form-control select-multiple" multiple>
+            <option value="All">All</option>
+        </select>
+        <span asp-validation-for="Service" class="text-danger"></span>
+    </div>
+</div>
+
+
+<!-- Button to start logging -->
+<div class="row">
+    <!-- Start Logging button -->
+    <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
+            <button type="button" id="btnStartLogging" class="btn btn-primary btn-block">Start Logging</button>
+        </div>
+        <div class="invalid-feedback" id="ddlApiError" style="display: none; color: red;">
+            Please select at least one API.
+        </div>
+    </div>
+
+    <!-- Stop Logging button -->
+    <div class="form-group col-md-6">
+        <div class="form-group col-md-4">
+            <button type="button" id="btnStopLogging" class="btn btn-danger btn-block">Stop Logging</button>
+        </div>
+    </div>
+</div>
+
+<!-- Add tab view for Current Logs and All Logs -->
+<div class="container mt-3">
+    <!-- Add tab view for Current Logs and All Logs -->
+    <ul class="nav nav-tabs" id="logsTab">
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#currentLogsTab">Current Logs</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#allLogsTab">All Logs</a>
+        </li>
+    </ul>
+
+    <div class="tab-content">
+        <!-- Current Logs tab content -->
+        <div class="tab-pane fade show active" id="currentLogsTab">
+            <!-- Add table for current logs -->
+            <div class="form-group col-md-12" style="display: none;" id="currentLogsTableContainer">
+                <table class="table" id="currentLogsTable">
+                    <!-- Table headers -->
+                    <thead id="currentLogsTableHeader" style="display: none;">
+                        <tr>
+                            <th>Log Time</th>
+                            <th>InstanceId</th>
+                            <th>LogType</th>
+                            <th>Path</th>
+                            <th>Module</th>
+                            <th>LogDetails</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Rows for the fetched logs will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- All Logs tab content -->
+        <div class="tab-pane fade" id="allLogsTab">
+            <!-- Add table for all logs -->
+            <div class="form-group col-md-12" style="display: none;" id="allLogsTableContainer">
+                <table class="table" id="allLogsTable">
+                    <!-- Table headers -->
+                    <thead>
+                        <tr>
+                            <th>Log Time</th>
+                            <th>InstanceId</th>
+                            <th>LogType</th>
+                            <th>Path</th>
+                            <th>Module</th>
+                            <th>LogDetails</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Rows for the fetched logs will be added here -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Rest of your view content goes here -->
+</div>
+
+<!-- Rest of your view content -->
+@section Scripts {
+    <style>
+        label {
+            margin-left: 17px;
+        }
+
+        button {
+            margin-left: 13px;
+        }
+    </style>
+    <script src="~/lib/select2/js/select2.full.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#ddlApi').select2({
+                placeholder: "Please select API(s)...",
+                allowClear: true,
+                tags: true, // This allows adding custom tags not present in the API list
+                multiple: true // Add this line to enable multiselect
+            });
+            $('#ddlOptions').select2({
+                placeholder: "Please select Service(s)...",
+                allowClear: true,
+                tags: true, // This allows adding custom tags not present in the API list
+                multiple: true // Add this line to enable multiselect
+            });
+            $.ajax({
+                type: "GET",
+                url: "http://localhost/ARM/api/v1/ARMGetAPIName",
+                dataType: "json",
+                success: function (data) {
+                    //debugger;
+                    $.each(data, function (index, apiName) {
+                        var option = new Option(apiName, apiName);
+                        $('#ddlApi').append(option);
+                    });
+                    populateApiNames();
+                   
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error fetching API names: " + error);
+                }
+            });
+            $.ajax({
+                url: '@Url.Action("GetDropdownValues")',
+                type: 'GET',
+                dataType: 'json',
+                success: function (data) {
+                    // Populate the multi-select dropdown with the retrieved values
+                    var dropdown = $("#ddlOptions");
+                    var options = JSON.parse(data);
+                    $.each(options.values, function (index, value) {
+                        dropdown.append($("<option />").val(value).text(value));
+                    });
+                    populateServiceNames();
+                },
+                error: function () {
+                    alert("Failed to fetch dropdown values.");
+                }
+            });
+             $('#btnStopLogging').prop('disabled', true);
+            $('#logsTab a[href="#currentLogsTab"]').addClass('disabled');
+            $('#btnStartLogging').click(function () {
+                var selectedAPIs = $('#ddlApi').val();
+                if (!selectedAPIs || selectedAPIs.length === 0) {
+                    // Show the error message and prevent logging action
+                    $('#ddlApiError').show();
+                    return;
+                }
+
+                // Hide the error message if at least one API is selected
+                $('#ddlApiError').hide();
+                startLogging();
+                $('#logsTab a[href="#currentLogsTab"]').removeClass('disabled');
+                $('#btnStopLogging').prop('disabled', false);
+                $('#logsTab a[href="#currentLogsTab"]').removeClass('disabled');
+                $('#btnStartLogging').prop('disabled', true);
+            });
+            $('#btnStopLogging').click(function () {
+                ////debugger;
+                stopLogging();
+                stopAutoRefreshCurrentLogs();
+                var tableContainer = $('#currentLogsTableContainer');
+                var tableBody = $('#currentLogsTable tbody');
+                var noLogsMessage = $('#currentLogsNotFound');
+                var tableHeader = $('#currentLogsTableHeader');
+                tableBody.empty();
+                tableHeader.hide();
+                var noLogsRow = '<tr><td colspan="6">No logs found.</td></tr>';
+                tableBody.append(noLogsRow);
+                tableContainer.show();
+                $('#btnStopLogging').prop('disabled', true);
+                $('#btnStartLogging').prop('disabled', false);
+                $('#logsTab a[href="#currentLogsTab"]').addClass('disabled');
+            });
+            $('#logsTab a[href="#allLogsTab"]').on('click', function (e) {
+                ////debugger;
+                e.preventDefault();
+                fetchAllLogs();
+                $(this).tab('show');
+            });
+            $('#logsTab a[href="#currentLogsTab"]').on('click', function (e) {
+                //debugger;
+                e.preventDefault();
+                fetchCurrentLogs();
+                autoRefreshCurrentLogs();
+                $(this).tab('show');
+            });
+            function startLogging() {
+                var formData = {
+                    appname: '@Model.appname',
+                    apiNames: $('#ddlApi').val(),
+                    serviceNames: $('#ddlOptions').val()
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("StartLogging")',
+                    data: formData,
+                    success: function (response) {
+                        console.log("Logging started successfully!");
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Error starting logging: " + error);
+                    }
+                });
+ }
+            function stopLogging() {
+                var formData = {
+                    appname: '@Model.appname'
+                };
+
+                $.ajax({
+                    type: "POST",
+                    url: '@Url.Action("StopLogging")',
+                    data: formData,
+                    success: function (response) {
+                        console.log("Logging stopped successfully!");
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Error stopping logging: " + error);
+                    }
+                });
+            }
+            function fetchAllLogs() {
+                //debugger;
+                var url = '/Logs/GetAllLogs';
+                var tableContainer = $('#allLogsTableContainer');
+                var tableBody = $('#allLogsTable tbody');
+
+                $.ajax({
+                    type: 'GET',
+                    url: url,
+                    dataType: 'json',
+                    success: function (data) {
+
+                        tableBody.empty();
+
+                        if (data.length === 0) {
+                            //debugger;
+                            tableContainer.show().empty().append('<p>No logs found.</p>');
+                        } else {
+                            //debugger;
+                            $.each(data, function (index, log) {
+                                var row = '<tr>' +
+                                    '<td>' + log.logtime + '</td>' +
+                                    '<td>' + log.instanceid + '</td>' +
+                                    '<td>' + log.logtype + '</td>' +
+                                    '<td>' + log.path + '</td>' +
+                                    '<td>' + log.module + '</td>' +
+                                    '<td>' + log.logdetails + '</td>' +
+                                    '</tr>';
+                                tableBody.append(row);
+                            });
+                            showNoLogsMessage('all')
+                            tableContainer.show();
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        //debugger;
+                        console.error("Error fetching all logs: " + error);
+                    }
+                });
+            }
+            function fetchCurrentLogs() {
+                //debugger;
+                var url = '/Logs/GetCurrentLogs';
+                var tableContainer = $('#currentLogsTableContainer');
+                var tableBody = $('#currentLogsTable tbody');
+                var noLogsMessage = $('#currentLogsNotFound');
+                var tableHeader = $('#currentLogsTableHeader');
+
+                $.ajax({
+                    type: 'GET',
+                    url: url,
+                    dataType: 'json',
+                    success: function (data) {
+                        tableBody.empty();
+
+                        if (data.length === 0) {
+                            //debugger;
+                            tableHeader.hide();
+                            // If no logs, hide the table and show the "No logs found" message
+                            var noLogsRow = '<tr><td colspan="6">No logs found.</td></tr>';
+                            tableBody.append(noLogsRow);
+                            tableContainer.show();
+                        } else {
+                            //debugger;
+                            // If there are logs, hide the "No logs found" message and populate the table
+                            noLogsMessage.hide();
+                            tableHeader.show();
+                            $.each(data, function (index, log) {
+                                var row = '<tr>' +
+                                    '<td>' + log.logtime + '</td>' +
+                                    '<td>' + log.instanceid + '</td>' +
+                                    '<td>' + log.logtype + '</td>' +
+                                    '<td>' + log.path + '</td>' +
+                                    '<td>' + log.module + '</td>' +
+                                    '<td>' + log.logdetails + '</td>' +
+                                    '</tr>';
+                                tableBody.append(row);
+                            });
+                            tableContainer.show();
+                        }
+                    },
+                    error: function (xhr, status, error) {
+                        console.error("Error fetching current logs: " + error);
+                    }
+                });
+            }
+            function showNoLogsMessage(logType) {
+                //debugger;
+                var tableContainer = logType === 'all' ? $('#allLogsTableContainer') : $('#currentLogsTableContainer');
+                var table = logType === 'all' ? $('#allLogsTable') : $('#currentLogsTable');
+                var tableBody = table.find('tbody');
+                var noLogsMessage = logType === 'all' ? $('#allLogsNotFound') : $('#currentLogsNotFound');
+
+                // Check if the table body contains any td elements (i.e., logs)
+                if (tableBody.find('td').length === 0) {
+                    //debugger;
+                    // If no logs, hide the table and show the "No logs found" message
+                    tableContainer.show();
+                    noLogsMessage.show();
+                } else {
+                    //debugger;
+                    // If there are logs, show the table and hide the "No logs found" message
+                    tableContainer.show();
+                    noLogsMessage.hide();
+                }
+            }
+            function autoRefreshCurrentLogs() {
+                //debugger;
+                window.currentLogsInterval = setInterval(function () {
+                    fetchCurrentLogs();
+                }, 5000);
+            }
+            function stopAutoRefreshCurrentLogs() {
+                clearInterval(window.currentLogsInterval);
+            }
+             function populateApiNames() {
+                //debugger;
+                 var apiNamesCommaSeparated = $('#apiNamesHiddenField').val();
+                 var apiNamesArrays = apiNamesCommaSeparated.split(',');
+                console.log(apiNamesArrays);
+                if (!apiNamesArrays || apiNamesArrays.length === 0) {
+                    console.log("API list is empty.");
+                } else {
+                     //debugger;
+                    $('#ddlApi').val(apiNamesArrays);
+                    $('#ddlApi').trigger('change');
+                    $('#btnStopLogging').prop('disabled', false);
+                    $('#btnStartLogging').prop('disabled', true);
+                    $('#logsTab a[href="#currentLogsTab"]').removeClass('disabled');
+                    triggerCurrentLogButtonClick();
+                }
+            }
+            function populateServiceNames() {
+                //debugger;
+                var serviceNamesCommaSeparated = $('#serviceNamesHiddenField').val();
+                var serviceNamesArrays = serviceNamesCommaSeparated.split(',');
+                console.log(serviceNamesArrays);
+                if (!serviceNamesArrays || serviceNamesArrays.length === 0) {
+                    console.log("service list is empty.");
+                } else {
+                    //debugger;
+                    $('#ddlOptions').val(serviceNamesArrays);
+                    $('#ddlOptions').trigger('change');
+                    $('#btnStopLogging').prop('disabled', false);
+                    $('#btnStartLogging').prop('disabled', true);
+                    $('#logsTab a[href="#currentLogsTab"]').removeClass('disabled');
+                    triggerCurrentLogButtonClick();
+                }
+            }
+            function triggerCurrentLogButtonClick() {
+                $('#logsTab a[href="#currentLogsTab"]').click();
+            }
+        });
+
+
+    </script>
+
+}

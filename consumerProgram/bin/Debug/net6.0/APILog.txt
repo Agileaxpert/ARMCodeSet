@@ -1,0 +1,30 @@
+[2024-12-03 12:38:32] Error executing query: 42703: column "doc_filepath" does not exist
+
+POSITION: 37
+[2024-12-03 14:23:22] Error executing query: 42601: syntax error at or near "documentDetails"
+
+POSITION: 797
+[2024-12-03 15:07:59] Error executing query: 42601: syntax error at or near "content"
+
+POSITION: 346
+[2024-12-03 15:11:53] Error executing query: 42703: column "doc_filepath" does not exist
+
+POSITION: 37
+[2024-12-03 15:11:53] Error executing query: 42703: column "doc_filepath" does not exist
+
+POSITION: 37
+[2024-12-03 15:13:41] Error executing query: 42601: syntax error at or near "content"
+
+POSITION: 346
+[2024-12-03 15:24:36] Error executing query: 42601: syntax error at or near "content"
+
+POSITION: 346
+[2024-12-05 12:25:37] Error executing query: 42601: syntax error at or near "content"
+
+POSITION: 346
+[2024-12-05 12:33:06] Error executing query: 42601: syntax error at or near "content"
+
+POSITION: 346
+[2024-12-05 16:06:05] Error executing query: 42601: syntax error at or near "content"
+
+POSITION: 346
