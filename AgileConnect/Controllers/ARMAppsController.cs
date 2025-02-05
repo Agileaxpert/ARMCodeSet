@@ -7,9 +7,13 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Npgsql;
+using NPOI.SS.Formula.Functions;
 using Oracle.ManagedDataAccess.Client;
 using StackExchange.Redis;
+using System;
 using System.Data;
+using System.Data.Odbc;
+using System.Data.SqlClient;
 
 namespace AgileConnect.Controllers
 {
@@ -72,7 +76,7 @@ namespace AgileConnect.Controllers
                 _context.Add(model);
                 await _context.SaveChangesAsync();
                 await _redis.StringSetAsync(rediskey, _common.GetRedisConnections(model.RedisIP, model.RedisPassword));
-                await _redis.StringSetAsync(dbkey, _common.GetDBConnections(model.DataBase, model.UserName, model.Password, model.DBVersion, model.ConnectionName));
+                await _redis.StringSetAsync(dbkey, _common.GetDBConnections(model.DataBase, model.UserName, model.Password, model.DBVersion,model.Sqlversion, model.ConnectionName));
                 return RedirectToAction("List");
             }
             return View(model);
@@ -141,7 +145,7 @@ namespace AgileConnect.Controllers
                     _context.Update(model);
                     await _context.SaveChangesAsync();
                     await _redis.StringSetAsync(rediskey, _common.GetRedisConnections(model.RedisIP, model.RedisPassword));
-                    await _redis.StringSetAsync(dbkey, _common.GetDBConnections(model.DataBase, model.UserName, model.Password, model.DBVersion, model.ConnectionName));
+                    await _redis.StringSetAsync(dbkey, _common.GetDBConnections(model.DataBase, model.UserName, model.Password, model.DBVersion,model.Sqlversion, model.ConnectionName));
                 }
                 catch (DbUpdateConcurrencyException)
                 {
@@ -214,6 +218,10 @@ namespace AgileConnect.Controllers
                 {
                     connection = new OracleConnection(connectionString);
                 }
+                else if (dbType.Equals("mssql", StringComparison.OrdinalIgnoreCase))
+                {
+                    connection = new SqlConnection(connectionString);
+                }
                 else
                 {
                     return Json(new { success = false, message = "Invalid database type specified." });
@@ -222,13 +230,113 @@ namespace AgileConnect.Controllers
                 connection.Open();
                 connection.Close();
 
-                return Json(new { success = true, message = "Connection successful." });
+                return Json(new { success = true, message = "Connection Successful." });
             }
             catch (Exception ex)
             {
                 return Json(new { success = false, message = ex.Message });
             }
         }
+
+
+        [HttpPost]
+        public async Task<IActionResult> GetServerIpAndPort(string dbVersion, string uid, string pwd, string database)
+        {
+            string connStr = $"DSN={dbVersion};Uid={uid};Pwd={pwd};";
+            string connectionString = "";
+            string dataSourceName = string.Empty;
+
+            try
+            {
+                using (OdbcConnection connection = new OdbcConnection(connStr))
+                {
+                    await connection.OpenAsync();
+
+                    using (OdbcCommand cmd = connection.CreateCommand())
+                    {
+                        cmd.CommandText = @"
+                SELECT local_net_address, local_tcp_port 
+                FROM sys.dm_exec_connections 
+                WHERE session_id = @@SPID";
+
+                        using (OdbcDataReader reader = (OdbcDataReader)await cmd.ExecuteReaderAsync(CommandBehavior.CloseConnection))
+                        {
+                            if (await reader.ReadAsync())
+                            {
+                                string ip = reader["local_net_address"]?.ToString();
+                                string port = reader["local_tcp_port"]?.ToString();
+
+                                if (!string.IsNullOrEmpty(ip) && !string.IsNullOrEmpty(port))
+                                {
+                                    dataSourceName = $"{ip}\\{dbVersion},{port}";
+                                }
+                                else
+                                {
+                                    return Json(new { success = false, message = "Could not retrieve IP and Port" });
+                                }
+                            }
+                        }
+                    }
+                }
+
+                connectionString = $"Server={dataSourceName};Database={database};User Id={uid};Password={pwd};";
+
+                return Json(new { success = true, connectionString });
+            }
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Failed to retrieve server details", error = ex.Message });
+            }
+        }
+
+
+
+
+
+
+        //[HttpPost]
+        //public ActionResult<string> GetServerIpAndPort(string deVersion, string uid, string pwd, string database)
+        //{
+        //    string connStr = $"DSN={deVersion};Uid={uid};Pwd={pwd};";
+        //    string connectionString = "";
+        //    string dataSourceName = string.Empty;
+
+        //    using (OdbcConnection odbcConn = new OdbcConnection(connStr))
+        //    {
+        //        try
+        //        {
+        //            odbcConn.Open();
+        //            using (OdbcCommand cmd = odbcConn.CreateCommand())
+        //            {
+        //                cmd.CommandText = @"
+        //      SELECT local_net_address, local_tcp_port 
+        //      FROM sys.dm_exec_connections 
+        //      WHERE session_id = @@SPID";
+
+        //                using (OdbcDataReader reader = cmd.ExecuteReader())
+        //                {
+        //                    if (reader.Read())
+        //                    {
+        //                        string ip = reader["local_net_address"].ToString();
+        //                        string port = reader["local_tcp_port"].ToString();
+        //                        dataSourceName = $"{ip}\\{deVersion},{port}";
+        //                    }
+        //                }
+        //            }
+        //            connectionString = $"Server={dataSourceName};Database={database};User Id={uid};Password={pwd};";
+        //        }
+        //        catch (Exception ex)
+        //        {
+        //            return BadRequest($"Error: {ex.Message}");
+        //        }
+        //        finally
+        //        {
+        //            odbcConn.Close();
+        //        }
+        //    }
+
+        //    return !string.IsNullOrEmpty(connectionString) ? Ok(connectionString) : BadRequest("Failed to get connection string.");
+        //}
 
         [HttpPost]
         public async Task<IActionResult> TestRedisConnection(string redisIP, string redisPassword)

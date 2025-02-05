@@ -95,17 +95,26 @@
                                 </div>
                             </div>
 
-                            <div class="form-group col-md-6">
-                                <label asp-for="DataBase" class="control-label">DataBase Type</label>
-                                <div class="col-md-8">
-                                    <select asp-for="DataBase" id="DataBase">
-                                        <option> Select DataBase Type </option>
-                                        <option value="postgre"> postgre </option>
-                                        <option value="oracle"> oracle</option>
-                                    </select>
-
-                                </div>
+                            <div class="col-md-6">
+                                <label asp-for="DataBase" class="control-label">Database Type</label><br />
+                                <select asp-for="DataBase" id="DataBase">
+                                    <option value="">Select Database Type</option>
+                                    <option value="postgre">PostgreSQL</option>
+                                    <option value="oracle">Oracle</option>
+                                    <option value="mssql">MS SQL</option>
+                                </select>
                             </div>
+
+                            <div class="col-md-6">
+                                <label asp-for="Sqlversion" class="control-label">DB Version</label><br />
+                                <select asp-for="Sqlversion" id="DBVersionmysql" disabled>
+                                    <option value="">Select DB Version</option>
+                                    <option value="2008">2008</option>
+                                    <option value="2012">2012</option>
+                                    <option value="Above 2012">Above 2012</option>
+                                </select>
+                            </div>
+
                             <div class="form-group col-md-6">
                                 <label asp-for="DBVersion" class="control-label">Connection/server Name</label>
                                 <div class="col-md-8">
@@ -429,6 +438,17 @@
             height: 36px;
         }
 
+        select#DBVersionmysql {
+            outline: none;
+            font-size: 14px;
+            font-weight: 400;
+            color: #333;
+            border-radius: 5px;
+            border: 1px solid #aaa;
+            padding: 0 15px;
+            height: 36px;
+        }
+
         label {
             display: inline-block;
             margin-top: 10px;
@@ -458,87 +478,107 @@
 
         });
 
-        $(function () {
+
+               $(function () {
             $('#testConnectionBtn').click(function () {
                 var axpertAppName = $('#AxpertAppName').val();
-                var dataBase = $('#DataBase').val();
+                var dataBase = $('#DataBase').val().toLowerCase();
                 var dbVersion = $('#DBVersion').val();
+                var dbver = $('#DBVersionmysql').val();
                 var connectionName = $('#ConnectionName').val();
                 var userName = $('#UserName').val();
                 var password = $('#Password').val();
-                var DataBaseName = '@Model.AppName';
+                var DataBaseName = $('#AxpertAppName').val();
                 var database = userName;
+                var connectionString = "";
+                var Server = connectionName;
 
-                // Set the appropriate connection string based on the selected database type
-                var connectionString;
                 if (dataBase === 'postgre') {
                     if (connectionName.includes(':')) {
-                        if (userName.includes('\\') || database.includes('\\')) {
-                            var userDtls = userName.split('\\');
-                            var databaseDtls = database.split('\\');
-
-                            if (userDtls.length > 1 && userDtls[1] !== '') {
-                                if (userDtls.length > 1 && userDtls[1] !== '' && databaseDtls.length > 1 && databaseDtls[1] !== '') {
-                                    userName = userDtls[0];
-                                    database = databaseDtls[1];
-                                } else {
-                                    userName = userDtls[0];
-                                    database = databaseDtls[0];
-                                }
-                            }
-                        } else {
-                            database = DataBaseName;
-                        }
-
-                        // Default port for PostgreSQL is 5432. If it was changed we need to pass the port no separately in the connection string.
                         var serverPort = connectionName.substring(connectionName.indexOf(':') + 1);
-                        connectionString = 'Server=' + connectionName.substring(0, connectionName.indexOf(':')) + '; Port=' + serverPort + '; Database=' + database + '; Username=' + userName + '; Pwd=' + password + '; Pooling=false;';
-                        console.log(connectionString);
+                        connectionString = 'Server=' + connectionName.substring(0, connectionName.indexOf(':')) +
+                                            '; Port=' + serverPort +
+                                            '; Database=' + database +
+                                            '; Username=' + userName +
+                                            '; Pwd=' + password + '; Pooling=false;';
                     } else {
-                        if (userName.includes('\\') || database.includes('\\')) {
-                            var userDtls = userName.split('\\');
-                            var databaseDtls = database.split('\\');
-
-                            if (userDtls.length > 1 && userDtls[1] !== '' && databaseDtls.length > 1 && databaseDtls[1] !== '') {
-                                userName = userDtls[0];
-                                database = databaseDtls[1];
-                            } else {
-                                userName = userDtls[0];
-                                database = databaseDtls[0];
-                            }
-                        } else {
-                            database = DataBaseName;
-                        }
-
-                        connectionString = 'Server=' + dbVersion + '; Database=' + connectionName + '; Username=' + userName + '; Password=' + password + ';';
-                        console.log(connectionString);
+                        connectionString = 'Server=' + dbVersion +
+                                            '; Database=' + connectionName +
+                                            '; Username=' + userName +
+                                            '; Password=' + password + ';';
                     }
-                } else if (dataBase === 'oracle') {
-                    connectionString = 'Data Source=' + dbVersion + '; User Id=' + userName +  '; Password =' + password + ';';
-                } else {
+                }
+                else if (dataBase === 'oracle') {
+                    connectionString = 'Data Source=' + dbVersion +
+                                        '; User Id=' + userName +
+                                        '; Password=' + password + ';';
+                }
+                else if (dataBase === "ms sql" || dataBase === "mssql") {
+                    if (dbver.toUpperCase() === "ABOVE 2012") {
+                $.ajax({
+                            url: '@Url.Action("GetServerIpAndPort", "ARMApps")',
+                            type: 'POST',
+                            data: {
+                                dbVersion: dbVersion,
+                                uid: userName,
+                                pwd: password,
+                                database : database,
+                            },
+                            success: function (result) {
+                                if (result.success) {
+                                    connectionString = result.connectionString;
+                                    testConnection(connectionString);
+                                } else {
+                                    alert("Connection Failed: " + result.message);
+                                }
+                            },
+                            error: function (xhr, status, error) {
+                                alert('Connection Failed: ' + error);
+                            }
+                        });
+                        return;
+                    } else {
+                        connectionString = "Server=" + dbVersion + "; Database=" + connectionName + "; User Id=" + userName + "; Password=" + password + ";";
+                        testConnection(connectionString);
+                    }
+                }
+                else {
                     alert('Please select a database type.');
                     return;
                 }
 
-                // Test the database connection
-                $.ajax({
-                    url: '@Url.Action("TestConnection", "ARMApps")',
-                    type: 'POST',
-                    data: {
-                        dbType: dataBase,
-                        connectionString: connectionString
-                    },
-                    success: function (result) {
-                        if (result.success) {
-                            alert("Connection successful.");
-                        } else {
-                            alert("Connection Failed: " + result.message);
+                function testConnection(connectionString) {
+                    $.ajax({
+                        url: '@Url.Action("TestConnection", "ARMApps")', 
+                        type: 'POST',
+                        data: {
+                            dbType: dataBase,
+                            connectionString: connectionString,
+                            uid: userName,
+                            pwd: password,
+                            dbVersion: dbVersion
+                        },
+                        success: function (result) {
+                            if (result.success) {
+                                alert("Connection successful.");
+                            } else {
+                                alert("Connection Failed: " + result.message);
+                            }
+                        },
+                        error: function (xhr, status, error) {
+                            alert('Connection Failed: ' + error);
                         }
-                    },
-                    error: function (xhr, status, error) {
-                        alert('Connection Failed: ' + error);
-                    }
-                });
+                    });
+                }
+            });
+
+            $('#DataBase').change(function () {
+                var selectedDb = $(this).val().toLowerCase();
+                if (selectedDb === 'mssql') {
+                    $('#DBVersionmysql').prop('disabled', false);
+                } else {
+                    $('#DBVersionmysql').prop('disabled', true).val('');
+                }
             });
         });
 

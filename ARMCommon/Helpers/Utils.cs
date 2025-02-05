@@ -8,7 +8,13 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Data;
+using System.Data.Common;
 using System.Diagnostics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Security.Cryptography;
+using System.Data.Odbc;
+using System.Data.Odbc;
+
 
 namespace ARMCommon.Helpers
 {
@@ -44,7 +50,8 @@ namespace ARMCommon.Helpers
 
             return appnames;
         }
-        public string GetDBConnections(string dbType, string dbuser, string password, string serverConnection, string appname, string ConnectionName = "")
+
+        public string GetDBConnections( string dbType, string dbuser, string password, string serverConnection, string sqlversion, string appname, string ConnectionName = "")
         {
             string connectionString = "";
             string database = dbuser;
@@ -54,81 +61,103 @@ namespace ARMCommon.Helpers
                 database = (ConnectionName != "" ? ConnectionName : appname);
                 connectionString = @"Data Source=" + serverConnection + "/" + database + ";User Id=" + dbuser + ";Password=" + password + ";Pooling=False;";
                 return connectionString;
-
             }
-
-
             else if (dbType.ToLower() == "postgresql" || dbType.ToLower() == "postgre")
             {
                 if (serverConnection.Contains(":"))
                 {
                     if (dbuser.Contains("\\") || database.Contains("\\"))
                     {
-
                         string[] userDtls = dbuser.Split('\\');
                         string[] databaseDtls = database.Split('\\');
                         if (userDtls.Length > 1 && userDtls[1] != "")
-                            if ((userDtls.Length > 1 && userDtls[1] != "") && (databaseDtls.Length > 1 && databaseDtls[1] != ""))
-                            {
-                                dbuser = userDtls[0];
-                                database = databaseDtls[1];
-
-
-                            }
-                            else
-                            {
-                                dbuser = userDtls[0];
-                                database = databaseDtls[0];
-                            }
-
+                        {
+                            dbuser = userDtls[0];
+                            database = databaseDtls.Length > 1 && databaseDtls[1] != "" ? databaseDtls[1] : databaseDtls[0];
+                        }
                     }
                     else
                     {
                         database = ConnectionName;
-
                     }
 
-                    //Default port for postgres is 5432. if it was changed we need to pass the port no seperately in the Conn Str. 
                     string serverPort = serverConnection.Substring(serverConnection.IndexOf(':') + 1);
                     connectionString = @"Server=" + serverConnection.Substring(0, serverConnection.IndexOf(':')) + "; Port=" + serverPort + "; Database=" + database + ";Username=" + dbuser + ";Pwd=" + password + ";Pooling=false;";
                     return connectionString;
-
+                }
+            }
+            else if (dbType.ToLower() == "ms sql" || dbType.ToLower() == "mssql")
+            {
+                database = (ConnectionName != "" ? ConnectionName : appname);
+                if (sqlversion.ToUpper() == "ABOVE 2012")
+                    serverConnection = GetServerIpAndPort(serverConnection, dbuser, password, database);
+                    connectionString = @"Server=" + serverConnection + "; Database=" + database + "; User Id=" + dbuser + "; Password=" + password + ";";
+                
+                return connectionString;
+            }
+            else
+            {
+                if (dbuser.Contains("\\") || database.Contains("\\"))
+                {
+                    string[] userDtls = dbuser.Split('\\');
+                    string[] databaseDtls = database.Split('\\');
+                    if (userDtls.Length > 1 && userDtls[1] != "")
+                    {
+                        dbuser = userDtls[0];
+                        database = databaseDtls.Length > 1 && databaseDtls[1] != "" ? databaseDtls[1] : databaseDtls[0];
+                    }
                 }
                 else
                 {
-                    if (dbuser.Contains("\\") || database.Contains("\\"))
-                    {
-                        string[] userDtls = dbuser.Split('\\');
-                        string[] databaseDtls = database.Split('\\');
-                        if ((userDtls.Length > 1 && userDtls[1] != "") && (databaseDtls.Length > 1 && databaseDtls[1] != ""))
-                        {
-                            dbuser = userDtls[0];
-                            database = databaseDtls[1];
-
-                        }
-                        else
-                        {
-                            dbuser = userDtls[0];
-                            database = databaseDtls[0];
-
-                        }
-
-                    }
-                    else
-                    {
-                        database = (ConnectionName != "" ? ConnectionName : appname);
-
-                    }
-                    connectionString = @"Server=" + serverConnection + ";Database=" + database + ";Username=" + dbuser + ";Pwd=" + password + ";Pooling=false;";
-                    return connectionString;
-
-
+                    database = (ConnectionName != "" ? ConnectionName : appname);
                 }
+                connectionString = @"Server=" + serverConnection + ";Database=" + database + ";Username=" + dbuser + ";Pwd=" + password + ";Pooling=false;";
+                return connectionString;
+            }
+            return connectionString;
+        }
 
+        public string GetServerIpAndPort(string deVersion, string uid, string pwd, string database)
+        {
+            string connStr = $"DSN={deVersion};Uid={uid};Pwd={pwd};";
+            string connectionString = "";
+            string dataSourceName = string.Empty;
 
+            using (OdbcConnection odbcConn = new OdbcConnection(connStr))
+            {
+                try
+                {
+                    odbcConn.Open();
+                    using (OdbcCommand cmd = odbcConn.CreateCommand())
+                    {
+                        cmd.CommandText = @"
+                SELECT local_net_address, local_tcp_port 
+                FROM sys.dm_exec_connections 
+                WHERE session_id = @@SPID";
+
+                        using (OdbcDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read())
+                            {
+                                string ip = reader["local_net_address"].ToString();
+                                string port = reader["local_tcp_port"].ToString();
+                                dataSourceName = $"{ip}\\{deVersion},{port}";
+                            }
+                        }
+                    }
+                    connectionString = dataSourceName;
+                }
+                catch (Exception ex)
+                {
+                    return $"Error: {ex.Message}";
+                }
+                finally
+                {
+                    odbcConn.Close();
+                }
             }
 
-            else return connectionString;
+            return !string.IsNullOrEmpty(connectionString) ? connectionString : "Failed to get connection string.";
         }
 
         public string GetRedisConnections(string host, string password)
@@ -281,7 +310,8 @@ namespace ARMCommon.Helpers
                     string DBVersion = EncrDecr.Decrypt(userGroup.DBVersion, Key);
                     string UserName = EncrDecr.Decrypt(userGroup.UserName, Key);
                     string Password = EncrDecr.Decrypt(userGroup.Password, Key);
-                    string ARMAppsconnectionString = GetDBConnections(DataBase,UserName,Password,DBVersion, ConnectionName);
+                    string sqlversion = userGroup.Sqlversion;
+                   string ARMAppsconnectionString = GetDBConnections(DataBase,UserName,Password,DBVersion, sqlversion, ConnectionName );
                     return ARMAppsconnectionString;
                 }
                 catch (Exception ex)
