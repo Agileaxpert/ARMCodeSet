@@ -21,7 +21,7 @@ namespace ARMCommon.Helpers
             {
                 var factory = new ConnectionFactory
                 {
-                    Uri = new Uri("amqp://guest:guest@localhost:5672")
+                    Uri = new Uri(_configuration["AppConfig:RMQIP"])
                 };
 
                 var connection = factory.CreateConnection();
@@ -50,7 +50,7 @@ namespace ARMCommon.Helpers
             {
                 var factory = new ConnectionFactory
                 {
-                    Uri = new Uri("amqp://admin123:admin123@172.16.0.85:5672")
+                    Uri = new Uri(_configuration["AppConfig:RMQIP"])
                 };
 
                 bool delayedmessage = true;// _configuration.GetValue<bool>("delayedmessage");

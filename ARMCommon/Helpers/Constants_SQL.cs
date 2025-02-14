@@ -116,7 +116,7 @@ WHERE g.levelno <= 3
   ORDER BY g.ordno, g.levelno";
 
         //public const string AXPAGES = $"select name,caption,type, icon,pagetype,props,img,levelno ,intview from axpages where blobno = 1 and visible= 'T' and pagetype is not null and name in ($names$) order by ordno ,levelno";
-        public const string AXACTIVETASKS = $"select * from vw_pegv2_activetasks where lower(touser) = @username order by edatetime desc"; 
+        public const string AXACTIVETASKS = $"select * from vw_pegv2_activetasks where lower(touser) = @username order by edatetime desc";
         public const string GET_BULKACTIVETASKS = $"select * from vw_pegv2_activetasks where lower(touser) = @username and lower(tasktype) = @tasktype and lower(processname) = @processname and rectype='PEG' order by edatetime desc";
         public const string GETACTIVETASKS = $"select a.taskid, a.taskname, a.tasktype, a.processname, a.transid, a.keyfield, a.keyvalue, a.touser, a.allowsend, a.allowsendflg, a.sendtoactor, a.initiator , a.initiator_approval, p.amendment, aa.recordid from axactivetasks a join axpdef_peg_processmaster p on a.processname=p.caption LEFT JOIN axactivetasks aa ON a.processname  = aa.processname  AND a.keyvalue  = aa.keyvalue  AND a.transid  = aa.transid  AND aa.tasktype  = 'Make'  AND aa.recordid IS NOT NULL where a.taskid = @taskid and lower(a.tasktype) = @tasktype and lower(a.touser) = @username and not exists(select taskid from axactivetaskstatus b where a.taskid=b.taskid)";
         public const string GET_TASKSTATUS = $"select a.taskstatus, a.username,to_char(to_timestamp(a.eventdatetime , 'YYYYMMDDHH24MISSSSS' ), 'dd/mm/yyy hh24:mi:ss' ) AS eventdatetime from axactivetaskstatus a where a.taskid = @taskid";
@@ -140,11 +140,11 @@ WHERE g.levelno <= 3
         public const string ARMGETPROCESSLIST = "select 'completed' completionstatus, taskname,tasktype,tasktime,taskfromuser FromUser, taskstatus,displayicon,displaytitle,taskid,keyfield,keyvalue,recordid,transid  from pr_pegv2_processlist( @processname) where lower(taskfromuser) = @username union all  select 'pending' completionstatus, TaskName,TaskType,eventdatetime tasktime,FromUser,'',DisplayIcon,DisplayTitle,taskid,keyfield,keyvalue,recordid,transid from vw_pegv2_activetasks where lower(touser) = @username and lower(processname) = @processname order by 4 desc";
         public const string ARMGETPROCESSDETAIL = "select * from pr_pegv2_processprogress(@processname,@keyvalue) where rnum=1";
         public const string ARMGETPROCESSDETAIL_ORACLE = "select pr_pegv2_processprogress(@processname,@keyvalue) FROM dual";
-        
+
         public const string UPDATEPOWERUSERPASSWORD = "UPDATE axusers SET password = @newpassword, ppassword = @oldpassword,isfirsttime='F' WHERE username = @username AND password = @oldpassword";
         public const string GETFORGETPASSWORDPOWERUSER = "select email,username from axusers where username=@username and email=@email";
         public const string UPDATEFORGOTPASSWORD = "UPDATE axusers SET password = @MD5OTP ,isfirsttime='T' WHERE username = @username";
-       
+
         public const string ARMGETADDNEWNODE = "select displayicon taskicon, taskname, transid from vw_pegv2_processdef_tree where lower(processname) = @processname and tasktype = 'Make' and groupwithprior = 'F' order by indexno";
         public const string GETUSERPASSWORD = "select password from axusers where lower(username) = @username";
         public const string GETDATASOURCESSQL = "SELECT sqltext  FROM Axdirectsql where lower(sqlname) = @datasource";
@@ -155,7 +155,7 @@ WHERE g.levelno <= 3
 
 
         public const string GETCARDLISTS = "SELECT axp_cardsid, cardname, cardtype, charttype, chartjson, cardicon, pagename, pagedesc, cardbgclr, width, height, cachedata, autorefresh, sql_editor_cardsql AS cardsql, orderno, accessstring, htransid, htype, hcaption, axpfile_imgcard, html_editor_card, calendarstransid FROM axp_cards WHERE $cardsFilter$ ORDER BY orderno";
-        public const string GETCARDlISTS_ORACLE = ""; 
+        public const string GETCARDlISTS_ORACLE = "";
         //public const string GET_PROCESSCARDTASKPARAMS = "select taskparams from axactivetaskparams a where processname = @processname and taskname = @taskname and keyvalue = @keyvalue";
         public const string GET_PROCESSCARDS = "select a.*, a.cardsid as  cardid from vw_pegv2_global_cards a where lower(processname) = @processname and lower(taskname) = @taskname ";
         public const string GET_PROCESSUSERTYPE = "select distinct tasktype from axactivetasks where lower(processname) = @processname and lower(touser) = @username";
@@ -171,7 +171,7 @@ WHERE g.levelno <= 3
         public const string HOMEPAGECARDSV2 = "select axhomeconfigid cardid,caption,pgname,displayicon,stransid,datasource,colorcode,groupfolder,grppageid,carddesc,cardhide,html_editor_card,paneltypecnd,paneltype,moreoption from axhomeconfig where cardhide!='T' order by disporder asc";
         public const string GET_NEXTOPTIONALTASK = @"select distinct a.*  from pr_pegv2_processprogress(@processname,  @keyvalue) a join axactivetasks b on a.taskid = b.taskid where a.rnum=1 and a.taskstatus = 'Active'and b.isoptional  = 'T' order by indexno desc";
         //GET_NEXTOPTIONALTASK - TODO
-        
+
         #region Active List - Home Page
         public const string GET_ACTIVETASKSLIST = $"select * from vw_pegv2_activetasks where lower(touser) = @username order by edatetime desc LIMIT @pagesize OFFSET @offset";
         public const string GET_ACTIVETASKSLIST_ORACLE = $"SELECT * FROM ( SELECT * FROM vw_pegv2_activetasks  WHERE LOWER(touser) = @username ORDER BY edatetime DESC )  WHERE ROWNUM between @startrow and @endrow";
@@ -284,5 +284,21 @@ WHERE g.levelno <= 3
 
         public const string INSERT_TO_AXACTIVEMESG = "INSERT INTO axactivemessages(eventdatetime, msgtype,fromuser,touser,tasktype,processname,taskname,transid, displaytitle,displaycontent,hlink_params) values('{0}','{1}','{2}','{3}','{4}','{5}','{6}','{7}','{8}','{9}','{10}')";
 
+
+        #region Homepage HTML Plugins and Dashboard
+        public const string INSERT_HTMLPLUGINS = @"INSERT INTO AX_HTMLPLUGINS (NAME, CONTEXT, HTMLTEXT) VALUES ( @name, @context, @htmltext) ";
+        public const string UPDATE_HTMLPLUGINS = @"UPDATE AX_HTMLPLUGINS SET CONTEXT = @context, HTMLTEXT = @htmltext WHERE NAME = @name ";
+        public const string DELETE_HTMLPLUGINS = @"DELETE FROM AX_HTMLPLUGINS WHERE NAME = @name ";
+        public const string GET_HTMLPLUGINS = @"SELECT * FROM AX_HTMLPLUGINS ORDER BY NAME ASC";
+
+        public const string GET_HOMEPAGECARDSLIST = "select distinct axp_cardsid, cardtype, cardname, cardicon, charttype, pluginname, htmltext html_editor_card, card_datasource, sqltext, width, height, autorefresh, context, orderno from vw_cards_homepages where uroles in ( $ROLES$ ) order by orderno asc ";
+
+
+        public const string GET_DASHBOARDCARDSLIST = "select distinct axp_cardsid, cardtype, cardname, cardicon, charttype, pluginname, htmltext html_editor_card, card_datasource, sqltext, width, height, autorefresh, context, orderno from vw_cards_dashboard where uroles in ( $ROLES$ ) order by orderno asc";
+
+        #endregion
     }
+
+
+
 }

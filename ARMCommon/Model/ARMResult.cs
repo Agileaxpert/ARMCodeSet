@@ -52,7 +52,8 @@ namespace ARMCommon.Model
         public string error { get; set; }
         public DataTable data { get; set; }
         public bool success { get; set; }
-        public SQLResult() {
+        public SQLResult()
+        {
             data = new DataTable();
         }
     }
@@ -72,5 +73,12 @@ namespace ARMCommon.Model
         public string error { get; set; }
         public Dictionary<string, object> data = new Dictionary<string, object>();
         public string message { get; set; }
+    }
+
+    public class NonQueryResult
+    {
+        public string error { get; set; }
+        public string message { get; set; }
+        public int count { get; set; }
     }
 }

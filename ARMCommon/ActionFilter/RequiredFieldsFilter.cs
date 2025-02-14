@@ -232,123 +232,123 @@ namespace ARMCommon.ActionFilter
 
 
 
-    public class TraceAttribute : ActionFilterAttribute
-    {
-        public override void OnActionExecuting(ActionExecutingContext context)
-        {
-            // Enable buffering of the request body
-            context.HttpContext.Request.EnableBuffering();
+    //public class TraceAttribute : ActionFilterAttribute
+    //{
+    //    public override void OnActionExecuting(ActionExecutingContext context)
+    //    {
+    //        // Enable buffering of the request body
+    //        context.HttpContext.Request.EnableBuffering();
 
-            // Rewind the stream before reading (to avoid reading it prematurely)
-            context.HttpContext.Request.Body.Position = 0;
+    //        // Rewind the stream before reading (to avoid reading it prematurely)
+    //        context.HttpContext.Request.Body.Position = 0;
 
-            var requestBody = string.Empty;
+    //        var requestBody = string.Empty;
 
-            // Read the request body
-            using (var reader = new StreamReader(context.HttpContext.Request.Body, Encoding.UTF8, leaveOpen: true))
-            {
-                requestBody = reader.ReadToEnd();
-            }
+    //        // Read the request body
+    //        using (var reader = new StreamReader(context.HttpContext.Request.Body, Encoding.UTF8, leaveOpen: true))
+    //        {
+    //            requestBody = reader.ReadToEnd();
+    //        }
 
-            // Rewind the body for further use (after it's read, reset the position)
-            context.HttpContext.Request.Body.Position = 0;
+    //        // Rewind the body for further use (after it's read, reset the position)
+    //        context.HttpContext.Request.Body.Position = 0;
 
-            foreach (var header in context.HttpContext.Request.Headers)
-            {
-                Console.WriteLine($"{header.Key}: {header.Value}");
-            }
+    //        foreach (var header in context.HttpContext.Request.Headers)
+    //        {
+    //            Console.WriteLine($"{header.Key}: {header.Value}");
+    //        }
 
-            Console.WriteLine($"Request Body: {requestBody}");
+    //        Console.WriteLine($"Request Body: {requestBody}");
 
-            // If the body is valid, try parsing JSON
-            if (!string.IsNullOrEmpty(requestBody) && context.HttpContext.Request.ContentType?.Contains("application/json") == true)
-            {
-                try
-                {
-                    JObject json = JObject.Parse(requestBody);
-                    bool trace = json.Value<bool>("Trace");
-                    Console.WriteLine($"Extracted Trace Value: {trace}");
-                    context.HttpContext.Items["Trace"] = trace;
-                }
-                catch (JsonException ex)
-                {
-                    Console.WriteLine($"Error parsing JSON: {ex.Message}");
-                }
-            }
+    //        // If the body is valid, try parsing JSON
+    //        if (!string.IsNullOrEmpty(requestBody) && context.HttpContext.Request.ContentType?.Contains("application/json") == true)
+    //        {
+    //            try
+    //            {
+    //                JObject json = JObject.Parse(requestBody);
+    //                bool trace = json.Value<bool>("Trace");
+    //                Console.WriteLine($"Extracted Trace Value: {trace}");
+    //                context.HttpContext.Items["Trace"] = trace;
+    //            }
+    //            catch (JsonException ex)
+    //            {
+    //                Console.WriteLine($"Error parsing JSON: {ex.Message}");
+    //            }
+    //        }
 
-            base.OnActionExecuting(context);
-        }
-
-
-        public override void OnActionExecuted(ActionExecutedContext context)
-        {
-            // Retrieve the Trace value from HttpContext.Items
-            bool trace = context.HttpContext.Items.ContainsKey("Trace") &&
-                         (bool)context.HttpContext.Items["Trace"];
-
-            // Log the Trace value being applied to the response
-            Console.WriteLine($"Trace Value in OnActionExecuted: {trace}");
-
-            if (context.Result is ObjectResult result && result.Value is ARMResult armResult)
-            {
-                armResult.result.Add("Trace", trace);
-
-                if (trace)
-                {
-                    WriteLogToFile(context);
-                }
-
-                result.Value = armResult;
-            }
-
-            base.OnActionExecuted(context);
-        }
+    //        base.OnActionExecuting(context);
+    //    }
 
 
+    //    public override void OnActionExecuted(ActionExecutedContext context)
+    //    {
+    //        // Retrieve the Trace value from HttpContext.Items
+    //        bool trace = context.HttpContext.Items.ContainsKey("Trace") &&
+    //                     (bool)context.HttpContext.Items["Trace"];
+
+    //        // Log the Trace value being applied to the response
+    //        Console.WriteLine($"Trace Value in OnActionExecuted: {trace}");
+
+    //        if (context.Result is ObjectResult result && result.Value is ARMResult armResult)
+    //        {
+    //            armResult.result.Add("Trace", trace);
+
+    //            if (trace)
+    //            {
+    //                WriteLogToFile(context);
+    //            }
+
+    //            result.Value = armResult;
+    //        }
+
+    //        base.OnActionExecuted(context);
+    //    }
 
 
 
-        public void WriteLogToFile(ActionExecutedContext context)
-        {
-            // Existing implementation for context-based logging
-            string logEntry = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss}\n" +
-                              $"Request Path: {context.HttpContext.Request.Path}\n" +
-
-                              $"Trace: true\n" +
-                              $"Response: {JsonConvert.SerializeObject(context.Result)}\n" +
-                              "----------------------------------------\n";
-            LogToFile(logEntry);
-        }
-
-        public void WriteLogToFile(string logMessage)
-        {
-            // Wrapper for string-based logging
-            string logEntry = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss}\n" +
-                              $"{logMessage}\n" +
-                              "----------------------------------------\n";
-            LogToFile(logEntry);
-        }
-
-        private async Task LogToFile(string logEntry)
-        {
 
 
-            string binPath = AppDomain.CurrentDomain.BaseDirectory;
-            string logDirectory = Path.Combine(binPath, "Logs");
-            string logFilePath = Path.Combine(logDirectory, "TraceLog.txt");
+    //    public void WriteLogToFile(ActionExecutedContext context)
+    //    {
+    //        // Existing implementation for context-based logging
+    //        string logEntry = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss}\n" +
+    //                          $"Request Path: {context.HttpContext.Request.Path}\n" +
+
+    //                          $"Trace: true\n" +
+    //                          $"Response: {JsonConvert.SerializeObject(context.Result)}\n" +
+    //                          "----------------------------------------\n";
+    //        LogToFile(logEntry);
+    //    }
+
+    //    public void WriteLogToFile(string logMessage)
+    //    {
+    //        // Wrapper for string-based logging
+    //        string logEntry = $"{DateTime.Now:yyyy-MM-dd HH:mm:ss}\n" +
+    //                          $"{logMessage}\n" +
+    //                          "----------------------------------------\n";
+    //        LogToFile(logEntry);
+    //    }
+
+    //    private async Task LogToFile(string logEntry)
+    //    {
 
 
-            if (!Directory.Exists(logDirectory))
-            {
-                Directory.CreateDirectory(logDirectory);
-            }
-
-            await File.AppendAllTextAsync(logFilePath, logEntry);
-        }
+    //        string binPath = AppDomain.CurrentDomain.BaseDirectory;
+    //        string logDirectory = Path.Combine(binPath, "Logs");
+    //        string logFilePath = Path.Combine(logDirectory, "TraceLog.txt");
 
 
+    //        if (!Directory.Exists(logDirectory))
+    //        {
+    //            Directory.CreateDirectory(logDirectory);
+    //        }
 
-    }
+    //        await File.AppendAllTextAsync(logFilePath, logEntry);
+    //    }
+
+
+
+    //}
 
 
 

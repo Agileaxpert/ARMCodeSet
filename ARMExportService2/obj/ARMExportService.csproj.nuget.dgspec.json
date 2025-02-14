@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\FinalCodeSet\\ARMExportService2\\ARMExportService.csproj": {}
+    "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMExportService2\\ARMExportService.csproj": {}
   },
   "projects": {
-    "C:\\FinalCodeSet\\ARMCommon\\ARMCommon.csproj": {
+    "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMCommon\\ARMCommon.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FinalCodeSet\\ARMCommon\\ARMCommon.csproj",
+        "projectUniqueName": "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMCommon\\ARMCommon.csproj",
         "projectName": "ARMCommon",
-        "projectPath": "C:\\FinalCodeSet\\ARMCommon\\ARMCommon.csproj",
+        "projectPath": "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMCommon\\ARMCommon.csproj",
         "packagesPath": "C:\\Users\\preeti.b\\.nuget\\packages\\",
-        "outputPath": "C:\\FinalCodeSet\\ARMCommon\\obj\\",
+        "outputPath": "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMCommon\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net8.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -46,8 +46,8 @@
         }
       },
       "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
@@ -71,13 +71,13 @@
               "target": "Package",
               "version": "[6.25.0, )"
             },
-            "MsgPack": {
-              "target": "Package",
-              "version": "[0.1.0.2011042300, )"
-            },
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.1.0, )"
+            },
+            "NPOI": {
+              "target": "Package",
+              "version": "[2.6.0, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
@@ -119,6 +119,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.36, 6.0.36]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -127,18 +145,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\FinalCodeSet\\ARMExportService2\\ARMExportService.csproj": {
+    "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMExportService2\\ARMExportService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\FinalCodeSet\\ARMExportService2\\ARMExportService.csproj",
+        "projectUniqueName": "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMExportService2\\ARMExportService.csproj",
         "projectName": "ARMExportService",
-        "projectPath": "C:\\FinalCodeSet\\ARMExportService2\\ARMExportService.csproj",
+        "projectPath": "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMExportService2\\ARMExportService.csproj",
         "packagesPath": "C:\\Users\\preeti.b\\.nuget\\packages\\",
-        "outputPath": "C:\\FinalCodeSet\\ARMExportService2\\obj\\",
+        "outputPath": "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMExportService2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -159,8 +177,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\FinalCodeSet\\ARMCommon\\ARMCommon.csproj": {
-                "projectPath": "C:\\FinalCodeSet\\ARMCommon\\ARMCommon.csproj"
+              "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMCommon\\ARMCommon.csproj": {
+                "projectPath": "C:\\Users\\preeti.b\\Desktop\\Axpert Services\\ARMCommon\\ARMCommon.csproj"
               }
             }
           }
@@ -233,7 +251,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.405/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.406/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -27,7 +27,7 @@ namespace ARMCommon.Helpers
                     { "First day", "FirstDay" },
                     { "Last day", "LastDay" },
                     { "First day of last week", "FirstDayoflastweek" },
-
+                    { "", "" }
 
                 };
 

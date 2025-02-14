@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ARMExportService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c10625105e0c2f25f1e3c9ac48c6d0fbf15d1e87")]
 [assembly: System.Reflection.AssemblyProductAttribute("ARMExportService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ARMExportService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

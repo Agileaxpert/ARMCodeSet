@@ -8,13 +8,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
 using System.Data;
-using System.Data.Common;
 using System.Diagnostics;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using System.Security.Cryptography;
-using System.Data.Odbc;
-using System.Data.Odbc;
-
 
 namespace ARMCommon.Helpers
 {
@@ -25,16 +19,14 @@ namespace ARMCommon.Helpers
         private readonly IRedisHelper _redis;
         public Dictionary<string, string> _dictdbConnection = new Dictionary<string, string>();
 
-        public Utils(IConfiguration config, DataContext context,  IRedisHelper redis)
+        public Utils(IConfiguration config, DataContext context, IRedisHelper redis)
         {
             _config = config;
             _context = context;
             _redis = redis;
         }
 
-        public Utils()
-        {
-        }
+
 
         public string GetEncryptedSecret(string secretKey)
         {
@@ -50,8 +42,7 @@ namespace ARMCommon.Helpers
 
             return appnames;
         }
-
-        public string GetDBConnections( string dbType, string dbuser, string password, string serverConnection, string sqlversion, string appname, string ConnectionName = "")
+        public string GetDBConnections(string dbType, string dbuser, string password, string serverConnection, string appname, string ConnectionName = "")
         {
             string connectionString = "";
             string database = dbuser;
@@ -61,103 +52,81 @@ namespace ARMCommon.Helpers
                 database = (ConnectionName != "" ? ConnectionName : appname);
                 connectionString = @"Data Source=" + serverConnection + "/" + database + ";User Id=" + dbuser + ";Password=" + password + ";Pooling=False;";
                 return connectionString;
+
             }
+
+
             else if (dbType.ToLower() == "postgresql" || dbType.ToLower() == "postgre")
             {
                 if (serverConnection.Contains(":"))
                 {
                     if (dbuser.Contains("\\") || database.Contains("\\"))
                     {
+
                         string[] userDtls = dbuser.Split('\\');
                         string[] databaseDtls = database.Split('\\');
                         if (userDtls.Length > 1 && userDtls[1] != "")
-                        {
-                            dbuser = userDtls[0];
-                            database = databaseDtls.Length > 1 && databaseDtls[1] != "" ? databaseDtls[1] : databaseDtls[0];
-                        }
+                            if ((userDtls.Length > 1 && userDtls[1] != "") && (databaseDtls.Length > 1 && databaseDtls[1] != ""))
+                            {
+                                dbuser = userDtls[0];
+                                database = databaseDtls[1];
+
+
+                            }
+                            else
+                            {
+                                dbuser = userDtls[0];
+                                database = databaseDtls[0];
+                            }
+
                     }
                     else
                     {
                         database = ConnectionName;
+
                     }
 
+                    //Default port for postgres is 5432. if it was changed we need to pass the port no seperately in the Conn Str. 
                     string serverPort = serverConnection.Substring(serverConnection.IndexOf(':') + 1);
                     connectionString = @"Server=" + serverConnection.Substring(0, serverConnection.IndexOf(':')) + "; Port=" + serverPort + "; Database=" + database + ";Username=" + dbuser + ";Pwd=" + password + ";Pooling=false;";
                     return connectionString;
-                }
-            }
-            else if (dbType.ToLower() == "ms sql" || dbType.ToLower() == "mssql")
-            {
-                database = (ConnectionName != "" ? ConnectionName : appname);
-                if (sqlversion.ToUpper() == "ABOVE 2012")
-                    serverConnection = GetServerIpAndPort(serverConnection, dbuser, password, database);
-                    connectionString = @"Server=" + serverConnection + "; Database=" + database + "; User Id=" + dbuser + "; Password=" + password + ";";
-                
-                return connectionString;
-            }
-            else
-            {
-                if (dbuser.Contains("\\") || database.Contains("\\"))
-                {
-                    string[] userDtls = dbuser.Split('\\');
-                    string[] databaseDtls = database.Split('\\');
-                    if (userDtls.Length > 1 && userDtls[1] != "")
-                    {
-                        dbuser = userDtls[0];
-                        database = databaseDtls.Length > 1 && databaseDtls[1] != "" ? databaseDtls[1] : databaseDtls[0];
-                    }
+
                 }
                 else
                 {
-                    database = (ConnectionName != "" ? ConnectionName : appname);
-                }
-                connectionString = @"Server=" + serverConnection + ";Database=" + database + ";Username=" + dbuser + ";Pwd=" + password + ";Pooling=false;";
-                return connectionString;
-            }
-            return connectionString;
-        }
-
-        public string GetServerIpAndPort(string deVersion, string uid, string pwd, string database)
-        {
-            string connStr = $"DSN={deVersion};Uid={uid};Pwd={pwd};";
-            string connectionString = "";
-            string dataSourceName = string.Empty;
-
-            using (OdbcConnection odbcConn = new OdbcConnection(connStr))
-            {
-                try
-                {
-                    odbcConn.Open();
-                    using (OdbcCommand cmd = odbcConn.CreateCommand())
+                    if (dbuser.Contains("\\") || database.Contains("\\"))
                     {
-                        cmd.CommandText = @"
-                SELECT local_net_address, local_tcp_port 
-                FROM sys.dm_exec_connections 
-                WHERE session_id = @@SPID";
-
-                        using (OdbcDataReader reader = cmd.ExecuteReader())
+                        string[] userDtls = dbuser.Split('\\');
+                        string[] databaseDtls = database.Split('\\');
+                        if ((userDtls.Length > 1 && userDtls[1] != "") && (databaseDtls.Length > 1 && databaseDtls[1] != ""))
                         {
-                            if (reader.Read())
-                            {
-                                string ip = reader["local_net_address"].ToString();
-                                string port = reader["local_tcp_port"].ToString();
-                                dataSourceName = $"{ip}\\{deVersion},{port}";
-                            }
+                            dbuser = userDtls[0];
+                            database = databaseDtls[1];
+
                         }
+                        else
+                        {
+                            dbuser = userDtls[0];
+                            database = databaseDtls[0];
+
+                        }
+
                     }
-                    connectionString = dataSourceName;
+                    else
+                    {
+                        database = (ConnectionName != "" ? ConnectionName : appname);
+
+                    }
+                    connectionString = @"Server=" + serverConnection + ";Database=" + database + ";Username=" + dbuser + ";Pwd=" + password + ";Pooling=false;";
+                    return connectionString;
+
+
                 }
-                catch (Exception ex)
-                {
-                    return $"Error: {ex.Message}";
-                }
-                finally
-                {
-                    odbcConn.Close();
-                }
+
+
             }
 
-            return !string.IsNullOrEmpty(connectionString) ? connectionString : "Failed to get connection string.";
+            else return connectionString;
         }
 
         public string GetRedisConnections(string host, string password)
@@ -202,7 +171,7 @@ namespace ARMCommon.Helpers
             return true;
         }
 
-        public  bool HasNullOrEmptyValues(string json, params string[] fields)
+        public bool HasNullOrEmptyValues(string json, params string[] fields)
         {
             JObject jObject = JsonConvert.DeserializeObject<JObject>(json);
 
@@ -254,12 +223,14 @@ namespace ARMCommon.Helpers
             try
             {
                 string key = $"{Constants.DB_PREFIX.ARMConnectionString.ToString()}_{appName}";
-                if (_redis.KeyExists(key)) {
+                if (_redis.KeyExists(key))
+                {
                     var tempConfig = _redis.StringGet(key);
-                    if (!string.IsNullOrEmpty(tempConfig)) {
+                    if (!string.IsNullOrEmpty(tempConfig))
+                    {
                         config = JsonConvert.DeserializeObject<Dictionary<string, string>>(tempConfig);
                         return config;
-                    }                    
+                    }
                 }
 
                 string connectionString = _config[$"ConnectionStrings:{appName}_connectionstring"];
@@ -270,7 +241,7 @@ namespace ARMCommon.Helpers
 
                 string dbType = _config[$"ConnectionStrings:{appName}_dbtype"];
                 if (string.IsNullOrEmpty(dbType))
-                { 
+                {
                     var app = _context.ARMApps.FirstOrDefault(p => p.AppName.ToLower() == appName.ToLower());
                     dbType = EncrDecr.Decrypt(app.DataBase, app.PrivateKey);
                 }
@@ -280,7 +251,7 @@ namespace ARMCommon.Helpers
                 await _redis.StringSetAsync(key, JsonConvert.SerializeObject(config));
 
                 if (_dictdbConnection.ContainsKey(appName))
-                {                    
+                {
                     _dictdbConnection[appName] = connectionString;
                 }
                 else
@@ -294,9 +265,9 @@ namespace ARMCommon.Helpers
             }
             return config;
         }
- 
+
         public string GetARMDbConfiguration(string appName)
-        { 
+        {
             var userGroup = _context.ARMApps.FirstOrDefault(p => p.AppName.ToLower() == appName.ToLower());
             if (userGroup == null)
                 throw new KeyNotFoundException("App not found");
@@ -310,8 +281,7 @@ namespace ARMCommon.Helpers
                     string DBVersion = EncrDecr.Decrypt(userGroup.DBVersion, Key);
                     string UserName = EncrDecr.Decrypt(userGroup.UserName, Key);
                     string Password = EncrDecr.Decrypt(userGroup.Password, Key);
-                    string sqlversion = userGroup.Sqlversion;
-                   string ARMAppsconnectionString = GetDBConnections(DataBase,UserName,Password,DBVersion, sqlversion, ConnectionName );
+                    string ARMAppsconnectionString = GetDBConnections(DataBase, UserName, Password, DBVersion, ConnectionName);
                     return ARMAppsconnectionString;
                 }
                 catch (Exception ex)

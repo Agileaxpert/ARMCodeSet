@@ -28,6 +28,8 @@ using System.Data;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using System.Data.SqlClient;
+using Document = iTextSharp.text.Document;
+using NPOI.SS.UserModel;
 
 namespace ARMServices
 {
@@ -286,7 +288,6 @@ namespace ARMServices
                             await redis.KeyDeleteAsync(_RKey);
                             if (_excelFilePath != "" && _excelFilePath != "IView Result Error")
                             {
-                                //Console.WriteLine("Before notification:" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"));
                                 string[] _fielPaths = _excelFilePath.Split(',');
                                 try
                                 {
@@ -340,33 +341,38 @@ namespace ARMServices
                             string username = jsonObjExcelData["UserName"]?.ToString();
                             string transid = jsonObjExcelData["TransId"]?.ToString();
                             JArray propertiesList = jsonObjExcelData["PropertiesList"] as JArray;
-                            string token = jsonObjExcelData["token"]?.ToString();
+                            string token = jsonObjExcelData["Token"]?.ToString();
                             string armurl = jsonObjExcelData["ARMUrl"]?.ToString();
-                            string armwebscript = jsonObjExcelData["ARMWebScript"]?.ToString();
-                            string apiurl = jsonObjExcelData["apiURL"]?.ToString();
+                            string armwebscript = jsonObjExcelData["ARMScriptURL"]?.ToString();
+                            string apiurl = jsonObjExcelData["APIURL"]?.ToString();
                             string dateformat = jsonObjExcelData["DateFormat"]?.ToString();
+                            string configfilepath = jsonObjExcelData["AxConfigFilePath"]?.ToString();
                             string pagename = Path.GetFileNameWithoutExtension(inputFileName);
                             signalrUrl = armurl + "/api/v1/SendSignalR";
 
-                            if (!string.IsNullOrEmpty(axConfigFilePath))
+                            if (!string.IsNullOrEmpty(configfilepath))
                             {
-                                exportExcelPath = axConfigFilePath;
+                                exportExcelPath = configfilepath;
                                 fileServerPath = string.Empty;
                             }
                             else
                             {
                                 exportExcelPath = config.AppConfig["ExportPath"];
-
+                                fileServerPath = armwebscript;
                                 if (!Directory.Exists(exportExcelPath))
                                 {
                                     Directory.CreateDirectory(exportExcelPath);
                                 }
                             }
 
-                            fileServerPath = armwebscript + "/" + "Exports/" + username + "/" + inputFileName;
                             outputPath = Path.Combine(exportExcelPath, "Exports", username, inputFileName);
+                            outputPath = outputPath.Trim();
+                            outputPath = Path.GetFullPath(outputPath);
+                            outputPath = outputPath.Replace(@"\\", @"\");
 
                             string outputDirectory = Path.GetDirectoryName(outputPath);
+
+
                             if (!Directory.Exists(outputDirectory))
                             {
                                 Directory.CreateDirectory(outputDirectory);
@@ -394,45 +400,227 @@ namespace ARMServices
                                         if (inputFileName.EndsWith(".pdf", StringComparison.OrdinalIgnoreCase))
                                         {
                                             // Generate PDF
-                                            await GetPDF(pagename, dateformat, outputPath, project, metaDataArray, listDataArray, skipFlds, fieldDictionary, dataTypeDictionary);
+                                            string GetPDFPath =  await GetPDF(pagename, dateformat, outputPath, project, metaDataArray, listDataArray, skipFlds, fieldDictionary, dataTypeDictionary);
 
-                                            string Payload = "[{\"notifytype\":\"export PDF\",\"type\":\"export\",\"icon\":\"\",\"title\":\"Export PDF\",\"message\":\""
-                                                             + pagename + "\",\"dt\":\""
-                                                             + DateTime.Now.ToString()
-                                                             + "\",\"link\":{\"t\":\"e\",\"name\":\""
-                                                             + fileServerPath
-                                                             + "\",\"p\":\"\",\"act\":\"\",\"axmsgid\":\"\"}}]";
 
-                                            WriteMessage("Payload:" + Payload);
-                                            await SendSignalRMessage(project, username, Payload);
+                                            var redis = new RedisHelper(configuration);
+                                            var context = new ARMCommon.Helpers.DataContext(configuration);
+                                            Utils utils = new Utils(configuration, context, redis);
+                                            Dictionary<string, string> configcon = await utils.GetDBConfigurations(project);
+                                            string connectionString = configcon["ConnectionString"];
+                                            string dbType = configcon["DBType"];
+
+                                            if (!string.IsNullOrEmpty(GetPDFPath))
+                                            {
+                                                string[] _filePaths = GetPDFPath.Split(',');
+
+                                                try
+                                                {
+                                                    string _filefullpath = string.Empty;
+                                                    string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                                                    string inputFileNameWithTimestamp = $"{Path.GetFileNameWithoutExtension(inputFileName)}_{timestamp}{Path.GetExtension(inputFileName)}";
+
+                                                    // Ensure array has at least one element
+                                                    if (_filePaths.Length > 0)
+                                                    {
+                                                        _filefullpath = _filePaths[0].Replace(@"\", "\\\\");
+
+                                                        if (fileServerPath != string.Empty)
+                                                        {
+                                                            _filefullpath = fileServerPath + "/" + "Exports/" + username + "/" + inputFileNameWithTimestamp;
+                                                        }
+
+                                                    }
+                                                    else
+                                                    {
+                                                        Console.WriteLine("Error: _filePaths array is empty.");
+
+                                                    }
+
+                                                    string currentTime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                                                    string sql = string.Format(
+                                                        Constants_SQL.INSERT_TO_AXACTIVEMESG,
+                                                        currentTime,
+                                                        "export pdf1",
+                                                        username,
+                                                        username,
+                                                        "export",
+                                                        "export pdf2",
+                                                        "export pdf-" + transid,
+                                                        transid,
+                                                        "export pdf generated successfully",
+                                                        pagename,
+                                                        _filefullpath
+                                                    );
+                                                    WriteMessage("Insert Query: " + sql);
+
+                                                    IDbHelper dbHelper = DBHelper.CreateDbHelper(dbType);
+                                                    var result = await dbHelper.ExecuteQueryAsync(sql, connectionString);
+
+                                                    string payload = "[{\"notifytype\":\"export pdf\",\"type\":\"export\",\"icon\":\"\",\"title\":\"Export PDF\",\"message\":\""
+                                                        + pagename + "\",\"dt\":\""
+                                                        + DateTime.Now.ToString()
+                                                        + "\",\"link\":{\"t\":\"e\",\"name\":\""
+                                                        + _filefullpath
+                                                        + "\",\"p\":\"\",\"act\":\"\",\"axmsgid\":\"\"}}]";
+
+                                                    await SendSignalRMessage(project, username, payload);
+                                                    Console.WriteLine("After notification: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"));
+                                                }
+                                                catch (Exception ex)
+                                                {
+                                                    Console.WriteLine("Error: " + ex.Message + " " + ex.StackTrace);
+                                                }
+
+                                            }
                                         }
                                         else if (inputFileName.EndsWith(".docx", StringComparison.OrdinalIgnoreCase))
                                         {
-                                            await GetWord(pagename, dateformat, outputPath, project, metaDataArray, listDataArray, skipFlds, fieldDictionary, dataTypeDictionary);
+                                          string GetWordpath =  await GetWord(pagename, dateformat, outputPath, project, metaDataArray, listDataArray, skipFlds, fieldDictionary, dataTypeDictionary);
 
-                                            string Payload = "[{\"notifytype\":\"export DOCX\",\"type\":\"export\",\"icon\":\"\",\"title\":\"Export DOCX\",\"message\":\""
-                                                             + pagename + "\",\"dt\":\""
-                                                             + DateTime.Now.ToString()
-                                                             + "\",\"link\":{\"t\":\"e\",\"name\":\""
-                                                             + fileServerPath
-                                                             + "\",\"p\":\"\",\"act\":\"\",\"axmsgid\":\"\"}}]";
+                                            var redis = new RedisHelper(configuration);
+                                            var context = new ARMCommon.Helpers.DataContext(configuration);
+                                            Utils utils = new Utils(configuration, context, redis);
+                                            Dictionary<string, string> configcon = await utils.GetDBConfigurations(project);
+                                            string connectionString = configcon["ConnectionString"];
+                                            string dbType = configcon["DBType"];
 
-                                            WriteMessage("Payload:" + Payload);
-                                            await SendSignalRMessage(project, username, Payload);
+                                            if (!string.IsNullOrEmpty(GetWordpath))
+                                            {
+                                                string[] _filePaths = GetWordpath.Split(',');
+
+                                                try
+                                                {
+                                                    string _filefullpath = string.Empty;
+                                                    string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                                                    string inputFileNameWithTimestamp = $"{Path.GetFileNameWithoutExtension(inputFileName)}_{timestamp}{Path.GetExtension(inputFileName)}";
+                                                    if (_filePaths.Length > 0)
+                                                    {
+                                                        _filefullpath = _filePaths[0].Replace(@"\", "\\\\");
+
+                                                        if (fileServerPath != string.Empty)
+                                                        {
+                                                            _filefullpath = fileServerPath + "/" + "Exports/" + username + "/" + inputFileNameWithTimestamp;
+                                                        }
+
+                                                    }
+                                                    else
+                                                    {
+                                                        Console.WriteLine("Error: _filePaths array is empty.");
+
+                                                    }
+
+                                                    string currentTime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                                                    string sql = string.Format(
+                                                        Constants_SQL.INSERT_TO_AXACTIVEMESG,
+                                                        currentTime,
+                                                        "export word1",
+                                                        username,
+                                                        username,
+                                                        "export",
+                                                        "export word2",
+                                                        "export word-" + transid,
+                                                        transid,
+                                                        "export word generated successfully",
+                                                        pagename,
+                                                        _filefullpath
+                                                    );
+                                                    WriteMessage("Insert Query: " + sql);
+
+                                                    IDbHelper dbHelper = DBHelper.CreateDbHelper(dbType);
+                                                    var result = await dbHelper.ExecuteQueryAsync(sql, connectionString);
+
+                                                    string payload = "[{\"notifytype\":\"export word\",\"type\":\"export\",\"icon\":\"\",\"title\":\"Export Word\",\"message\":\""
+                                                        + pagename + "\",\"dt\":\""
+                                                        + DateTime.Now.ToString()
+                                                        + "\",\"link\":{\"t\":\"e\",\"name\":\""
+                                                        + _filefullpath
+                                                        + "\",\"p\":\"\",\"act\":\"\",\"axmsgid\":\"\"}}]";
+
+                                                    await SendSignalRMessage(project, username, payload);
+                                                    Console.WriteLine("After notification: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"));
+                                                }
+                                                catch (Exception ex)
+                                                {
+                                                    Console.WriteLine("Error: " + ex.Message + " " + ex.StackTrace);
+                                                }
+
+                                            }
                                         }
                                         else
                                         {
-                                            await GetExcelTstruct(pagename, dateformat, outputPath, project, metaDataArray, listDataArray, skipFlds, fieldDictionary, dataTypeDictionary);
+                                            string excelPath = await GetExcelTstruct(pagename, dateformat, outputPath, project, metaDataArray, listDataArray, skipFlds, fieldDictionary, dataTypeDictionary, fileServerPath,transid);
+                                            var redis = new RedisHelper(configuration);
+                                            var context = new ARMCommon.Helpers.DataContext(configuration);
+                                            Utils utils = new Utils(configuration, context, redis);
+                                            Dictionary<string, string> configcon = await utils.GetDBConfigurations(project);
+                                            string connectionString = configcon["ConnectionString"];
+                                            string dbType = configcon["DBType"];
 
-                                            string Payload = "[{\"notifytype\":\"export Excel\",\"type\":\"export\",\"icon\":\"\",\"title\":\"Export Excel\",\"message\":\""
-                                                             + pagename + "\",\"dt\":\""
-                                                             + DateTime.Now.ToString()
-                                                             + "\",\"link\":{\"t\":\"e\",\"name\":\""
-                                                             + fileServerPath
-                                                             + "\",\"p\":\"\",\"act\":\"\",\"axmsgid\":\"\"}}]";
+                                            if (!string.IsNullOrEmpty(excelPath) && excelPath != "IView Result Error")
+                                            {
+                                                string[] _filePaths = excelPath.Split(',');
 
-                                            WriteMessage("Payload:" + Payload);
-                                            await SendSignalRMessage(project, username, Payload);
+                                                try
+                                                {
+                                                    string _filefullpath = string.Empty;
+
+                                                    if (_filePaths.Length > 0)
+                                                    {
+                                                        _filefullpath = _filePaths[0].Replace(@"\", "\\\\");
+                                                        string timestamp = DateTime.Now.ToString("yyyyMMdd_HHmmss");
+                                                        string inputFileNameWithTimestamp = $"{Path.GetFileNameWithoutExtension(inputFileName)}_{timestamp}{Path.GetExtension(inputFileName)}";
+
+                                                        if (fileServerPath != string.Empty)
+                                                        {
+                                                            _filefullpath = fileServerPath + "/" + "Exports/" + username + "/"  + inputFileNameWithTimestamp;
+                                                        }
+
+                                                    }
+                                                    else
+                                                    {
+                                                        Console.WriteLine("Error: _filePaths array is empty.");
+                                                        
+                                                    }
+
+                                                    string currentTime = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                                                    string sql = string.Format(
+                                                        Constants_SQL.INSERT_TO_AXACTIVEMESG,
+                                                        currentTime,
+                                                        "export excel1",
+                                                        username,
+                                                        username,
+                                                        "export",
+                                                        "export excel2",
+                                                        "export excel-" + transid,
+                                                        transid,
+                                                        "export excel generated successfully",
+                                                        pagename,
+                                                        _filefullpath
+                                                    );
+                                                    WriteMessage("Insert Query: " + sql);
+
+                                                    IDbHelper dbHelper = DBHelper.CreateDbHelper(dbType);
+                                                    var result = await dbHelper.ExecuteQueryAsync(sql, connectionString);
+
+                                                    string payload = "[{\"notifytype\":\"export excel\",\"type\":\"export\",\"icon\":\"\",\"title\":\"Export Excel\",\"message\":\""
+                                                        + pagename + "\",\"dt\":\""
+                                                        + DateTime.Now.ToString()
+                                                        + "\",\"link\":{\"t\":\"e\",\"name\":\""
+                                                        + _filefullpath
+                                                        + "\",\"p\":\"\",\"act\":\"\",\"axmsgid\":\"\"}}]";
+
+                                                    await SendSignalRMessage(project, username, payload);
+                                                    Console.WriteLine("After notification: " + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss.fff"));
+                                                }
+                                                catch (Exception ex)
+                                                {
+                                                    Console.WriteLine("Error: " + ex.Message + " " + ex.StackTrace);
+                                                }
+
+                                            }
+
+
                                         }
 
                                     }
@@ -1617,14 +1805,16 @@ namespace ARMServices
                         Message = message
                     };
                     API _api = new API();
-                    await _api.POSTData(signalrUrl, JsonConvert.SerializeObject(singalRMessage), "application/json");
+                    ARMResult armresult = await _api.POSTData(signalrUrl, JsonConvert.SerializeObject(singalRMessage), "application/json");
+                    WriteMessage("SignalR URL:" + signalrUrl);
                     WriteMessage("SignalR messgage:" + JsonConvert.SerializeObject(singalRMessage));
+                   
                 }
             }
 
 
             //excel
-            static async Task GetExcelTstruct(string pagename, string dateformat, string outputPath, string project, JArray metaDataArray, JArray listDataArray, List<string> skipFlds, Dictionary<string, string> fieldDictionary, Dictionary<string, string> dataTypeDictionary)
+            static async Task<string> GetExcelTstruct(string pagename, string dateformat, string outputPath, string project, JArray metaDataArray, JArray listDataArray, List<string> skipFlds, Dictionary<string, string> fieldDictionary, Dictionary<string, string> dataTypeDictionary,string fileServerPath,string transid)
             {
                 try
                 {
@@ -1633,25 +1823,38 @@ namespace ARMServices
                         var worksheet = workbook.Worksheets.Add("Sheet1");
                         int currentRow = 1;
 
-                        var visibleTypeDictionary = metaDataArray.ToDictionary(item => (string)item["fldname"], item => (string)item["hide"]);
+                        var visibleTypeDictionary = metaDataArray.ToDictionary(
+                            item => (string)item["fldname"],
+                            item => item["hide"]?.ToString() ?? "F"
+                        );
 
                         int totalColumns = 0;
+                        List<string> columnOrder = new List<string>();
+
                         if (listDataArray.Count > 0 && listDataArray[0]["data_json"] != null)
                         {
-                            var firstDataJsonArray = JArray.Parse(listDataArray[0]["data_json"]?.ToString() ?? string.Empty);
+                            var firstDataJsonArray = JArray.Parse(listDataArray[0]["data_json"]?.ToString() ?? "[]");
                             if (firstDataJsonArray.Count > 0)
                             {
                                 var firstRowObject = firstDataJsonArray[0] as JObject;
-                                totalColumns = firstRowObject.Properties()
-                                                .Where(p => !skipFlds.Contains(p.Name) && p.Name != "modifiedby" && p.Name != "modifiedon" && visibleTypeDictionary[p.Name] != "T")
-                                                .Count() + 2;
+                                columnOrder = firstRowObject.Properties()
+                                    .Select(p => p.Name)
+                                    .Where(name => !skipFlds.Contains(name)
+                                                && name != "createdon" && name != "createdby"
+                                                && name != "modifiedby" && name != "modifiedon"
+                                                && (!visibleTypeDictionary.TryGetValue(name, out string hideValue) || hideValue != "T"))
+                                    .ToList();
+
+                                columnOrder.Add("modifiedby");
+                                columnOrder.Add("modifiedon");
+
+                                totalColumns = columnOrder.Count;
                             }
                         }
 
                         var headerBackgroundColor = XLColor.FromArgb(61, 61, 61);
                         var headerTextColor = XLColor.White;
 
-                        // Title
                         worksheet.Cell(currentRow, 1).Value = project;
                         worksheet.Range(currentRow, 1, currentRow, totalColumns).Merge();
                         worksheet.Cell(currentRow, 1).Style.Font.Bold = true;
@@ -1661,7 +1864,6 @@ namespace ARMServices
                         worksheet.Cell(currentRow, 1).Style.Font.FontColor = headerTextColor;
                         currentRow++;
 
-                        // pagename
                         worksheet.Cell(currentRow, 1).Value = pagename;
                         worksheet.Range(currentRow, 1, currentRow, totalColumns).Merge();
                         worksheet.Cell(currentRow, 1).Style.Font.Bold = true;
@@ -1671,7 +1873,6 @@ namespace ARMServices
                         worksheet.Cell(currentRow, 1).Style.Font.FontColor = headerTextColor;
                         currentRow++;
 
-                        // Date Row
                         worksheet.Cell(currentRow, 1).Value = "Date: " + DateTime.Now.ToString(dateformat);
                         worksheet.Range(currentRow, 1, currentRow, totalColumns).Merge();
                         worksheet.Cell(currentRow, 1).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Right;
@@ -1680,315 +1881,230 @@ namespace ARMServices
                         worksheet.Cell(currentRow, 1).Style.Font.FontColor = headerTextColor;
                         currentRow++;
 
-                        bool isHeaderRowCreated = false;
-                        int i = 0;
+                        int currentColumn = 1;
+                        foreach (var field in columnOrder)
+                        {
+                            worksheet.Cell(currentRow, currentColumn).Value = fieldDictionary.ContainsKey(field) ? fieldDictionary[field] : field;
+                            worksheet.Cell(currentRow, currentColumn).Style.Font.Bold = true;
+                            worksheet.Cell(currentRow, currentColumn).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                            worksheet.Cell(currentRow, currentColumn).Style.Fill.BackgroundColor = headerBackgroundColor;
+                            worksheet.Cell(currentRow, currentColumn).Style.Font.FontColor = headerTextColor;
+                            currentColumn++;
+                        }
+                        currentRow++;
 
                         foreach (var listData in listDataArray)
                         {
                             if (listData["data_json"] != null)
                             {
-                                var dataJsonArray = JArray.Parse(listData["data_json"]?.ToString() ?? string.Empty);
+                                var dataJsonArray = JArray.Parse(listData["data_json"]?.ToString() ?? "[]");
 
                                 foreach (var row in dataJsonArray)
                                 {
                                     var rowObject = row as JObject;
-
-                                    if (!isHeaderRowCreated)
-                                    {
-                                        int currentColumn = 1;
-                                        foreach (var item in rowObject.Properties())
-                                        {
-                                            if (!skipFlds.Contains(item.Name) && item.Name != "modifiedby" && item.Name != "modifiedon" && visibleTypeDictionary[item.Name] != "T")
-                                            {
-                                                if (fieldDictionary.ContainsKey(item.Name))
-                                                {
-                                                    worksheet.Cell(currentRow, currentColumn).Value = fieldDictionary[item.Name];
-                                                    worksheet.Cell(currentRow, currentColumn).Style.Font.Bold = true;
-                                                    worksheet.Cell(currentRow, currentColumn).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                                                    worksheet.Cell(currentRow, currentColumn).Style.Fill.BackgroundColor = headerBackgroundColor;
-                                                    worksheet.Cell(currentRow, currentColumn).Style.Font.FontColor = headerTextColor;
-                                                    currentColumn++;
-                                                }
-                                            }
-                                        }
-
-                                        worksheet.Cell(currentRow, currentColumn).Value = "Modified By";
-                                        worksheet.Cell(currentRow, currentColumn).Style.Font.Bold = true;
-                                        worksheet.Cell(currentRow, currentColumn).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                                        worksheet.Cell(currentRow, currentColumn).Style.Fill.BackgroundColor = headerBackgroundColor;
-                                        worksheet.Cell(currentRow, currentColumn).Style.Font.FontColor = headerTextColor;
-                                        currentColumn++;
-
-                                        worksheet.Cell(currentRow, currentColumn).Value = "Modified On";
-                                        worksheet.Cell(currentRow, currentColumn).Style.Font.Bold = true;
-                                        worksheet.Cell(currentRow, currentColumn).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                                        worksheet.Cell(currentRow, currentColumn).Style.Fill.BackgroundColor = headerBackgroundColor;
-                                        worksheet.Cell(currentRow, currentColumn).Style.Font.FontColor = headerTextColor;
-
-                                        currentRow++;
-                                        isHeaderRowCreated = true;
-                                    }
-
-                                    // Data row creation
                                     int column = 1;
-                                    foreach (var item in rowObject.Properties())
-                                    {
-                                        if (!skipFlds.Contains(item.Name) && item.Name != "modifiedby" && item.Name != "modifiedon" && visibleTypeDictionary[item.Name] != "T")
-                                        {
-                                            var fldType = dataTypeDictionary.ContainsKey(item.Name) ? dataTypeDictionary[item.Name] : "c";
-                                            var cellValue = item.Value?.ToString();
 
+                                    foreach (var field in columnOrder)
+                                    {
+                                        var cellValue = rowObject[field]?.ToString();
+                                        if (dataTypeDictionary.TryGetValue(field, out string fldType))
+                                        {
                                             if (fldType == "d" && DateTime.TryParse(cellValue, out var dateValue))
                                             {
                                                 worksheet.Cell(currentRow, column).Value = dateValue;
                                                 worksheet.Cell(currentRow, column).Style.DateFormat.Format = dateformat;
-                                                worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
                                             }
                                             else if (fldType == "n" && int.TryParse(cellValue, out var intValue))
                                             {
                                                 worksheet.Cell(currentRow, column).Value = intValue;
-                                                worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Right;
                                             }
                                             else
                                             {
                                                 worksheet.Cell(currentRow, column).Value = cellValue;
-                                                worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
                                             }
-
-                                            worksheet.Cell(currentRow, column).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                                            column++;
                                         }
-                                    }
+                                        else
+                                        {
+                                            worksheet.Cell(currentRow, column).Value = cellValue;
+                                        }
 
-                                    worksheet.Cell(currentRow, column).Value = rowObject["modifiedby"]?.ToString();
-                                    worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
-                                    worksheet.Cell(currentRow, column).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
-                                    column++;
-
-                                    var modifiedOn = rowObject["modifiedon"]?.ToString();
-                                    if (DateTime.TryParse(modifiedOn, out var modifiedOnDate))
-                                    {
-                                        worksheet.Cell(currentRow, column).Value = modifiedOnDate.ToString($"{dateformat} hh:mm:ss");
+                                        worksheet.Cell(currentRow, column).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
+                                        column++;
                                     }
-                                    else
-                                    {
-                                        worksheet.Cell(currentRow, column).Value = modifiedOn;
-                                    }
-
-                                    worksheet.Cell(currentRow, column).Style.Alignment.Horizontal = XLAlignmentHorizontalValues.Left;
-                                    worksheet.Cell(currentRow, column).Style.Border.OutsideBorder = XLBorderStyleValues.Thin;
 
                                     currentRow++;
                                 }
-                                i++;
                             }
                         }
 
                         worksheet.Columns().AdjustToContents();
+                        string timestamp = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                        outputPath = $"{Path.GetDirectoryName(outputPath)}\\{Path.GetFileNameWithoutExtension(outputPath)}_{timestamp}{Path.GetExtension(outputPath)}";
                         workbook.SaveAs(outputPath);
-                        WriteMessage("Excel File Generated at the FilePath:" + outputPath);
+                        Console.WriteLine("Excel File Generated at the FilePath: " + outputPath);
+
+
+                        return outputPath;
                     }
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Error generating Excel file: {ex.Message}");
+                    Console.WriteLine($"Error generating Excel file: {ex.Message} ,{ex.StackTrace}");
+                    return string.Empty;
                 }
             }
 
 
+
+
+
+
             //pdf
-            static async Task GetPDF(string pagename, string dateformat, string outputPath, string project, JArray metaDataArray, JArray listDataArray, List<string> skipFlds, Dictionary<string, string> fieldDictionary, Dictionary<string, string> dataTypeDictionary)
+
+
+            static async Task<string> GetPDF(
+         string pagename,
+         string dateformat,
+         string outputPath,
+         string project,
+         JArray metaDataArray,
+         JArray listDataArray,
+         List<string> skipFlds,
+         Dictionary<string, string> fieldDictionary,
+         Dictionary<string, string> dataTypeDictionary)
             {
-                var visibleTypeDictionary = metaDataArray.ToDictionary(item => (string)item["fldname"], item => (string)item["hide"]);
+                string timestamp = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                outputPath = Path.Combine(Path.GetDirectoryName(outputPath) ?? "",
+                                           $"{Path.GetFileNameWithoutExtension(outputPath)}_{timestamp}{Path.GetExtension(outputPath)}");
 
-                iTextSharp.text.Document document = new iTextSharp.text.Document(iTextSharp.text.PageSize.A4, 50, 50, 50, 50);
+                var visibleTypeDictionary = metaDataArray.ToDictionary(
+                    item => (string)item["fldname"],
+                    item => (string)item["hide"]);
 
+                Document document = new Document(PageSize.A4, 50, 50, 50, 50);
                 try
                 {
-                    using (FileStream fs = new FileStream(outputPath, FileMode.Create, FileAccess.Write, FileShare.None))
+                    using var fs = new FileStream(outputPath, FileMode.Create, FileAccess.Write, FileShare.None);
+                    PdfWriter.GetInstance(document, fs);
+                    document.Open();
+
+                    var titleFont = FontFactory.GetFont(FontFactory.TIMES_ROMAN, 16, BaseColor.WHITE);
+                    var headerFont = FontFactory.GetFont(FontFactory.TIMES_ROMAN, 12, BaseColor.WHITE);
+                    var normalFont = FontFactory.GetFont(FontFactory.TIMES_ROMAN, 8);
+                    var backgroundColor = new BaseColor(61, 61, 61);
+
+                    void AddTitle(string text)
                     {
-                        PdfWriter writer = PdfWriter.GetInstance(document, fs);
-                        document.Open();
-
-                        iTextSharp.text.Font titleFont = FontFactory.GetFont(FontFactory.TIMES_ROMAN, 16);
-                        iTextSharp.text.Font headerFont = FontFactory.GetFont(FontFactory.TIMES_ROMAN, 12);
-                        iTextSharp.text.Font normalFont = FontFactory.GetFont(FontFactory.TIMES_ROMAN, 8);
-
-                        BaseColor backgroundColor = new BaseColor(61, 61, 61);
-                        BaseColor textcolor = BaseColor.WHITE;
-
-                        PdfPTable titleTable = new PdfPTable(1);
-                        titleTable.WidthPercentage = 100;
-
-                        PdfPCell titleCell = new PdfPCell(new Phrase(project, titleFont))
+                        var table = new PdfPTable(1) { WidthPercentage = 100 };
+                        var cell = new PdfPCell(new Phrase(text, titleFont))
                         {
                             BackgroundColor = backgroundColor,
                             HorizontalAlignment = Element.ALIGN_CENTER,
                             Border = PdfPCell.NO_BORDER
                         };
-                        titleCell.Phrase.Font.Color = textcolor;
-                        titleTable.AddCell(titleCell);
-                        document.Add(titleTable);
-
-                        PdfPTable pageTable = new PdfPTable(1);
-                        pageTable.WidthPercentage = 100;
-
-                        PdfPCell pageTitleCell = new PdfPCell(new Phrase(pagename, titleFont))
-                        {
-                            BackgroundColor = backgroundColor,
-                            HorizontalAlignment = Element.ALIGN_CENTER,
-                            Border = PdfPCell.NO_BORDER
-                        };
-                        pageTitleCell.Phrase.Font.Color = textcolor;
-                        pageTable.AddCell(pageTitleCell);
-                        document.Add(pageTable);
-
-                        bool isHeaderRowCreated = false;
-                        PdfPTable table = null;
-
-                        foreach (var listData in listDataArray)
-                        {
-                            var dataJsonArray = JArray.Parse((string)listData["data_json"]);
-
-                            foreach (var row in dataJsonArray)
-                            {
-                                var rowObject = row as JObject;
-
-                                if (!isHeaderRowCreated)
-                                {
-                                    int columnCount = 0;
-
-                                    foreach (var item in rowObject.Properties())
-                                    {
-                                        if (!skipFlds.Contains(item.Name) && item.Name != "modifiedby" && item.Name != "modifiedon")
-                                        {
-                                            if (visibleTypeDictionary[item.Name] == "F" && fieldDictionary.ContainsKey(item.Name))
-                                            {
-                                                columnCount++;
-                                            }
-                                        }
-                                    }
-
-                                    table = new PdfPTable(columnCount + 2);
-                                    table.WidthPercentage = 100;
-
-                                    float[] widths = new float[columnCount + 2];
-                                    for (int i = 0; i < columnCount + 2; i++)
-                                    {
-                                        widths[i] = 1;
-                                    }
-                                    table.SetWidths(widths);
-
-                                    foreach (var item in rowObject.Properties())
-                                    {
-                                        if (!skipFlds.Contains(item.Name) && item.Name != "modifiedby" && item.Name != "modifiedon")
-                                        {
-                                            if (visibleTypeDictionary[item.Name] == "F" && fieldDictionary.ContainsKey(item.Name))
-                                            {
-                                                PdfPCell cell = new PdfPCell(new Phrase(fieldDictionary[item.Name], headerFont))
-                                                {
-                                                    BorderWidth = 0,
-                                                    BackgroundColor = backgroundColor
-                                                };
-                                                headerFont.Color = textcolor;
-                                                cell.Phrase.Font.Color = textcolor;
-                                                table.AddCell(cell);
-                                            }
-                                        }
-                                    }
-
-                                    PdfPCell modifiedByHeader = new PdfPCell(new Phrase("Modified By", headerFont))
-                                    {
-                                        BorderWidth = 0,
-                                        BackgroundColor = backgroundColor
-                                    };
-                                    modifiedByHeader.Phrase.Font.Color = textcolor;
-                                    table.AddCell(modifiedByHeader);
-
-                                    PdfPCell modifiedOnHeader = new PdfPCell(new Phrase("Modified On", headerFont))
-                                    {
-                                        BorderWidth = 0,
-                                        BackgroundColor = backgroundColor
-                                    };
-                                    modifiedOnHeader.Phrase.Font.Color = textcolor;
-                                    table.AddCell(modifiedOnHeader);
-
-                                    isHeaderRowCreated = true;
-                                }
-
-                                // Adding Data Rows
-                                foreach (var item in rowObject.Properties())
-                                {
-                                    if (!skipFlds.Contains(item.Name) && item.Name != "modifiedby" && item.Name != "modifiedon")
-                                    {
-                                        if (visibleTypeDictionary[item.Name] == "F")
-                                        {
-                                            var fldType = dataTypeDictionary.ContainsKey(item.Name) ? dataTypeDictionary[item.Name] : "c";
-                                            var cellValue = item.Value?.ToString() ?? string.Empty;
-
-                                            if (fldType == "d" && DateTime.TryParse(cellValue, out var dateValue))
-                                            {
-                                                cellValue = dateValue.ToString(dateformat);
-                                            }
-
-                                            PdfPCell dataCell = new PdfPCell(new Phrase(cellValue, normalFont))
-                                            {
-                                                BorderWidth = 0
-                                            };
-                                            table.AddCell(dataCell);
-                                        }
-                                    }
-                                }
-
-                                var modifiedBy = rowObject["modifiedby"]?.ToString() ?? string.Empty;
-                                PdfPCell modifiedByCell = new PdfPCell(new Phrase(modifiedBy, normalFont))
-                                {
-                                    BorderWidth = 0
-                                };
-                                table.AddCell(modifiedByCell);
-
-                                var modifiedOn = rowObject["modifiedon"]?.ToString();
-                                if (DateTime.TryParse(modifiedOn, out var modifiedOnDate))
-                                {
-                                    modifiedOn = modifiedOnDate.ToString($"{dateformat} hh:mm:ss");
-                                }
-                                else
-                                {
-                                    modifiedOn = modifiedOn ?? string.Empty;
-                                }
-
-                                PdfPCell modifiedOnCell = new PdfPCell(new Phrase(modifiedOn, normalFont))
-                                {
-                                    BorderWidth = 0
-                                };
-                                table.AddCell(modifiedOnCell);
-                            }
-
-                            if (table != null)
-                            {
-                                document.Add(table);
-                            }
-                        }
-
-                        document.Close();
-                        WriteMessage("PDF File generated at the Location:" + outputPath);
+                        table.AddCell(cell);
+                        document.Add(table);
                     }
+
+                    AddTitle(project);
+                    AddTitle(pagename);
+
+                    bool isHeaderCreated = false;
+                    PdfPTable table = null;
+
+                    foreach (var listData in listDataArray)
+                    {
+                        var dataJsonArray = JArray.Parse((string)listData["data_json"]);
+
+                        foreach (JObject row in dataJsonArray)
+                        {
+                            if (!isHeaderCreated)
+                            {
+                                var columns = row.Properties().Where(p =>
+                                    !skipFlds.Contains(p.Name) &&
+                                    visibleTypeDictionary.GetValueOrDefault(p.Name) == "F" &&
+                                    fieldDictionary.ContainsKey(p.Name)).ToList();
+
+                                table = new PdfPTable(columns.Count + 3) { WidthPercentage = 100 };
+                                table.SetWidths(Enumerable.Repeat(1f, columns.Count + 3).ToArray());
+
+                                foreach (var column in columns)
+                                {
+                                    table.AddCell(new PdfPCell(new Phrase(fieldDictionary[column.Name], headerFont))
+                                    {
+                                        BackgroundColor = backgroundColor
+                                    });
+                                }
+                                table.AddCell(new PdfPCell(new Phrase("Created On", headerFont)) { BackgroundColor = backgroundColor });
+                                table.AddCell(new PdfPCell(new Phrase("Modified By", headerFont)) { BackgroundColor = backgroundColor });
+                                table.AddCell(new PdfPCell(new Phrase("Modified On", headerFont)) { BackgroundColor = backgroundColor });
+
+                                isHeaderCreated = true;
+                            }
+
+                            foreach (var item in row.Properties())
+                            {
+                                if (visibleTypeDictionary.GetValueOrDefault(item.Name) == "F")
+                                {
+                                    var value = item.Value?.ToString() ?? string.Empty;
+                                    if (dataTypeDictionary.GetValueOrDefault(item.Name) == "d" && DateTime.TryParse(value, out var date))
+                                    {
+                                        value = date.ToString(dateformat);
+                                    }
+                                    table.AddCell(new PdfPCell(new Phrase(value, normalFont)));
+                                }
+                            }
+
+                            table.AddCell(new PdfPCell(new Phrase(ParseDate(row["createdOn"], dateformat), normalFont)));
+                            table.AddCell(new PdfPCell(new Phrase(row["modifiedby"]?.ToString() ?? string.Empty, normalFont)));
+                            table.AddCell(new PdfPCell(new Phrase(ParseDate(row["modifiedon"], dateformat), normalFont)));
+                        }
+                    }
+
+                    if (table != null)
+                    {
+                        document.Add(table);
+                    }
+
+                    document.Close();
+                    WriteMessage("PDF File generated at: " + outputPath);
+                    return outputPath;
                 }
                 catch (Exception ex)
                 {
                     Console.WriteLine("Error generating PDF: " + ex.Message);
+                    throw;
+                }
+
+                static string ParseDate(JToken? token, string format)
+                {
+                    return DateTime.TryParse(token?.ToString(), out var date) ? date.ToString($"{format} hh:mm:ss") : string.Empty;
                 }
             }
 
 
-            static async Task GetWord(string pagename, string dateformat, string outputPath, string project, JArray metaDataArray, JArray listDataArray, List<string> skipFlds, Dictionary<string, string> fieldDictionary, Dictionary<string, string> dataTypeDictionary)
+
+            static async Task<string> GetWord(
+                string pagename,
+                string dateformat,
+                string outputPath,
+                string project,
+                JArray metaDataArray,
+                JArray listDataArray,
+                List<string> skipFlds,
+                Dictionary<string, string> fieldDictionary,
+                Dictionary<string, string> dataTypeDictionary)
             {
                 try
                 {
+
+                    string timestamp = DateTime.Now.ToString("yyyyMMddHHmmssfff");
+                    outputPath = $"{Path.GetDirectoryName(outputPath)}\\{Path.GetFileNameWithoutExtension(outputPath)}_{timestamp}{Path.GetExtension(outputPath)}";
                     var visibleTypeDictionary = metaDataArray.ToDictionary(item => (string)item["fldname"], item => (string)item["hide"]);
 
                     XWPFDocument document = new XWPFDocument();
 
+                    // Title
                     var titleParagraph = document.CreateParagraph();
                     titleParagraph.Alignment = ParagraphAlignment.CENTER;
                     var titleRun = titleParagraph.CreateRun();
@@ -1996,6 +2112,7 @@ namespace ARMServices
                     titleRun.SetText(project);
                     titleRun.FontSize = 16;
 
+                    // Page Name
                     var pageNameParagraph = document.CreateParagraph();
                     pageNameParagraph.Alignment = ParagraphAlignment.CENTER;
                     var pageNameRun = pageNameParagraph.CreateRun();
@@ -2003,6 +2120,7 @@ namespace ARMServices
                     pageNameRun.SetText(pagename);
                     pageNameRun.FontSize = 14;
 
+                    // Date
                     var dateParagraph = document.CreateParagraph();
                     dateParagraph.Alignment = ParagraphAlignment.RIGHT;
                     var dateRun = dateParagraph.CreateRun();
@@ -2011,6 +2129,7 @@ namespace ARMServices
 
                     bool isHeaderRowCreated = false;
                     XWPFTable table = null;
+                    List<string> includedFields = new List<string>();
 
                     foreach (var listData in listDataArray)
                     {
@@ -2021,92 +2140,80 @@ namespace ARMServices
                             foreach (var row in dataJsonArray)
                             {
                                 var rowObject = row as JObject;
+
+                                // Create header row once
                                 if (!isHeaderRowCreated)
                                 {
-                                    table = document.CreateTable(1, rowObject.Properties()
-                                        .Count(p => !skipFlds.Contains(p.Name) &&
-                                                    (!visibleTypeDictionary.ContainsKey(p.Name) || visibleTypeDictionary[p.Name] != "T") &&
-                                                    p.Name != "modifiedby" && p.Name != "modifiedon"));
+                                    includedFields = rowObject.Properties()
+                                        .Select(p => p.Name)
+                                        .Where(f => !skipFlds.Contains(f) &&
+                                                    (!visibleTypeDictionary.ContainsKey(f) || visibleTypeDictionary[f] != "T") &&
+                                                    f != "modifiedby" && f != "modifiedon")
+                                        .ToList();
 
-                                    int currentColumn = 0;
-                                    foreach (var item in rowObject.Properties())
+                                    includedFields.Add("modifiedby");
+                                    includedFields.Add("modifiedon");
+
+                                    table = document.CreateTable(1, includedFields.Count);
+                                    var headerRow = table.GetRow(0);
+
+                                    for (int i = 0; i < includedFields.Count; i++)
                                     {
-                                        if (!skipFlds.Contains(item.Name) &&
-                                            (!visibleTypeDictionary.ContainsKey(item.Name) || visibleTypeDictionary[item.Name] != "T") &&
-                                            item.Name != "modifiedby" && item.Name != "modifiedon")
-                                        {
-                                            if (fieldDictionary.ContainsKey(item.Name))
-                                            {
-                                                var cell = table.GetRow(0).GetCell(currentColumn) ?? table.GetRow(0).CreateCell();
-                                                cell.SetText(fieldDictionary[item.Name]);
-                                                var paragraph = cell.Paragraphs[0];
-                                                paragraph.Alignment = ParagraphAlignment.CENTER;
-                                                var run = paragraph.CreateRun();
-                                                run.IsBold = true;
-                                                currentColumn++;
-                                            }
-                                        }
-                                    }
+                                        string fieldName = includedFields[i];
+                                        string displayName = fieldDictionary.ContainsKey(fieldName) ? fieldDictionary[fieldName] : fieldName;
 
-                                    table.GetRow(0).CreateCell().SetText("Modified By");
-                                    table.GetRow(0).CreateCell().SetText("Modified On");
+                                        var cell = headerRow.GetCell(i) ?? headerRow.CreateCell();
+                                        cell.SetText(displayName);
+                                        var paragraph = cell.Paragraphs[0];
+                                        paragraph.Alignment = ParagraphAlignment.CENTER;
+                                        var run = paragraph.CreateRun();
+                                        run.IsBold = true;
+                                    }
 
                                     isHeaderRowCreated = true;
                                 }
 
+                                // Create a new row
                                 var dataRow = table.CreateRow();
 
-                                int column = 0;
-
-                                foreach (var item in rowObject.Properties())
+                                for (int i = 0; i < includedFields.Count; i++)
                                 {
-                                    if (!skipFlds.Contains(item.Name) &&
-                                        (!visibleTypeDictionary.ContainsKey(item.Name) || visibleTypeDictionary[item.Name] != "T") &&
-                                        item.Name != "modifiedby" && item.Name != "modifiedon")
+                                    string fieldName = includedFields[i];
+                                    string cellValue = rowObject[fieldName]?.ToString() ?? string.Empty;
+
+                                    // Handle date format if necessary
+                                    if (dataTypeDictionary.ContainsKey(fieldName) && dataTypeDictionary[fieldName] == "d" &&
+                                        DateTime.TryParse(cellValue, out var dateValue))
                                     {
-                                        var fldType = dataTypeDictionary.ContainsKey(item.Name) ? dataTypeDictionary[item.Name] : "c";
-                                        var cellValue = item.Value?.ToString() ?? string.Empty;
-
-                                        if (fldType == "d" && DateTime.TryParse(cellValue, out var dateValue))
-                                        {
-                                            cellValue = dateValue.ToString(dateformat);
-                                        }
-
-                                        var cell = dataRow.GetCell(column) ?? dataRow.CreateCell();
-                                        cell.SetText(cellValue);
-
-                                        column++;
+                                        cellValue = dateValue.ToString(dateformat);
                                     }
-                                }
 
-                                var modifiedByCell = dataRow.GetCell(column++) ?? dataRow.CreateCell();
-                                modifiedByCell.SetText(rowObject["modifiedby"]?.ToString() ?? string.Empty);
-
-                                var modifiedOnCell = dataRow.GetCell(column) ?? dataRow.CreateCell();
-                                var modifiedOn = rowObject["modifiedon"]?.ToString();
-                                if (DateTime.TryParse(modifiedOn, out var modifiedOnDate))
-                                {
-                                    modifiedOn = modifiedOnDate.ToString($"{dateformat} hh:mm:ss");
+                                    var cell = dataRow.GetCell(i) ?? dataRow.CreateCell();
+                                    cell.SetText(cellValue);
                                 }
-                                modifiedOnCell.SetText(modifiedOn ?? string.Empty);
                             }
                         }
                     }
 
                     SetTableBorders(table);
 
+                    // Save document
                     using (FileStream fs = new FileStream(outputPath, FileMode.Create, FileAccess.Write))
                     {
                         document.Write(fs);
                     }
 
-                    WriteMessage("Word File Generated at the FilePath: " + outputPath);
+                    return $"Word file generated successfully at: {outputPath}";
+
+
                 }
                 catch (Exception ex)
                 {
-                    Console.WriteLine($"Error generating Word file: {ex.Message}");
+                    return $"Error generating Word file: {ex.Message}";
                 }
             }
+
+
 
             static void SetTableBorders(XWPFTable table)
             {
@@ -2124,8 +2231,8 @@ namespace ARMServices
                 tblBorders.insideV = new CT_Border { val = ST_Border.single, sz = 4, space = 0 };
             }
         }
-
-    }
-
+       
+    } 
+   
 }
-
+        

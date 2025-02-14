@@ -2,8 +2,7 @@
 {
     public interface ITokenService
     {
-        string BuildToken(string key,
-        string issuer, string username, string group, string groupid);
+        string BuildToken(string key,string issuer,string audience, string username, string group, string groupid);
 
         string CreateToken(string key,
         string issuer, string username);

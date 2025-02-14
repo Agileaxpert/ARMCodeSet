@@ -20,6 +20,8 @@ namespace ARMCommon.Model
         public string? AxpertAppName { get; set; }
         public string DataBase { get; set; }
         public string? DBVersion { get; set; }
+
+        public string? Sqlversion { get; set; }
         public string ConnectionName { get; set; }
         public string UserName { get; set; }
         public string Password { get; set; }

@@ -51,8 +51,8 @@ namespace ARMServices
                     armResponseQueue = saveObj["responsequeue"]?.ToString();
                     if (queueData != null)
                     {
-                        string queueDataEscape = queueData.Replace("\r\n", "").Replace("\\", "").Trim('"');
-                        saveData = JsonConvert.DeserializeObject<JObject>(queueDataEscape);
+                        queueData = queueData.Replace("\r\n", "").Replace(@"\""", @"""").Trim('"');
+                        saveData = JsonConvert.DeserializeObject<JObject>(queueData);
                         if (saveData?["payload"] != null)
                         {
                             saveData = (JObject)saveData["payload"];

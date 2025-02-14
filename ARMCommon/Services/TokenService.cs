@@ -20,7 +20,7 @@ namespace ARMCommon.Services
 
         }
         public string BuildToken(string key,
-        string issuer, string username, string group, string groupId)
+        string issuer,string audience, string username, string group, string groupId)
         {
             var claims = new[] {
                 new Claim(ClaimTypes.Name, username),
